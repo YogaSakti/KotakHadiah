@@ -1,0 +1,20 @@
+{
+  "name": "giftbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table3": "^0.6.1",
+    "dotenv": "^16.0.0",
+    "log-beautify": "^1.2.0",
+    "node-fetch": "^2.6.7",
+    "node-telegram-bot-api": "^0.56.0",
+    "simple-json-db": "^2.0.0"
+  }
+}

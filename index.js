@@ -33,7 +33,7 @@ const BaseApi = Buffer.from('aHR0cHM6Ly9zLmlzYWZlcGFsLmNvbS9zYXBpL3YxL2dpZnRib3g
 
 (async () => {
 
-    const event = await fetch(`${BaseApi}/list`, { method: 'GET', headers }).then((res) => res.json())
+    const event = await fetch(`${BaseApi}/lists`, { method: 'GET', headers }).then((res) => res.json())
 
     const eventLists = event.data
     const liveEvents = eventLists.find((data) => data.title == 'Ongoing Event(s)' || data.title == 'Coming Soon')

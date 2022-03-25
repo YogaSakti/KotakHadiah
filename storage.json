@@ -14,5 +14,21 @@
         "post": true,
         "post_at": 1648145251,
         "post_id": 53
+    },
+    "StarTerra": {
+        "name": "star",
+        "title": "StarTerra",
+        "banner": "https://s.pvcliping.com/plaza/gbad_starterra.png",
+        "hot_num": 2774,
+        "start_time": 1648260000,
+        "end_time": 1648346400,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1648214064,
+        "post": true,
+        "post_at": 1648214070,
+        "post_id": 56
     }
 }

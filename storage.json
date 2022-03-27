@@ -30,5 +30,21 @@
         "post": true,
         "post_at": 1648214070,
         "post_id": 56
+    },
+    "INK protocol": {
+        "name": "INK",
+        "title": "INK protocol",
+        "banner": "https://s.pvcliping.com/plaza/gbad_ink.png",
+        "hot_num": 2383,
+        "start_time": 1648432800,
+        "end_time": 1648519200,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1648397556,
+        "post": true,
+        "post_at": 1648397561,
+        "post_id": 58
     }
 }

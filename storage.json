@@ -62,5 +62,21 @@
         "post": true,
         "post_at": 1650459972,
         "post_id": 61
+    },
+    "PixelSweeeper": {
+        "name": "pixels",
+        "title": "PixelSweeeper",
+        "banner": "https://s.pvcliping.com/plaza/gbad_pixelsweeper.png",
+        "hot_num": 199,
+        "start_time": 1652781600,
+        "end_time": 1652868000,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1652777302,
+        "post": true,
+        "post_at": 1652777307,
+        "post_id": 63
     }
 }

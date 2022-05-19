@@ -78,5 +78,21 @@
         "post": true,
         "post_at": 1652777307,
         "post_id": 63
+    },
+    "Grok": {
+        "name": "grok",
+        "title": "Grok",
+        "banner": "https://s.pvcliping.com/plaza/gbad_grok.png",
+        "hot_num": 18520,
+        "start_time": 1652961600,
+        "end_time": 1653048000,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "3 Challenges",
+        "status": "Ongoing Event(s)",
+        "now": 1652975901,
+        "post": true,
+        "post_at": 1652975907,
+        "post_id": 65
     }
 }

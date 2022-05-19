@@ -36,6 +36,7 @@ const BaseApi = Buffer.from('aHR0cHM6Ly9zLmlzYWZlcGFsLmNvbS9zYXBpL3YxL2dpZnRib3g
     const event = await fetch(`${BaseApi}/lists`, { method: 'GET', headers }).then((res) => res.json())
 
     const eventLists = event.data
+    console.log(eventLists);
     const liveEvents = eventLists.find((data) => data.title == 'Coming Soon')
     if (!liveEvents) return log.error('No Event!');
 

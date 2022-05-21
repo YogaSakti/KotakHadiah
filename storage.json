@@ -94,5 +94,21 @@
         "post": true,
         "post_at": 1652975907,
         "post_id": 65
+    },
+    "Ultiverse 2": {
+        "name": "ultiverse2",
+        "title": "Ultiverse 2",
+        "banner": "https://s.pvcliping.com/plaza/gbad_ultiverse_new.png",
+        "hot_num": 1602,
+        "start_time": 1653267600,
+        "end_time": 1653354000,
+        "award_type": "claim",
+        "type_param": "{\n    \"award_countdown\": 1800,\n    \"random_award\": 1\n}",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1653097839,
+        "post": true,
+        "post_at": 1653097842,
+        "post_id": 68
     }
 }

@@ -73,7 +73,7 @@ const BaseApi = Buffer.from('aHR0cHM6Ly9zLmlzYWZlcGFsLmNvbS9zYXBpL3YxL2dpZnRib3g
         // post telegram
         let text = quest.map((x) => `Question:<u>${x.topic.trim()}</u>\nAnswer: <b>${x.options[x.answer]}</b>\n\n`)
         text = text.toString().replaceAll(',Question:', '').replace('Question:', '')
-        const text_final = `<b>Question and Answers <i>${title}</i></b>\n\n${text}`
+        const text_final = `<b>#SafePal</b>\n\n<b>Question and Answers <i>${title}</i></b>\n\n${text}`
         await bot.sendPhoto(channelID, banner)
         const sendMessage = await bot.sendMessage(channelID, text_final, { protect_content: true, parse_mode: 'HTML' })
         if (sendMessage.message_id) {

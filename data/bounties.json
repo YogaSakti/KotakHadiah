@@ -360,5 +360,372 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "make-a-swap-on-1inch-optimism-1": {
+        "id": 309,
+        "title": "Make a swap on 1inch Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "make-a-swap-on-1inch-optimism-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-03T01:54:50.449Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 501,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "1inch",
+            "logoCid": "QmTweaJomqBMHB8yo9TpeA5L712D7onon36uxrest5yc82",
+            "__typename": "Dao",
+            "id": 110,
+            "namespace": "1inch",
+            "coverCid": "QmbT4LLxaedqg1jEskpWVMrXQ7dVdsV6eKvqBTeDGFwkRM",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 84,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 85,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 10364712,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254760f7ab3f16433eea9304126dcd199",
+                            "methodId": "0x7c025200",
+                            "methodAbi": {
+                                "name": "swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "caller",
+                                        "type": "address",
+                                        "internalType": "contract IAggregationExecutor"
+                                    },
+                                    {
+                                        "name": "desc",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "srcToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "dstToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "srcReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "dstReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "amount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "minReturnAmount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "flags",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "permit",
+                                                "type": "bytes",
+                                                "internalType": "bytes"
+                                            }
+                                        ],
+                                        "internalType": "struct AggregationRouterV4.SwapDescription"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "spentAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "gasLeft",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any swap on 1inch Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore one of the best L2's by making any swap on 1inch Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/10/swap/USDC/DAI",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "bridge-from-polygon-to-optimism-1": {
+        "id": 303,
+        "title": "Bridge from Polygon to Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-from-polygon-to-optimism-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-01T19:27:45.590Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 75,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 350,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Hop",
+            "logoCid": "QmU9eXg4QWk25WuQu8Xk1euo8w3UC5aSdkeYLCeo1wZ4gi",
+            "__typename": "Dao",
+            "id": 136,
+            "namespace": "hop",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 82,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 83,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29044172,
+                    "transferTo": [
+                        "0x76b22b8C1079A44F1211D867D68b1eda76a635A7"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "2"
+                },
+                "orderIndex": 1,
+                "title": "Bridge ≥ 2 USDC from Polygon to Optimism on Hop",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Bridge more than 2 USDC from Polygon to Optimism using the Hop bridge. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What's a bridge?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://learn.zapper.fi/articles/introduction-to-bridges",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hop.exchange/#/send?token=USDC&sourceNetwork=polygon&destNetwork=optimism",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "borrow-usdc-on-aave-polygon-1": {
+        "id": 300,
+        "title": "Borrow USDC on Aave Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "borrow-usdc-on-aave-polygon-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-31T21:33:38.832Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 300,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 80,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 81,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29007294,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "1"
+                },
+                "orderIndex": 1,
+                "title": "Borrow ≥ 1 USDC on Aave Polygon v3",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow more than 1 USDC using Aave's v3 Polygon market. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: You must borrow using the variable APY",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

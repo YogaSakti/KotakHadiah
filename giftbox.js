@@ -21,7 +21,7 @@ let botToken = process.env.BOTTOKEN,
     clientAuth = process.env.CLIENTAUTH;
 
 const bot = new TelegramBot(botToken);
-const giftbox = new JSONdb('storage.json');
+const giftbox = new JSONdb('data/giftbox.json');
 
 const headers = {
     Accept: 'application/json',

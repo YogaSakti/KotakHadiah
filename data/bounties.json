@@ -1,0 +1,364 @@
+{
+    "put-ens-in-your-twitter-name": {
+        "id": 284,
+        "title": "Put ENS in your Twitter Name",
+        "taskType": "BOUNTY",
+        "namespace": "put-ens-in-your-twitter-name",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-26T00:48:39.802Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 25,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1944,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 60,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 41,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 61,
+                "bountyActionKey": "ENS_IMPORTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 42,
+                "title": null,
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make sure you've set up your ENS domain's reverse record to point to your Ethereum address.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 62,
+                "bountyActionKey": "TWITTER_NAME_CONTAINS_ENS",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 43,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "make-a-swap-on-1inch-polygon": {
+        "id": 274,
+        "title": "Make a swap on 1inch Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "make-a-swap-on-1inch-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-20T04:24:52.757Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 25,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2179,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "1inch",
+            "logoCid": "QmTweaJomqBMHB8yo9TpeA5L712D7onon36uxrest5yc82",
+            "__typename": "Dao",
+            "id": 110,
+            "namespace": "1inch",
+            "coverCid": "QmbT4LLxaedqg1jEskpWVMrXQ7dVdsV6eKvqBTeDGFwkRM",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 52,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 33,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 53,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 28660161,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d",
+                            "methodId": "0x7c025200",
+                            "methodAbi": {
+                                "name": "swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "caller",
+                                        "type": "address",
+                                        "internalType": "contract IAggregationExecutor"
+                                    },
+                                    {
+                                        "name": "desc",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "srcToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "dstToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "srcReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "dstReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "amount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "minReturnAmount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "flags",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "permit",
+                                                "type": "bytes",
+                                                "internalType": "bytes"
+                                            }
+                                        ],
+                                        "internalType": "struct AggregationRouterV4.SwapDescription"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "gasLeft",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 34,
+                "title": "Make a swap on 1inch Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "1inch DEX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.1inch.io/#/137/swap",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to make any swap on the Polygon network today",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "connect-your-social-profiles-1": {
+        "id": 244,
+        "title": "Connect your social profiles",
+        "taskType": "BOUNTY",
+        "namespace": "connect-your-social-profiles-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-06T09:57:30.183Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 25,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 12810,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": {
+            "id": 3,
+            "name": "Social",
+            "slug": "social",
+            "emoji": "💬",
+            "__typename": "Category"
+        },
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 28,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 29,
+                "bountyActionKey": "DISCORD_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 1,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 73,
+                "bountyActionKey": "TWITTER_ACCOUNT_FOLLOWED",
+                "isFulfilled": false,
+                "data": {
+                    "twitterAccountId": "1393335143188762624"
+                },
+                "orderIndex": 2,
+                "title": "Follow @layer3xyz on twitter",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Follow Layer3 on Twitter to get notified when new bounties go live",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    }
+}

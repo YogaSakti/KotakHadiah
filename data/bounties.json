@@ -1211,5 +1211,92 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "supply-dai-on-aave-v3-optimism": {
+        "id": 314,
+        "title": "Supply DAI on Aave v3 Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "supply-dai-on-aave-v3-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-04T02:19:53.255Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 150,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 80,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 92,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 93,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 10494338,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0.1"
+                },
+                "orderIndex": 1,
+                "title": "Supply DAI on Aave v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your DeFi skills to supply ≥ 0.1 DAI on Aave v3 on one of Ethereum's leading L2's – Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

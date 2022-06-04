@@ -1742,5 +1742,125 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "make-a-swap-on-1inch-optimism": {
+        "id": 309,
+        "title": "Make a swap on 1inch Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "make-a-swap-on-1inch-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-03T01:54:50.449Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 742,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "1inch",
+            "logoCid": "QmTweaJomqBMHB8yo9TpeA5L712D7onon36uxrest5yc82",
+            "__typename": "Dao",
+            "id": 110,
+            "namespace": "1inch",
+            "coverCid": "QmbT4LLxaedqg1jEskpWVMrXQ7dVdsV6eKvqBTeDGFwkRM",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 84,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 85,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 10364712,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254760f7ab3f16433eea9304126dcd199",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254760f7ab3f16433eea9304126dcd199",
+                            "methodId": "0xe449022e",
+                            "methodAbi": {
+                                "name": "uniswapV3Swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any swap on 1inch Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore one of the best L2's by making any swap on 1inch Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/10/swap/USDC/DAI",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

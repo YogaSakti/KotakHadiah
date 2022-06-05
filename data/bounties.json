@@ -2016,5 +2016,254 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "make-a-swap-through-zapper-polygon-1": {
+        "id": 317,
+        "title": "Make a swap through Zapper Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "make-a-swap-through-zapper-polygon-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-05T01:19:16.096Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 750,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 580,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Zapper",
+            "logoCid": "QmSmuphZARjGgGYge6cSV8PdsELnQYJhqHMX8omibBwAo8",
+            "__typename": "Dao",
+            "id": 6,
+            "namespace": "zapper",
+            "coverCid": null,
+            "ogImageCid": "QmSjqBotGdwtWXq6LnnJxeybAkSx4WZrkh6mLqeRompSZr"
+        },
+        "BountySteps": [
+            {
+                "id": 96,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29176282,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+                            "methodId": "0x415565b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on Polygon through Zapper",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Zapper's Swap product to make a swap on Polygon. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Zapper?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://zapper.fi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://zapper.fi/exchange",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "go-l3-on-twitter-1": {
+        "id": 316,
+        "title": "Go (L,3) on Twitter",
+        "taskType": "BOUNTY",
+        "namespace": "go-l3-on-twitter-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-05T00:48:05.774Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 722,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 94,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 95,
+                "bountyActionKey": "TWITTER_NAME_CONTAINS_STRING",
+                "isFulfilled": false,
+                "data": {
+                    "includeString": "(L,3)"
+                },
+                "orderIndex": 1,
+                "title": "Represent L3 on Twitter",
+                "description": null,
+                "actionLink": "https://twitter.com/settings/profile",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "connect-your-social-profiles": {
+        "id": 244,
+        "title": "Connect your social profiles",
+        "taskType": "BOUNTY",
+        "namespace": "connect-your-social-profiles",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-06T09:57:30.183Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 25,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 13217,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": {
+            "id": 3,
+            "name": "Social",
+            "slug": "social",
+            "emoji": "💬",
+            "__typename": "Category"
+        },
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 28,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 29,
+                "bountyActionKey": "DISCORD_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 1,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 73,
+                "bountyActionKey": "TWITTER_ACCOUNT_FOLLOWED",
+                "isFulfilled": false,
+                "data": {
+                    "twitterAccountId": "1393335143188762624"
+                },
+                "orderIndex": 2,
+                "title": "Follow @layer3xyz on twitter",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Follow Layer3 on Twitter to get notified when new bounties go live",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

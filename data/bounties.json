@@ -2922,5 +2922,92 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "rep-your-ens-on-twitter-1": {
+        "id": 284,
+        "title": "Rep your ENS on Twitter",
+        "taskType": "BOUNTY",
+        "namespace": "rep-your-ens-on-twitter-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-05-26T00:48:39.802Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 25,
+        "rewardTokenId": null,
+        "numberOfWinners": 3000,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2403,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 60,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 61,
+                "bountyActionKey": "ENS_IMPORTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 1,
+                "title": null,
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make sure you've set up your ENS domain's reverse record to point to your Ethereum address.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 62,
+                "bountyActionKey": "TWITTER_NAME_CONTAINS_ENS",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 2,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

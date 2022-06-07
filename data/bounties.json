@@ -3099,5 +3099,94 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "make-a-swap-on-zapper-optimism": {
+        "id": 323,
+        "title": "Make a swap on Zapper Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "make-a-swap-on-zapper-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-07T07:07:48.725Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 324,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Zapper",
+            "logoCid": "QmSmuphZARjGgGYge6cSV8PdsELnQYJhqHMX8omibBwAo8",
+            "__typename": "Dao",
+            "id": 6,
+            "namespace": "zapper",
+            "coverCid": null,
+            "ogImageCid": "QmSjqBotGdwtWXq6LnnJxeybAkSx4WZrkh6mLqeRompSZr"
+        },
+        "BountySteps": [
+            {
+                "id": 104,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 10814890,
+                    "contractInteractions": [
+                        {
+                            "address": "0xDEF1ABE32c034e558Cdd535791643C58a13aCC10",
+                            "methodId": "0x415565b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any swap on Zapper Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Zapper to make any token swap on Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Zapper?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://zapper.fi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://zapper.fi/exchange",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

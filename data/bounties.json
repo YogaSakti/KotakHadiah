@@ -3009,5 +3009,95 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "enter-a-prize-pool-on-polygon-1": {
+        "id": 322,
+        "title": "Enter a prize pool on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "enter-a-prize-pool-on-polygon-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-06T23:00:18.962Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 250,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": null,
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 335,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "PoolTogether",
+            "logoCid": "Qma16kVpCSfsn4GXNvEoeGmaVsoFUyhtHuuNoGxxgymb6F",
+            "__typename": "Dao",
+            "id": 144,
+            "namespace": "pooltogether",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 103,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29252520,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6a304dFdb9f808741244b6bfEe65ca7B3b3A6076",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "4"
+                },
+                "orderIndex": 0,
+                "title": "Deposit ≥ 4 USDC into PoolTogether",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit more than 4 USDC into PoolTogether's no-loss prize pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is PoolTogether?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://decrypt.co/resources/what-is-pooltogether-the-no-loss-crypto-lottery-explained",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.pooltogether.com/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -3188,5 +3188,106 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "trade-on-slingshot-optimism": {
+        "id": 325,
+        "title": "Trade on Slingshot Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "trade-on-slingshot-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-08T00:41:19.432Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover trading crypto the web3 way with Slingshot.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 135,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 105,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 10794716,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade using Slingshot on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Slingshot to make any trade on the Optimism layer 2. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Slingshot?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://wiki.rugdoc.io/docs/introduction-to-slingshot-finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

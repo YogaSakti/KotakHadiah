@@ -4049,5 +4049,164 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "curve-introduction-i": {
+        "id": 379,
+        "title": "Curve: Introduction I",
+        "taskType": "BOUNTY",
+        "namespace": "curve-introduction-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-09T16:50:30.440Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover one of the most efficient ways to trade stablecoins.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 58,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Curve",
+            "logoCid": "QmYXyqr2pqkKeaVr4Zc87uCq8YvAyQWBy3vbYEyo5RdDGb",
+            "__typename": "Dao",
+            "id": 146,
+            "namespace": "curve",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 146,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29362560,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0x65b2489b",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0xe2ad025a",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Exchange stablecoins with Curve on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use curve's \"atricrypto3\" pool to exchange stablecoins. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Curve?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://academy.binance.com/en/articles/what-is-curve-finance-in-defi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/atricrypto3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -3947,5 +3947,107 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridge-from-polygon-to-optimism-using-hop": {
+        "id": 345,
+        "title": "Bridge from Polygon to Optimism using Hop",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-from-polygon-to-optimism-using-hop",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-09T01:30:29.157Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the magic of layer 2's with Hop Protocol's bridge.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 316,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Hop",
+            "logoCid": "QmU9eXg4QWk25WuQu8Xk1euo8w3UC5aSdkeYLCeo1wZ4gi",
+            "__typename": "Dao",
+            "id": 136,
+            "namespace": "hop",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 112,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29336805,
+                    "transferTo": [
+                        "0x76b22b8C1079A44F1211D867D68b1eda76a635A7"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "4"
+                },
+                "orderIndex": 0,
+                "title": "Bridge ≥ 4 USDC from Polygon to Optimism on Hop",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Bridge more than 4 USDC from Polygon to Optimism using the Hop bridge. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What's a bridge?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://learn.zapper.fi/articles/introduction-to-bridges",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hop.exchange/#/send?token=USDC&sourceNetwork=polygon&destNetwork=optimism",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

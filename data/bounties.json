@@ -4208,5 +4208,401 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "optimistic-defi-mastery-i": {
+        "id": 381,
+        "title": "Optimism DeFi Mastery I",
+        "taskType": "BOUNTY",
+        "namespace": "optimistic-defi-mastery-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-09T21:22:14.449Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Prove your mastery of DeFi on Optimism with this 4-step bounty.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 189,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 147,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 11086434,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5D42fBa6b7Ca914B31239b419Ab80b",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Trade on Slingshot Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Slingshot to make any trade on the Optimism layer 2. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Slingshot?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://wiki.rugdoc.io/docs/introduction-to-slingshot-finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 148,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 11086406,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0x88316456",
+                            "methodAbi": {
+                                "name": "mint",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "token0",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "token1",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "fee",
+                                                "type": "uint24",
+                                                "internalType": "uint24"
+                                            },
+                                            {
+                                                "name": "tickLower",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "tickUpper",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "recipient",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.MintParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "LP on Uniswap Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to any token pair on Uniswap Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquidity providing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://academy.binance.com/en/articles/what-are-liquidity-pools-in-defi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 149,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 11086406,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "methodId": "0xf7a73840",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x86b4d2636ec473ac4a5dd83fc2beda98845249a7",
+                            "methodId": "0x474cf53d",
+                            "methodAbi": {
+                                "name": "depositETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "onBehalfOf",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Supply any asset on Aave v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply any asset to the Aave v3 Optimism market.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 150,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 11086406,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "methodId": "0xd5eed868",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x86b4d2636ec473ac4a5dd83fc2beda98845249a7",
+                            "methodId": "0x66514c97",
+                            "methodAbi": {
+                                "name": "borrowETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "interesRateMode",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Borrow any asset on Aave v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow any asset from the Aave v3 Optimism market.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

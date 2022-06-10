@@ -4994,5 +4994,256 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "intro-to-balancer-discover-the-polygon-defi-pool": {
+        "id": 385,
+        "title": "Intro to Balancer: Discover the Polygon DeFi Pool",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-balancer-discover-the-polygon-defi-pool",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-10T21:48:13.533Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the Balancer AMM on Polygon by depositing into the Polygon DeFi Pool",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 20,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Balancer",
+            "logoCid": "QmRyWjxYzTB4tvKE9B8LoQxF732ogYCN78TEpPYLCyFTwP",
+            "__typename": "Dao",
+            "id": 151,
+            "namespace": "balancer",
+            "coverCid": "QmVkxpFvhpJF8subQKZYcivsCdJ8UC1wFWS5jLbviyCAXm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 153,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29410026,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x36128D5436d2d70cab39C9AF9CcE146C38554ff0",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0.0001"
+                },
+                "orderIndex": 0,
+                "title": "Deposit USDC in the Polygon DeFi Index",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Balancer, deposit USDC into the Polygon DeFi Pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Why should I care about Balancer?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.gemini.com/cryptopedia/balancer-crypto-automated-pools",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x36128d5436d2d70cab39c9af9cce146c38554ff0000100000000000000000008",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "astro-girls-invest-in-balancer": {
+        "id": 378,
+        "title": "Astro Girls Invest in Balancer",
+        "taskType": "BOUNTY",
+        "namespace": "astro-girls-invest-in-balancer",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": "0.016",
+        "rewardToken": {
+            "id": 29,
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "chainId": 137,
+            "updatedAt": "2022-06-10T21:54:16.620Z",
+            "usdPrice": "2924.79",
+            "__typename": "Token"
+        },
+        "rewardNft": null,
+        "createdAt": "2022-06-09T11:07:42.668Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 234,
+        "rewardTokenId": 29,
+        "numberOfWinners": 20,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Invest in the ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "wBTC/wETH pool ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://polygon.balancer.fi/#/pool/0xcf354603a9aebd2ff9f33e1b04246d8ea204ae9500020000000000000000005a",
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "text": "on Balancer",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 14,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Astro Girls",
+            "logoCid": "QmQse9otfBVd4MbdVvd8RumzysVztuGSTBrAinYRKAfGxx",
+            "__typename": "Dao",
+            "id": 65,
+            "namespace": "astro-girls",
+            "coverCid": null,
+            "ogImageCid": "QmZzQFvGuFiVh82fsxvBTz1yqf89ahtWdVdeSCZBvYAw9S"
+        },
+        "BountySteps": [
+            {
+                "id": 144,
+                "bountyActionKey": "NFT_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "type": "ERC721",
+                    "address": "0xb21e760e7f74dd3c7b125ef21ba068abbc8adba8",
+                    "chainId": 1,
+                    "displayName": "AstroGirls NFT",
+                    "openseaCollectionSlug": "astro-girls-society-official"
+                },
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 145,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29352823,
+                    "contractInteractions": [
+                        {
+                            "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Invest in wBTC/wETH on Balancer",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Invest in the wBTC/wETH weighted pool on Balancer Polygon. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Balancer",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.balancer.fi/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "?",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0xcf354603a9aebd2ff9f33e1b04246d8ea204ae9500020000000000000000005a",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

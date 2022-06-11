@@ -5245,5 +5245,360 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "wip-bounty-1": {
+        "id": 387,
+        "title": "Explore Polygon: CRV on Cream Finance",
+        "taskType": "BOUNTY",
+        "namespace": "wip-bounty-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-11T00:43:29.759Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 100,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Swap for CRV and earn ~8% APY on CREAM Finance",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 156,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29415131,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d",
+                            "methodId": "0x7c025200",
+                            "methodAbi": {
+                                "name": "swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "caller",
+                                        "type": "address",
+                                        "internalType": "contract IAggregationExecutor"
+                                    },
+                                    {
+                                        "name": "desc",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "srcToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "dstToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "srcReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "dstReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "amount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "minReturnAmount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "flags",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "permit",
+                                                "type": "bytes",
+                                                "internalType": "bytes"
+                                            }
+                                        ],
+                                        "internalType": "struct AggregationRouterV4.SwapDescription"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "gasLeft",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d",
+                            "methodId": "0xe449022e",
+                            "methodAbi": {
+                                "name": "uniswapV3Swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254fb6c44bAC0beD2854e76F90643097d",
+                            "methodId": "0xbc80f1a8",
+                            "methodAbi": {
+                                "name": "uniswapV3SwapTo",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "recipient",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    },
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap to CRV on 1inch Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Obtain CRV by swapping any token on 1inch Polygon",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/137/swap/USDC/CRV",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 157,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29415184,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe82225ba6bed28406912522f01c7102dd9f07e78",
+                    "transferFrom": [
+                        "0xE82225bA6BeD28406912522F01C7102DD9f07e78"
+                    ],
+                    "thresholdAmount": "0.01"
+                },
+                "orderIndex": 1,
+                "title": "Lend CRV on Cream Finance for ~8% APY",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply the CRV you just swapped to CREAM Finance. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Cream Finance?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.defipulse.com/projects/c.r.e.a.m.-finance",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 158,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29415224,
+                    "contractInteractions": [
+                        {
+                            "address": "0x20ca53e2395fa571798623f1cfbd11fe2c114c24",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Mark CRV as collateral on Cream",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Turn on the switch marked \"Collateral\" at the top of your Cream dashboard. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 159,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29415247,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "0x73cf8c5d14aa0ebc89f18272a568319f5bab6cbd"
+                    ],
+                    "thresholdAmount": ".01"
+                },
+                "orderIndex": 3,
+                "title": "Borrow USDC against your CRV",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using CREAM, borrow USDC against the CRV you just deposited. Congrats!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

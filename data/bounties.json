@@ -5600,5 +5600,327 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-farming-with-stargate": {
+        "id": 390,
+        "title": "Multichain farming with Stargate",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-farming-with-stargate",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-12T01:15:55.297Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the multichain future by becoming a farmer on 2 chains with Stargate",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Stargate",
+            "logoCid": "QmW8YSuJVH5w7163WrAPMWixa13mzVCjfgKgCPge1NRmQn",
+            "__typename": "Dao",
+            "id": 152,
+            "namespace": "stargate",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 164,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29456523,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x1205f31718499dBf1fCa446663B532Ef87481fe1",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "LP USDC on Stargate Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees by providing USDC liquidity to Stargate's USDC Polygon pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Stargate?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://stargate.finance",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/pool/USDC-MATIC/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 165,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29456747,
+                    "transferTo": [
+                        "0x8731d54e9d02c286767d56ac03e8037c07e01e98"
+                    ],
+                    "tokenAddress": "0x1205f31718499dBf1fCa446663B532Ef87481fe1",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.0001"
+                },
+                "orderIndex": 1,
+                "title": "Farm your USDC-LP tokens to earn $STG on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn an extra ~5% APY in $STG by depositing your tokens into the USDC Matic farm.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/farm/USDC-MATIC/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 166,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 11315325,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "LP USDC on Stargate Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees by providing USDC liquidity to Stargate's USDC Optimism pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Stargate?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://stargate.finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/pool/USDC-OPTIMISM/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 167,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 11315411,
+                    "transferTo": [
+                        "0x4a364f8c717caad9a442737eb7b8a55cc6cf18d8"
+                    ],
+                    "tokenAddress": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.0001"
+                },
+                "orderIndex": 3,
+                "title": "Farm your USDC-LP tokens to earn $STG on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn an extra ~5% APY in $STG by depositing your tokens into the USDC Optimism farm.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/farm/USDC-OPTIMISM/add",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "trading-on-slingshot-polygon": {
+        "id": 389,
+        "title": "Trading on Slingshot Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "trading-on-slingshot-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-12T00:37:47.856Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "For new users, experience trading the web3 way with Slingshot on Polygon",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 234,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 163,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29456333,
+                    "contractInteractions": [
+                        {
+                            "address": "0xF2e4209afA4C3c9eaA3Fb8e12eeD25D8f328171C",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade on Slingshot Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Slingshot, trade any tokens on Polygon. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Slingshot?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://wiki.rugdoc.io/docs/introduction-to-slingshot-finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

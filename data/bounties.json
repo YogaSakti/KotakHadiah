@@ -6291,5 +6291,164 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "intro-to-balancer-ii-staking-rewards": {
+        "id": 395,
+        "title": "Intro to Balancer II: Staking Rewards",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-balancer-ii-staking-rewards",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-13T04:47:35.582Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover ways to earn with Balancer by investing in a pool and staking LP tokens",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 272,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Balancer",
+            "logoCid": "QmRyWjxYzTB4tvKE9B8LoQxF732ogYCN78TEpPYLCyFTwP",
+            "__typename": "Dao",
+            "id": 151,
+            "namespace": "balancer",
+            "coverCid": "QmVkxpFvhpJF8subQKZYcivsCdJ8UC1wFWS5jLbviyCAXm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 170,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29503507,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+                    "transferFrom": [
+                        "0xba12222222228d8ba445958a75a0704d566bf2c8"
+                    ],
+                    "thresholdAmount": "0.5"
+                },
+                "orderIndex": 0,
+                "title": "Obtain ≥ 1 BAL by swapping on Balancer",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Obtain more than 1 BAL by making a trade on Balancer.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 171,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29503586,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0.01"
+                },
+                "orderIndex": 1,
+                "title": "Invest BAL into the Polygon Base Pool for ~15% APY",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn 15% APY by investing the BAL you just obtained into the Polygon Base Pool on Balancer.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 172,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29503675,
+                    "transferTo": [
+                        "0x068ff98072d3eb848d012e3390703bb507729ed6"
+                    ],
+                    "tokenAddress": "0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": ".01"
+                },
+                "orderIndex": 2,
+                "title": "Stake your Polygon Base Pool LP tokens",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn more by staking the LP tokens you just earned on Balancer. (Click \"Staking Incentives\" on the pool page)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

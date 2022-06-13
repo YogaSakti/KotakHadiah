@@ -6202,5 +6202,94 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explore-arbitrum-i": {
+        "id": 394,
+        "title": "Explore Arbitrum I",
+        "taskType": "BOUNTY",
+        "namespace": "explore-arbitrum-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-13T01:48:13.621Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 125,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Prepare for Arbitrum by bridging from Polygon to Aribtrum",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 244,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Hop",
+            "logoCid": "QmU9eXg4QWk25WuQu8Xk1euo8w3UC5aSdkeYLCeo1wZ4gi",
+            "__typename": "Dao",
+            "id": 136,
+            "namespace": "hop",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 169,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29498731,
+                    "transferTo": [
+                        "0x76b22b8C1079A44F1211D867D68b1eda76a635A7"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "10"
+                },
+                "orderIndex": 0,
+                "title": "Bridge ≥ 10 USDC from Polygon to Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Hop, bridge more than ten USDC from Polygon to Arbitrum. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hop.exchange/#/send?token=USDC&sourceNetwork=polygon&destNetwork=arbitrum",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

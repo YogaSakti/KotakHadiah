@@ -6574,5 +6574,157 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "optimism-nft-basics": {
+        "id": 397,
+        "title": "Optimism NFT Basics",
+        "taskType": "BOUNTY",
+        "namespace": "optimism-nft-basics",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-13T20:45:20.098Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the wonder of layer 2 NFTs with Quixotic",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 145,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Quixotic",
+            "logoCid": "QmfCiABLmBsMpnLZ8JEP6XCYjPpPKgeAQiSn5wRFRnXmJY",
+            "__typename": "Dao",
+            "id": 153,
+            "namespace": "quixotic",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 173,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 11628026,
+                    "contractInteractions": [
+                        {
+                            "address": "0x065e8A87b8F11aED6fAcf9447aBe5E8C5D7502b6",
+                            "methodId": "0x912d97fc",
+                            "methodAbi": {
+                                "name": "fillSellOrder",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "seller",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    },
+                                    {
+                                        "name": "contractAddress",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "startTime",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "expiration",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "price",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quantity",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "createdAtBlockNumber",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "paymentERC20",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "signature",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "buyer",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Purchase any NFT on Quixotic",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Obtain your first Optimism NFT by using Quixotic.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://quixotic.io/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

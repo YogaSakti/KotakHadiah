@@ -7040,5 +7040,93 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "yield-protocol-fixed-rate-lending-on-arbitrum": {
+        "id": 406,
+        "title": "Intro to Yield Protocol: Fixed-rate lending on Arbitrum",
+        "taskType": "BOUNTY",
+        "namespace": "yield-protocol-fixed-rate-lending-on-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-15T01:48:58.612Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore an introduction to Yield Protocol's fixed-rate lending product on Arbitrum",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 345,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Yield Protocol",
+            "logoCid": "QmNp8D2q8YJvWcYtH12hCG3cURGu5DW7gmYx1T2SnfoEmk",
+            "__typename": "Dao",
+            "id": 157,
+            "namespace": "yield-protocol",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 185,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 14651247,
+                    "contractInteractions": [
+                        {
+                            "address": "0x16e25cf364cecc305590128335b8f327975d0560",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Lend USDC on Yield Protocol Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "On Yield, lend USDC for a fixed-rate of returns with either maturity date.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.yieldprotocol.com/lend",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

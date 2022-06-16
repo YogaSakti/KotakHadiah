@@ -7934,5 +7934,217 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "defi-basics-i-arbitrum": {
+        "id": 416,
+        "title": "DeFi Basics I: Arbitrum",
+        "taskType": "BOUNTY",
+        "namespace": "defi-basics-i-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-16T10:35:43.464Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Arbitrum is one of the hottest L2s on the block. Explore DeFi basics on Arbitrum to get acquainted!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 7,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 199,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 14785042,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": ".01"
+                },
+                "orderIndex": 0,
+                "title": "Supply USDC on Aave v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, supply USDC on Arbitrum",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_arbitrum_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 200,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 14785042,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": ".01"
+                },
+                "orderIndex": 1,
+                "title": "Borrow variable debt DAI on Aave v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, borrow variable debt DaI on Arbitrum",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_arbitrum_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "daily-dose-of-matcha-polygon": {
+        "id": 415,
+        "title": "Daily dose of Matcha Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "daily-dose-of-matcha-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-16T10:22:47.340Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore 0x's product for the best way to do DeFi",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 71,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Matcha",
+            "logoCid": "QmU34dLvUj2PXC1mrb4eiJTwk7d7S2L2og4cBruHW4AFzh",
+            "__typename": "Dao",
+            "id": 158,
+            "namespace": "matcha",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 198,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29633433,
+                    "contractInteractions": [
+                        {
+                            "address": "0xDef1C0ded9bec7F1a1670819833240f027b25EfF",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade on Matcha Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Matcha to make any trade on Polygon",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/137/0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

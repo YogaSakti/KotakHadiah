@@ -7128,5 +7128,811 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discover-arbitrum-i": {
+        "id": 414,
+        "title": "Discover Arbitrum I",
+        "taskType": "BOUNTY",
+        "namespace": "discover-arbitrum-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-16T09:43:07.009Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Arbitrum is one of the hottest L2s on the block. Explore these Arbitrum DApps and platform to maximize your Arbitrum experience!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 8,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 186,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29631977,
+                    "contractInteractions": [
+                        {
+                            "address": "0x69b5c72837769ef1e7c164abc6515dcff217f920",
+                            "methodId": "0x49228978",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x69b5c72837769ef1e7c164abc6515dcff217f920",
+                            "methodId": "0xac9650d8",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge from Polygon to Arbitrum using Across",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Across Protocol, bridge any tokens from Polygon to Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://across.to/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 187,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 14779696,
+                    "contractInteractions": [
+                        {
+                            "address": "0x3B6067D4CAa8A14c63fdBE6318F27A0bBc9F9237",
+                            "methodId": "0x7617b389",
+                            "methodAbi": {
+                                "name": "mixSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "mixAdapters",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "mixPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetTo",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "moreInfos",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x3B6067D4CAa8A14c63fdBE6318F27A0bBc9F9237",
+                            "methodId": "0x81791788",
+                            "methodAbi": {
+                                "name": "dodoMutliSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "totalWeight",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "splitNumber",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "midToken",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetFrom",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "sequence",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x88CBf433471A0CD8240D2a12354362988b4593E5",
+                            "methodId": "0x5028bb95",
+                            "methodAbi": {
+                                "name": "dodoSwapV2ETHToToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x88CBf433471A0CD8240D2a12354362988b4593E5",
+                            "methodId": "0x1e6d24c2",
+                            "methodAbi": {
+                                "name": "dodoSwapV2TokenToETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x88CBf433471A0CD8240D2a12354362988b4593E5",
+                            "methodId": "0xf87dc1b7",
+                            "methodAbi": {
+                                "name": "dodoSwapV2TokenToToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x88CBf433471A0CD8240D2a12354362988b4593E5",
+                            "methodId": "0x23c38fa3",
+                            "methodAbi": {
+                                "name": "mixSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "mixAdapters",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "mixPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetTo",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make a swap on Dodo Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Dodo to make a swap between any tokens on Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/?network=arbitrum",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 194,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 14780084,
+                    "contractInteractions": [
+                        {
+                            "address": "0x146c57aBB43a5B457cd8E109D35Ac27057a672e2",
+                            "methodId": "0x374adbcc",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Open an ETH/USD position on Apex arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Apex to open a long or short ETH/USD position on Arbitrum",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.apex.exchange/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 197,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 14779912,
+                    "contractInteractions": [
+                        {
+                            "address": "0x7bc8b1b5aba4df3be9f9a32dae501214dc0e4f3f",
+                            "methodId": "0xba847759",
+                            "methodAbi": {
+                                "name": "run",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "intent",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "user",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "bundle",
+                                                "type": "tuple[]",
+                                                "components": [
+                                                    {
+                                                        "name": "token",
+                                                        "type": "address",
+                                                        "internalType": "address"
+                                                    },
+                                                    {
+                                                        "name": "tokenId",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "amount",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "kind",
+                                                        "type": "uint8",
+                                                        "internalType": "uint8"
+                                                    },
+                                                    {
+                                                        "name": "mintData",
+                                                        "type": "bytes",
+                                                        "internalType": "bytes"
+                                                    }
+                                                ],
+                                                "internalType": "struct MarketNG.TokenPair[]"
+                                            },
+                                            {
+                                                "name": "currency",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "price",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "salt",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "kind",
+                                                "type": "uint8",
+                                                "internalType": "uint8"
+                                            }
+                                        ],
+                                        "internalType": "struct MarketNG.Intention"
+                                    },
+                                    {
+                                        "name": "detail",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "intentionHash",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "signer",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "txDeadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "salt",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "id",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "opcode",
+                                                "type": "uint8",
+                                                "internalType": "uint8"
+                                            },
+                                            {
+                                                "name": "caller",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "currency",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "price",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "incentiveRate",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "settlement",
+                                                "type": "tuple",
+                                                "components": [
+                                                    {
+                                                        "name": "coupons",
+                                                        "type": "uint256[]",
+                                                        "internalType": "uint256[]"
+                                                    },
+                                                    {
+                                                        "name": "feeRate",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "royaltyRate",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "buyerCashbackRate",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "feeAddress",
+                                                        "type": "address",
+                                                        "internalType": "address"
+                                                    },
+                                                    {
+                                                        "name": "royaltyAddress",
+                                                        "type": "address",
+                                                        "internalType": "address"
+                                                    }
+                                                ],
+                                                "internalType": "struct MarketNG.Settlement"
+                                            },
+                                            {
+                                                "name": "bundle",
+                                                "type": "tuple[]",
+                                                "components": [
+                                                    {
+                                                        "name": "token",
+                                                        "type": "address",
+                                                        "internalType": "address"
+                                                    },
+                                                    {
+                                                        "name": "tokenId",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "amount",
+                                                        "type": "uint256",
+                                                        "internalType": "uint256"
+                                                    },
+                                                    {
+                                                        "name": "kind",
+                                                        "type": "uint8",
+                                                        "internalType": "uint8"
+                                                    },
+                                                    {
+                                                        "name": "mintData",
+                                                        "type": "bytes",
+                                                        "internalType": "bytes"
+                                                    }
+                                                ],
+                                                "internalType": "struct MarketNG.TokenPair[]"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct MarketNG.Detail"
+                                    },
+                                    {
+                                        "name": "sigIntent",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "sigDetail",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x7bc8b1b5aba4df3be9f9a32dae501214dc0e4f3f",
+                            "methodId": "0xafd76a0b",
+                            "methodAbi": {
+                                "name": "send",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokens",
+                                        "type": "tuple[]",
+                                        "components": [
+                                            {
+                                                "name": "token",
+                                                "type": "address",
+                                                "internalType": "contract IERC721"
+                                            },
+                                            {
+                                                "name": "tokenId",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct MarketNG.Pair721[]"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Buy an NFT on TofuNFT Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore the world of layer 2 NFT's by purchasing one on TofuNFT Arbitrum",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://tofunft.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

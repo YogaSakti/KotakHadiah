@@ -8146,5 +8146,260 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "defi-basics-ii-arbitrum": {
+        "id": 420,
+        "title": "DeFi Basics II: Arbitrum",
+        "taskType": "BOUNTY",
+        "namespace": "defi-basics-ii-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-17T10:52:12.564Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Take your Arbitrum DeFi knowledge to the next level with this bounty.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 247,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 201,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 14882458,
+                    "contractInteractions": [
+                        {
+                            "address": "0x88cbf433471a0cd8240d2a12354362988b4593e5",
+                            "methodId": "0x99882c8f",
+                            "methodAbi": {
+                                "name": "addLiquidityToV1",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pair",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "baseAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "baseMinShares",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteMinShares",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "flag",
+                                        "type": "uint8",
+                                        "internalType": "uint8"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "baseShares",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteShares",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x88cbf433471a0cd8240d2a12354362988b4593e5",
+                            "methodId": "0x674d9422",
+                            "methodAbi": {
+                                "name": "addDVMLiquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "dvmAddress",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "baseInAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteInAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "baseMinAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteMinAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "flag",
+                                        "type": "uint8",
+                                        "internalType": "uint8"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "shares",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "baseAdjustedInAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quoteAdjustedInAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Provide liquidity on Dodo Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity for any token pair on Dodo to earn trading fees from swaps in that pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "DeFi Basics I",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://beta.layer3.xyz/bounties/defi-basics-i-arbitrum",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/add-liquidity?network=arbitrum",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 202,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 14882205,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8e0B8c8BB9db49a46697F3a5Bb8A308e744821D2",
+                    "transferFrom": [
+                        "0xf97c707024ef0dd3e77a0824555a46b622bfb500"
+                    ],
+                    "thresholdAmount": ".001"
+                },
+                "orderIndex": 1,
+                "title": "Deposit & Stake tokens on Curve Tricrypto Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit & Stake tokens into the \"Tricrypto\" pool on Curve to earn trading fees from swaps in that pool & yield from your LP tokens. Click \"Deposit & Stake in gauge\".",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/tricrypto/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

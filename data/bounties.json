@@ -8401,5 +8401,93 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "daily-dose-of-matcha-avalanche": {
+        "id": 426,
+        "title": "Daily dose of Matcha Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "daily-dose-of-matcha-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-21T01:54:14.280Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Trade all DEXs at once. Matcha find the best prices across exchanges and combines them into one trade!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 277,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Matcha",
+            "logoCid": "QmU34dLvUj2PXC1mrb4eiJTwk7d7S2L2og4cBruHW4AFzh",
+            "__typename": "Dao",
+            "id": 158,
+            "namespace": "matcha",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 205,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16306439,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade using Matcha Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Matcha to make a trade between any tokens on Avalanche today.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/43114/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

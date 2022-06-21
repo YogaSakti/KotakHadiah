@@ -8489,5 +8489,602 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discover-arbitrum-ii": {
+        "id": 427,
+        "title": "Discover Arbitrum II (Hard)",
+        "taskType": "BOUNTY",
+        "namespace": "discover-arbitrum-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-21T04:45:41.826Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Dive deeper into the Arbitrum ecosystem by exploring new & established dapps.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 303,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Arbitrum",
+            "logoCid": "QmdP6ZkLq4FF8dcvxBs48chqFiXu7Gr8SgPCqMtfr7VA4L",
+            "__typename": "Dao",
+            "id": 160,
+            "namespace": "arbitrum",
+            "coverCid": "Qma4VT4qYsjqJy7PmMLZJaJEC33hHscVZHaoDXaWXnbsb6",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 206,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15216021,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe5c7b4865d7f2b08faadf3f6d392e6d6fa7b903c",
+                            "methodId": "0xf8056016",
+                            "methodAbi": {
+                                "name": "fillBuyOrder",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "buyer",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    },
+                                    {
+                                        "name": "contractAddress",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "startTime",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "expiration",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "price",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quantity",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "paymentERC20",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "signature",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "seller",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xe5c7b4865d7f2b08faadf3f6d392e6d6fa7b903c",
+                            "methodId": "0x912d97fc",
+                            "methodAbi": {
+                                "name": "fillSellOrder",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "seller",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    },
+                                    {
+                                        "name": "contractAddress",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "startTime",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "expiration",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "price",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "quantity",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "createdAtBlockNumber",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "paymentERC20",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "signature",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "buyer",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xe5c7b4865d7f2b08faadf3f6d392e6d6fa7b903c",
+                            "methodId": "0x75eeb98a",
+                            "methodAbi": {
+                                "name": "fillDutchAuctionOrder",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "dutchAuctionOrder",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "seller",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "contractAddress",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "tokenId",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "startTime",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "endTime",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "startPrice",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "endPrice",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "quantity",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "createdAtBlockNumber",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "paymentERC20",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            }
+                                        ],
+                                        "internalType": "struct ExchangeV4.DutchAuctionOrder"
+                                    },
+                                    {
+                                        "name": "signature",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "buyer",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Buy or sell an NFT on Stratos",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Complete a purchase or sale of any Arbitrum NFT using the Stratos NFT marketplace, from the team that brought you Quixotic.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stratosnft.io/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 207,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15216913,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "methodId": "0x617ba037",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc09e69e79106861df5d289da88349f10e2dc6b5c",
+                            "methodId": "0x474cf53d",
+                            "methodAbi": {
+                                "name": "depositETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "onBehalfOf",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x6b2398f194a32cded57335280f9633c33e128dd5",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x0ca75afdda0e30e9583fe5b40070bf46363ab7e1",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x77662d8e1bcade4d66721d55cdb2142980f417d0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Supply any asset to Aave v3 through DefiSaver",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Discover DefiSaver by supplying any asset to Aave v3 Arbitrum through its interface.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.defisaver.com/aave/manage",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 208,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15216913,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe8c97BF6d084880De38Aec1a56d97ED9fDfA0C9b",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Make a trade through Slingshot Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade the web3 way by making any trade through Slingshot on Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 209,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15216913,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+                            "methodId": "0xe8e33700",
+                            "methodAbi": {
+                                "name": "addLiquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "tokenA",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenB",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "amountADesired",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountBDesired",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountAMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountBMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountA",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountB",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506",
+                            "methodId": "0xf305d719",
+                            "methodAbi": {
+                                "name": "addLiquidityETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "token",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "amountTokenDesired",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountTokenMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountETHMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountToken",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountETH",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Provide liquidity on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply liquidity to any token pair and earn fees when someone makes a swap through that pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/legacy/add?chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 210,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15216913,
+                    "contractInteractions": [
+                        {
+                            "address": "0x32c85e56a82d66fa3c13e7df900682d63fcbaf89",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Make a cross-chain swap from Arbitrum to any chain on Hashflow",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Hashflow to swap any token from Arbitrum to any chain.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hashflow.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

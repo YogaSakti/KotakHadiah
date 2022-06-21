@@ -9086,5 +9086,150 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridge-gas-from-polygon-to-avalanche": {
+        "id": 428,
+        "title": "Bridge gas from Polygon to Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-gas-from-polygon-to-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-21T06:23:03.506Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Use Bungee Refuel to easily move gas across chains, even if gas tokens are different. Gain access to Avalanche bounties by obtaining AVAX.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 376,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Bungee",
+            "logoCid": "QmNf9vmJdUb4QPAFM4UnZ3pJtpV4wq3o29TdnwAuUGXU2S",
+            "__typename": "Dao",
+            "id": 155,
+            "namespace": "bungee",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 212,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29818241,
+                    "contractInteractions": [
+                        {
+                            "address": "0xac313d7491910516e06fbfc2a0b5bb49bb072d91",
+                            "methodId": "0xe56461ad",
+                            "methodAbi": {
+                                "name": "depositNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "destinationChainId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xac313d7491910516e06fbfc2a0b5bb49bb072d91",
+                            "methodId": "0x0ddedd84",
+                            "methodAbi": {
+                                "name": "batchSendNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "receivers",
+                                        "type": "address[]",
+                                        "internalType": "address payable[]"
+                                    },
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "srcChainTxHashes",
+                                        "type": "bytes32[]",
+                                        "internalType": "bytes32[]"
+                                    },
+                                    {
+                                        "name": "perUserGasAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "maxLimit",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge native gas from Polygon (MATIC) to Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Gain access to Avalanche bounties by easily bridging gas from Polygon to Avalanche using Bungee Refuel.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/refuel",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

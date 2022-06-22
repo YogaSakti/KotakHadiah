@@ -9231,5 +9231,129 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discover-the-power-of-curve-polygon": {
+        "id": 431,
+        "title": "Discover the power of Curve Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "discover-the-power-of-curve-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-22T01:18:07.404Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the power of curve pools on L2s starting with Polygon. In a following bounty, you'll use Curve tokens obtained here to stake on Convex.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Curve",
+            "logoCid": "QmYXyqr2pqkKeaVr4Zc87uCq8YvAyQWBy3vbYEyo5RdDGb",
+            "__typename": "Dao",
+            "id": 146,
+            "namespace": "curve",
+            "coverCid": "QmUBaekSK6fnRjUU95a98qWVV1jdK9mVSWmRcyNSdVnBDt",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 213,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29848938,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                    "transferFrom": [
+                        "0x1111111254fb6c44bac0bed2854e76f90643097d"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Obtain DAI on 1inch Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use 1inch Polygon to find the best swap from any token to DAI.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/137/swap/USDC/DAI",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 214,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29848997,
+                    "transferTo": [
+                        "0x445fe580ef8d70ff569ab36e80c647af338db351"
+                    ],
+                    "tokenAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit DAI into Curve's Aave Pool on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn interest on your DAI by depositing it into Curve's Aave Pool on Polygon. Hold onto these LP tokens for an upcoming bounty!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/aave/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

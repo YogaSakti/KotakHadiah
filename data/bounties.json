@@ -9479,5 +9479,150 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridge-gas-from-polygon-to-arbitrum-in-1-step": {
+        "id": 434,
+        "title": "Bridge gas from Polygon to Arbitrum in 1-step",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-gas-from-polygon-to-arbitrum-in-1-step",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-22T05:02:28.467Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Unlock Arbitrum bounties by bridging native gas from Polygon to Arbitrum with Bungee Refuel.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 54,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Bungee",
+            "logoCid": "QmNf9vmJdUb4QPAFM4UnZ3pJtpV4wq3o29TdnwAuUGXU2S",
+            "__typename": "Dao",
+            "id": 155,
+            "namespace": "bungee",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 217,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29855324,
+                    "contractInteractions": [
+                        {
+                            "address": "0xac313d7491910516e06fbfc2a0b5bb49bb072d91",
+                            "methodId": "0xe56461ad",
+                            "methodAbi": {
+                                "name": "depositNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "destinationChainId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xac313d7491910516e06fbfc2a0b5bb49bb072d91",
+                            "methodId": "0x0ddedd84",
+                            "methodAbi": {
+                                "name": "batchSendNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "receivers",
+                                        "type": "address[]",
+                                        "internalType": "address payable[]"
+                                    },
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "srcChainTxHashes",
+                                        "type": "bytes32[]",
+                                        "internalType": "bytes32[]"
+                                    },
+                                    {
+                                        "name": "perUserGasAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "maxLimit",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge gas from Polygon to Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Quickly & easily move gas from Polygon to Arbitrum without swapping or CEXs. You must use ≥ 15 Matic.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/refuel",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

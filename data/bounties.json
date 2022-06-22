@@ -9355,5 +9355,129 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-sidequest-i-streaming-payments": {
+        "id": 432,
+        "title": "Arbitrum Extra I: Streaming Payments",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-sidequest-i-streaming-payments",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-22T03:38:12.986Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn how to use Superfluid on Arbitrum to stream daily, weekly, or monthly payments.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 181,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Superfluid",
+            "logoCid": "QmQNGZBVyVomgLvqj59Lp5ux8BHKXd31Rs3imLqvGTkQhV",
+            "__typename": "Dao",
+            "id": 154,
+            "namespace": "superfluid",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 215,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 15320532,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": ".001"
+                },
+                "orderIndex": 0,
+                "title": "Wrap ≥ .001 ETH into ETHx on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "To stream payments, you must wrap your tokens in Superfluid. Wrap more than 0.001 ETH into ETHx on your dashboard.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.superfluid.finance/dashboard",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 216,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15320532,
+                    "contractInteractions": [
+                        {
+                            "address": "0xcf8acb4ef033eff16e8080aed4c7d5b9285d2192",
+                            "methodId": "0x39255d5b",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Set up a daily, weekly, or monthly streaming payment on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using your newly wrapped tokens, set up a daily, weekly, or monthly streaming payment to anyone by clicking \"Send\" at the top of your dashboard.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.superfluid.finance/dashboard",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -9748,5 +9748,107 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "no-loss-prize-pools-avalanche": {
+        "id": 439,
+        "title": "No-Loss Prize Pools: Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "no-loss-prize-pools-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-23T03:00:58.505Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the world of no-loss prize pool savings accounts with PoolTogether on Avalanche.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 76,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "PoolTogether",
+            "logoCid": "Qma16kVpCSfsn4GXNvEoeGmaVsoFUyhtHuuNoGxxgymb6F",
+            "__typename": "Dao",
+            "id": 144,
+            "namespace": "pooltogether",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 220,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16394490,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xB27f379C050f6eD0973A01667458af6eCeBc1d90",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "4"
+                },
+                "orderIndex": 0,
+                "title": "Deposit ≥ 4 USDC into PoolTogether Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit more than 4 USDC into PoolTogether on Avalanche. With your deposit, you have a chance to win prizes without risking your  funds. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is PoolTogether?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://decrypt.co/resources/what-is-pooltogether-the-no-loss-crypto-lottery-explained",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.pooltogether.com/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

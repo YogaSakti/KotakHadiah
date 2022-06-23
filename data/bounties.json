@@ -9850,5 +9850,94 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridge-usdc-from-polygon-to-avalanche": {
+        "id": 440,
+        "title": "Bridge USDC from Polygon to Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-usdc-from-polygon-to-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-23T03:42:31.875Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Need USDC on AVAX to explore? Look no further, Stargate offers a low-cost bridge between these two EVM compatible chains.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 233,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Stargate",
+            "logoCid": "QmW8YSuJVH5w7163WrAPMWixa13mzVCjfgKgCPge1NRmQn",
+            "__typename": "Dao",
+            "id": 152,
+            "namespace": "stargate",
+            "coverCid": "QmTXT6p4LXAAuTStCEfVsQi6aEaQecU1LH9y15roGoTqWL",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 221,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29892015,
+                    "transferTo": [
+                        "0x1205f31718499dBf1fCa446663B532Ef87481fe1"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Bridge USDC from Polygon to Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Want to explore the Avalanche ecosystem? Bridge some USDC from Polygon to Avalanche to start completing Avalanche bounties.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/transfer",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

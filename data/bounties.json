@@ -9624,5 +9624,129 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "asset-management-on-dhedge-polygon": {
+        "id": 438,
+        "title": "Automated Asset Management on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "asset-management-on-dhedge-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-23T00:54:10.680Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the world of decentralized, automated hedge fund strategies with dHedge.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "dHedge",
+            "logoCid": "QmPuxUVaMcEvXDSEs46CLbb5ouKQktvEVcSHf95gWuePmF",
+            "__typename": "Dao",
+            "id": 161,
+            "namespace": "dhedge",
+            "coverCid": "QmXnyMssLHoWfo81yEHfuTekEMvuenHujjRydTsjzEr3Rm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 218,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29877494,
+                    "transferTo": [
+                        "0x65bb99e80a863e0e27ee6d09c794ed8c0be47186"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "2"
+                },
+                "orderIndex": 0,
+                "title": "Deposit into the SNX Debt Mirror Pool on Polygon ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit more than 2 USDC into the low-risk SNX Debt Mirror Pool on dHedge Polygon to earn yield.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x65bb99e80a863e0e27ee6d09c794ed8c0be47186",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 219,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 29886560,
+                    "transferTo": [
+                        "0xbae28251b2a4e621aa7e20538c06dee010bc06de"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "2"
+                },
+                "orderIndex": 1,
+                "title": "Deposit into the Stablecoin Yield Pool on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit more than 2 USDC into the Stablecoin Yield Pool on Polygon to farm the highest low-risk yield on dHedge.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0xbae28251b2a4e621aa7e20538c06dee010bc06de",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -9939,5 +9939,124 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "get-your-pr-merged": {
+        "id": 321,
+        "title": "Integrate NFT Marketplace to DappRadar",
+        "taskType": "BOUNTY",
+        "namespace": "get-your-pr-merged",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": "200000.0",
+        "rewardToken": {
+            "id": 80,
+            "address": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
+            "name": "DappRadar",
+            "symbol": "RADAR",
+            "decimals": 18,
+            "chainId": 1,
+            "updatedAt": "2022-06-23T08:05:27.118Z",
+            "usdPrice": "0.00474893",
+            "__typename": "Token"
+        },
+        "rewardNft": null,
+        "createdAt": "2022-06-06T17:12:57.471Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 4639,
+        "rewardTokenId": 80,
+        "numberOfWinners": 1,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Contribute to our open-source repositories by integrating NFT Marketplace.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "DappRadar",
+            "logoCid": "QmTbLFX3vwdvmdRir2DdqnFLvm57obopMA5h7X7c5EvxdE",
+            "__typename": "Dao",
+            "id": 143,
+            "namespace": "dappradar",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 101,
+                "bountyActionKey": "GITHUB_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 102,
+                "bountyActionKey": "GITHUB_PR_MERGED",
+                "isFulfilled": false,
+                "data": {
+                    "repo": "nft-sales-adapters",
+                    "owner": "dappradar"
+                },
+                "orderIndex": 1,
+                "title": null,
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Contribute by integrating an NFT marketplaces data tracking and by opening a pull request on our GitHub repo. As soon as the PR is merged, you will receive your rewards. You must integrate one of the following ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "marketplaces",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.google.com/spreadsheets/d/1Jr1d38BXrNqzXJyY1Gje_RnMp3UKAEgsJ9-qub_3hac",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://github.com/dappradar/nft-sales-adapters",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

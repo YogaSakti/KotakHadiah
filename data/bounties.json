@@ -10058,5 +10058,605 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "deep-stablecoin-liquidity-on-arbitrum": {
+        "id": 443,
+        "title": "Deep Stablecoin Liquidity on Arbitrum",
+        "taskType": "BOUNTY",
+        "namespace": "deep-stablecoin-liquidity-on-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-24T02:20:57.167Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Use a pool with some of the deepest stablecoin liquidity on Arbitrum to swap & earn.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 274,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Arbitrum",
+            "logoCid": "QmdP6ZkLq4FF8dcvxBs48chqFiXu7Gr8SgPCqMtfr7VA4L",
+            "__typename": "Dao",
+            "id": 160,
+            "namespace": "arbitrum",
+            "coverCid": "Qma4VT4qYsjqJy7PmMLZJaJEC33hHscVZHaoDXaWXnbsb6",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 229,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 15570572,
+                    "contractInteractions": [
+                        {
+                            "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+                            "methodId": "0x3df02124",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+                            "methodId": "0xddc1f59d",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap using the 2pool on Curve",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "The 2pool on Curve offers some of the best exchange rates between USDC/USDT on Arbitrum. Make a swap using this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/2pool",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 230,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 15570635,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7f90122BF0700F9E7e1F688fe926940E8839F353",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit either USDC or USDT into the 2pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees when someone makes a swap like you just did by depositing USDC or USDT into the 2pool on Curve Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/2pool/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "swapping-lping-and-farming-with-trader-joe": {
+        "id": 442,
+        "title": "Swapping, LPing, and Farming with Trader Joe",
+        "taskType": "BOUNTY",
+        "namespace": "swapping-lping-and-farming-with-trader-joe",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-24T01:18:21.982Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn how to do DeFi on Avalanche like a pro with Trader Joe.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 433,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Trader Joe",
+            "logoCid": "QmbpnGMTachWvvH95qCoC5Y9ZzZdUSi9Kg2qT2yWEDp6qj",
+            "__typename": "Dao",
+            "id": 149,
+            "namespace": "trader-joe",
+            "coverCid": "QmNpJFmJEucGzheFw8dVVucbR9VFsR26jJmj2nXbrLgPLD",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 222,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16434992,
+                    "contractInteractions": [
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x8a657e67",
+                            "methodAbi": {
+                                "name": "swapAVAXForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0xa2a1623d",
+                            "methodAbi": {
+                                "name": "swapExactAVAXForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0xc57559dd",
+                            "methodAbi": {
+                                "name": "swapExactAVAXForTokensSupportingFeeOnTransferTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x676528d1",
+                            "methodAbi": {
+                                "name": "swapExactTokensForAVAX",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x38ed1739",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x8803dbee",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap from any token to USDC.e on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap any tokens to USDC.e (USDC.e is ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "different",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " from USDC) on Trader Joe.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 223,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16434929,
+                    "transferTo": [
+                        "0x2a8a315e82f85d1f0658c5d66a452bbdd9356783"
+                    ],
+                    "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": ".9"
+                },
+                "orderIndex": 1,
+                "title": "Provide liquidity to the USDC / USDC.e pool on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply more than 1 USDC / 1 USDC.e to the USDC/USDC.e pool on Trader Joe to earn fees when users make swaps in this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/pool/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E#/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 226,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16434965,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4483f0b6e2f5486d06958c20f8c39a7abe87bf8f",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Stake your LP tokens in the Trader Joe Farm",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Boost your earnings from the previous step by staking your LP tokens in the Trader Joe farm! Congrats, you're earning with Trader Joe.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/farm/0x2A8A315e82F85D1f0658C5D66A452Bbdd9356783-0x4483f0b6e2F5486D06958C20f8C39A7aBe87bf8F",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

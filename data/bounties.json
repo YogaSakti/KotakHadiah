@@ -10658,5 +10658,279 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "limit-orders-name-your-price": {
+        "id": 446,
+        "title": "Limit Orders: Name your price on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "limit-orders-name-your-price",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-25T01:58:05.373Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Want to buy or sell an asset, but only at a certain price? Place a limit order on QuickSwap.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 335,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "QuickSwap",
+            "logoCid": "QmQ8tiVsQDKTUvJAD3nDJJBxxDfwFo7RMKi8BgzAoRqGTh",
+            "__typename": "Dao",
+            "id": 162,
+            "namespace": "quickswap",
+            "coverCid": "QmU1CzT5jt4P17jzJbkaATJsNHXVn29ELYoWhGcVXty4P9",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 235,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29965441,
+                    "contractInteractions": [
+                        {
+                            "address": "0x0c2c2963A4353FfD839590f7cb1E783688378814",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x38c4092b28dab7f3d98ee6524549571c283cdfa5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Place a buy or sell limit order",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Discover how to specify a price for an asset and only execute a trade when it hits that price. Using QuickSwap, place a buy or sell limit order for any asset. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What's a limit order?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://bitcoinist.com/prepared-for-liftoff-quickswap-launches-limit-orders-attracts-new-users/#:~:text=Limit%20orders%20allow%20traders%20to,greater%20volume)%20to%20QuickSwap's%20platform.",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://quickswap.exchange/#/limit-order",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "weekly-cup-of-matcha": {
+        "id": 445,
+        "title": "Multichain money with Matcha",
+        "taskType": "BOUNTY",
+        "namespace": "weekly-cup-of-matcha",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-25T01:07:51.872Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover how to get the best trades on most EVM networks at once with Matcha.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 344,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Matcha",
+            "logoCid": "QmU34dLvUj2PXC1mrb4eiJTwk7d7S2L2og4cBruHW4AFzh",
+            "__typename": "Dao",
+            "id": 158,
+            "namespace": "matcha",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 231,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 29964056,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any swap using Matcha Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Find the best price for your trade with Matcha, which uses all DEXs at once. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": You must disable gasless trade to complete this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/137/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 232,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16477986,
+                    "contractInteractions": [
+                        {
+                            "address": "0xDef1C0ded9bec7F1a1670819833240f027b25EfF",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any swap on Matcha Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Find the best price for your trade on Avalanche with Matcha, which uses all DEXs at once.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/43114/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 234,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 12978259,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1abe32c034e558cdd535791643c58a13acc10",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Make any swap on Matcha Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Find the best price for your trade on Avalanche with Matcha, which uses all DEXs at once.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/10/0x7f5c764cbc14f9669b88837ca1490cca17c31607/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -11334,5 +11334,157 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "sturdy-simple-defi-on-avalanche": {
+        "id": 449,
+        "title": "Sturdy, Simple DeFi on Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "sturdy-simple-defi-on-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-26T02:17:30.002Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Reach your final form as a multi-chain DeFi explorer by utilizing Aave v3's money market on Avalanche.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 211,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 238,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16523051,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "methodId": "0x617ba037",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa938d8536aeed1bd48f548380394ab30aa11b00e",
+                            "methodId": "0x474cf53d",
+                            "methodAbi": {
+                                "name": "depositETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "onBehalfOf",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Lend any asset on Aave v3 Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Demonstrate your DeFi mastery by supplying any asset to Aave v3's money market on Avalanche.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_avalanche_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 239,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16523162,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "methodId": "0xa415bcad",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Borrow any asset on Aave v3 Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You've deposited collateral, so you've unlocked borrowing! Test this out by borrowing any asset on Aave v3 Avalanche.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_avalanche_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

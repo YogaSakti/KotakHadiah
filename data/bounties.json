@@ -11486,5 +11486,384 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "deep-defi-on-arbitrum": {
+        "id": 452,
+        "title": "Deep DeFi on Arbitrum",
+        "taskType": "BOUNTY",
+        "namespace": "deep-defi-on-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-27T01:03:17.736Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Experiment with Balancer on Arbitrum for automated portfolio management.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 78,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Balancer",
+            "logoCid": "QmRyWjxYzTB4tvKE9B8LoQxF732ogYCN78TEpPYLCyFTwP",
+            "__typename": "Dao",
+            "id": 151,
+            "namespace": "balancer",
+            "coverCid": "QmVkxpFvhpJF8subQKZYcivsCdJ8UC1wFWS5jLbviyCAXm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 244,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 15982337,
+                    "transferTo": [
+                        "0xba12222222228d8ba445958a75a0704d566bf2c8"
+                    ],
+                    "tokenAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "5"
+                },
+                "orderIndex": 0,
+                "title": "Deposit ≥ 5 USDC into Balancer",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Reap the benefits of automated portfolio management by depositing more than 5 USDC in this Balancer vault.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/pool/0x64541216bafffeec8ea535bb71fbc927831d0595000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 245,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 15982337,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x104f1459a2fFEa528121759B238BB609034C2f01",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Stake your LP tokens from the previous step",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake the LP tokens you just received in Balacner & boost your APY. Congrats, you're a DeFi pro on Arbitrum!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/pool/0x64541216bafffeec8ea535bb71fbc927831d0595000100000000000000000002",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "layer-2-greater-layer-2-gas": {
+        "id": 451,
+        "title": "Layer 2 to Layer 2 Gas",
+        "taskType": "BOUNTY",
+        "namespace": "layer-2-greater-layer-2-gas",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-27T00:57:30.655Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Take this chance to top up your gas between popular layer 2's.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 87,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 242,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 13204723,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5D42fBa6b7Ca914B31239b419Ab80b",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Obtain ETH on Slingshot Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Slingshot to obtain ETH on Optimism. You'll take this ETH and bridge it in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/USDC",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 243,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 13204497,
+                    "contractInteractions": [
+                        {
+                            "address": "0x5800249621DA520aDFdCa16da20d8A5Fc0f814d8",
+                            "methodId": "0x0ddedd84",
+                            "methodAbi": {
+                                "name": "batchSendNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "receivers",
+                                        "type": "address[]",
+                                        "internalType": "address payable[]"
+                                    },
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "srcChainTxHashes",
+                                        "type": "bytes32[]",
+                                        "internalType": "bytes32[]"
+                                    },
+                                    {
+                                        "name": "perUserGasAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "maxLimit",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x5800249621DA520aDFdCa16da20d8A5Fc0f814d8",
+                            "methodId": "0xe56461ad",
+                            "methodAbi": {
+                                "name": "depositNativeToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "destinationChainId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Bridge ETH gas from Optimism to Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Bungee Refuel to bridge gas from Optimism to Arbitrum quickly and easily.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/refuel",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "flex-your-ens-on-twitter": {
+        "id": 450,
+        "title": "Flex your ENS on Twitter",
+        "taskType": "BOUNTY",
+        "namespace": "flex-your-ens-on-twitter",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-27T00:32:15.550Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Show off your ENS by adding it to your Twitter name in true web3 fashion.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 214,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 240,
+                "bountyActionKey": "ENS_IMPORTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 241,
+                "bountyActionKey": "TWITTER_NAME_CONTAINS_ENS",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 1,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

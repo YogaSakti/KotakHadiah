@@ -12508,5 +12508,372 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "intro-to-gmx-arbitrum-odyssey": {
+        "id": 458,
+        "title": "Intro to GMX: Arbitrum Odyssey",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-gmx-arbitrum-odyssey",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-28T20:51:15.426Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn about GMX & take part in the Arbitrum odyssey by completing this step-by-step bounty.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 47,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "GMX",
+            "logoCid": "Qmd1yGvZhR6KbH9T5gEw2fz4AFFYqKdLivbozAbkixBWSf",
+            "__typename": "Dao",
+            "id": 169,
+            "namespace": "gmx",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 253,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 16274396,
+                    "contractInteractions": [
+                        {
+                            "address": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
+                            "methodId": "0xc9874170",
+                            "methodAbi": {
+                                "name": "createIncreasePosition",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "_indexToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "_amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_minOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_sizeDelta",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_isLong",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "_acceptablePrice",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_executionFee",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_referralCode",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba",
+                            "methodId": "0x332e0382",
+                            "methodAbi": {
+                                "name": "createIncreasePositionETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "_indexToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "_minOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_sizeDelta",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_isLong",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "_acceptablePrice",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_executionFee",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_referralCode",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Open a position on GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn about GMX & take part in the Arbitrum odyssey by opening a long or short position with more than 10 USD in any token. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is GMX?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://medium.com/@vikram.arun/gmx-the-trading-platform-of-the-people-by-the-people-for-the-people-c4856897478",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://gmx.io/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 254,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 16274485,
+                    "contractInteractions": [
+                        {
+                            "address": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
+                            "methodId": "0xabe68eaa",
+                            "methodAbi": {
+                                "name": "swapETHToTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "_minOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
+                            "methodId": "0x2d4ba6a7",
+                            "methodAbi": {
+                                "name": "swapTokensToETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "_amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_minOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064",
+                            "methodId": "0x6023e966",
+                            "methodAbi": {
+                                "name": "swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "_amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_minOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make a swap on GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the Swap function on GMX Arbitrum to swap between any two tokens.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://gmx.io/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 255,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 16275831,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4277f8F2c384827B5273592FF7CeBd9f2C1ac258",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Become an LP on GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Becoming an LP on GMX Arbitrum by minting & staking GLP tokens and earn fees from GMX when people make swaps and use leverage trading.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://gmx.io/buy_glp",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -11865,5 +11865,153 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "intro-to-dcaing-with-mean": {
+        "id": 454,
+        "title": "Intro to DCAing with Mean",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-dcaing-with-mean",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-28T00:11:17.889Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Timing the market is hard. Learn how to dollar-cost-average with Mean Finance",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 53,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Mean Finance",
+            "logoCid": "QmZerMVpY38Htk8qpqhtJ8VUTPCJJMHGFQopvLFR7cWK9v",
+            "__typename": "Dao",
+            "id": 167,
+            "namespace": "mean-finance",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 246,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30077223,
+                    "contractInteractions": [
+                        {
+                            "address": "0x059d306A25c4cE8D7437D25743a8B94520536BD5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Dollar-cost-average from USDC to Matic on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to ETH. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/137/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 247,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 13346897,
+                    "contractInteractions": [
+                        {
+                            "address": "0x059d306a25c4ce8d7437d25743a8b94520536bd5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Dollar-cost-average from USDC to ETH on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to ETH. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/10/0x7f5c764cbc14f9669b88837ca1490cca17c31607/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

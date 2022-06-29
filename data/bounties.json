@@ -12875,5 +12875,142 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explore-avalanche-intro-to-avax-staking-1": {
+        "id": 461,
+        "title": "Explore Avalanche: Intro to AVAX Staking",
+        "taskType": "BOUNTY",
+        "namespace": "explore-avalanche-intro-to-avax-staking-1",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-28T23:18:23.024Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn how to become a liquid staker on Avalanche. You'll use the tokens obtained in this bounty in a future bounty!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 215,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 258,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16645316,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Stake AVAX for sAVAX on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Turn your AVAX into sAVAX, the liquid staked AVAX token, using BenQi and earn yield for staking. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquid staking?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.benqi.fi/benqi-liquid-staking/overview",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://staking.benqi.fi/stake",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 259,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16645603,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xF362feA9659cf036792c9cb02f8ff8198E21B4cB",
+                    "transferFrom": [
+                        "0xF362feA9659cf036792c9cb02f8ff8198E21B4cB"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Supply your sAVAX to the BenQi Money Market to earn yield",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide the sAVAX you received in the previous step to the BenQi money market for additional APY. You'll use these LP tokens in an upcoming bounty.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#supply",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

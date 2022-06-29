@@ -13012,5 +13012,296 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explore-avalanche-iii-ribbon-finance": {
+        "id": 466,
+        "title": "Explore Avalanche III: Ribbon Finance",
+        "taskType": "BOUNTY",
+        "namespace": "explore-avalanche-iii-ribbon-finance",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-29T21:41:19.794Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover ways to use sAVAX & Avax productively on Avalanche with Ribbon Finance, provider of decentralized option vaults.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 23,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 266,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16646063,
+                    "transferTo": [
+                        "0x6bf686d99a4ce17798c45d09c21181fac29a9fb3"
+                    ],
+                    "tokenAddress": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Deposit your sAVAX to the T-sAVAX-C vault on Ribbon Finance",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit sAVAX into Ribbon, an automated options strategy manager, for inclusion in their weekly strategy. Obtain more sAVAX ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://staking.benqi.fi/stake",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ". ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " Make sure to deposit ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "sAVAX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " for this step, not AVAX.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-sAVAX-C",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 267,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16645943,
+                    "contractInteractions": [
+                        {
+                            "address": "0x98d03125c62dae2328d9d3cb32b7b969e6a87787",
+                            "methodId": "0xf6326fb3",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Deposit AVAX into T-AVAX-C covered call vault",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit some sAVAX from BenQi into Ribbon, an automated options strategy manager, for inclusion in their weekly strategy.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-AVAX-C",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "intro-to-avax-staking-explore-savax": {
+        "id": 465,
+        "title": "Explore Avalanche II: Using sAVAX",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-avax-staking-explore-savax",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-06-29T20:55:22.264Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover ways to use the sAVAX tokens you obtained in the previous bounty across the Avalanche ecosystem.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 57,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 263,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16645646,
+                    "contractInteractions": [
+                        {
+                            "address": "0x486af39519b4dc9a7fccd318217352830e8ad9b4",
+                            "methodId": "0xc2998238",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Mark sAVAX as collateral on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Head to the BenQi markets and mark your sAVAX as collateral by flipping the switch marked \"Collateral\" in the second column.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#supply",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 264,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16645646,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    "transferFrom": [
+                        "0xB715808a78F6041E46d61Cb123C9B4A27056AE9C"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Borrow USDC on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow any amount of USDC using BenQi Avalanche. You can borrow against the sAVAX you just marked as collateral.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#borrow",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

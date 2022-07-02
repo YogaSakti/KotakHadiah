@@ -14351,5 +14351,94 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "weekend-trading-on-matcha-avalanche": {
+        "id": 477,
+        "title": "Weekend Trading on Matcha Avalanche",
+        "taskType": "BOUNTY",
+        "namespace": "weekend-trading-on-matcha-avalanche",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-02T20:12:37.149Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Take advantage of Avalanche's low fees to get the best price on any trade with Matcha.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Matcha",
+            "logoCid": "QmU34dLvUj2PXC1mrb4eiJTwk7d7S2L2og4cBruHW4AFzh",
+            "__typename": "Dao",
+            "id": 158,
+            "namespace": "matcha",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 279,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16814068,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+                            "methodId": "0x415565b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on Matcha Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get the best price on any trade this weekend with Matcha Avalanche.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/43114/0xa7d7079b0fead91f3e65f86e8915cb59c1a4c664/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

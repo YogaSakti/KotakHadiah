@@ -14440,5 +14440,308 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "curve-introduction-ii": {
+        "id": 478,
+        "title": "Curve: Introduction II",
+        "taskType": "BOUNTY",
+        "namespace": "curve-introduction-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-02T20:37:26.045Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover one of the most efficient ways to trade stablecoins and how to earn when people make swaps on Curve Avalanche.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 45,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Curve",
+            "logoCid": "QmYXyqr2pqkKeaVr4Zc87uCq8YvAyQWBy3vbYEyo5RdDGb",
+            "__typename": "Dao",
+            "id": 146,
+            "namespace": "curve",
+            "coverCid": "QmUBaekSK6fnRjUU95a98qWVV1jdK9mVSWmRcyNSdVnBDt",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 281,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16814889,
+                    "contractInteractions": [
+                        {
+                            "address": "0x3a43a5851a3e3e0e25a3c1089670269786be1577",
+                            "methodId": "0x3df02124",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x3a43a5851a3e3e0e25a3c1089670269786be1577",
+                            "methodId": "0xddc1f59d",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap USDC/USDC.e on Curve Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Exchange between 2 of the most popular stablecoins on Avalanche. You'll use either one of these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://avax.curve.fi/factory/30",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 282,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 16814889,
+                    "contractInteractions": [
+                        {
+                            "address": "0x3a43a5851a3e3e0e25a3c1089670269786be1577",
+                            "methodId": "0x0b4c7e4d",
+                            "methodAbi": {
+                                "name": "add_liquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amounts",
+                                        "type": "uint256[2]"
+                                    },
+                                    {
+                                        "name": "_min_mint_amount",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x3a43a5851a3e3e0e25a3c1089670269786be1577",
+                            "methodId": "0x0c3e4b54",
+                            "methodAbi": {
+                                "name": "add_liquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amounts",
+                                        "type": "uint256[2]"
+                                    },
+                                    {
+                                        "name": "_min_mint_amount",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Deposit USDC or USDC.e into this pool on Curve Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit the tokens you just obtained in the pool you just used & earn fees every time someone makes swaps. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You can deposit & stake, you'll complete staking in the next step",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://avax.curve.fi/factory/30/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 283,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16815071,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0C2dA704a72890dC8daFb3944367E123880c1d00",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Stake your LP tokens to boost your earnings",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You just obtained Curve LP tokens. Stake these tokens (Deposit in gauge) to boost your earnings. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already staked/deposited in gauge, you can hit \"Verify\"",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://avax.curve.fi/factory/30/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

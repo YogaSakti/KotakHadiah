@@ -14743,5 +14743,1212 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "uniswap-pro-swapping-and-lping": {
+        "id": 480,
+        "title": "Uniswap Pro: Swapping & LPing",
+        "taskType": "BOUNTY",
+        "namespace": "uniswap-pro-swapping-and-lping",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-04T00:43:20.433Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 750,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Rediscover the efficiency & flexibility of Uniswap v3 by swapping & LPing.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 83,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 287,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30308627,
+                    "contractInteractions": [
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x1f0464d1",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "previousBlockhash",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x5ae401dc",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x472b43f3",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x42712a67",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+                            "methodId": "0x414bf389",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x04e45aaf",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any swap on Uniswap v3 Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Uniswap's beautiful front-end and efficient AMM to make any swap on Polygon. You can use these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 288,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30309103,
+                    "contractInteractions": [
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0x88316456",
+                            "methodAbi": {
+                                "name": "mint",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "token0",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "token1",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "fee",
+                                                "type": "uint24",
+                                                "internalType": "uint24"
+                                            },
+                                            {
+                                                "name": "tickLower",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "tickUpper",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "recipient",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.MintParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Provide liquidity to any token pair on Uniswap v3 Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the tokens you just acquired, provide liquidity to any token pair on Uniswap v3 Polygon & earn fees when people swap using this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 289,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 13782629,
+                    "contractInteractions": [
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x1f0464d1",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "previousBlockhash",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x5ae401dc",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x472b43f3",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x42712a67",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+                            "methodId": "0x414bf389",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Make any swap on Uniswap v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Uniswap's beautiful front-end and efficient AMM to make any swap on Optimism. You can use these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 290,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 13782629,
+                    "contractInteractions": [
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0x88316456",
+                            "methodAbi": {
+                                "name": "mint",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "token0",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "token1",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "fee",
+                                                "type": "uint24",
+                                                "internalType": "uint24"
+                                            },
+                                            {
+                                                "name": "tickLower",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "tickUpper",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "recipient",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.MintParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Provide liquidity to any token pair on Uniswap v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the tokens you just acquired, provide liquidity to any token pair on Uniswap v3 Optimism & earn fees when people swap using this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 285,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 16935948,
+                    "contractInteractions": [
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x1f0464d1",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "previousBlockhash",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x5ae401dc",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x472b43f3",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x42712a67",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+                            "methodId": "0x414bf389",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Make any swap on Uniswap v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Uniswap's beautiful front-end and efficient AMM to make any swap on Arbitrum. You can use these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=arbitrum",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 286,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 13782629,
+                    "contractInteractions": [
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0x88316456",
+                            "methodAbi": {
+                                "name": "mint",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "token0",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "token1",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "fee",
+                                                "type": "uint24",
+                                                "internalType": "uint24"
+                                            },
+                                            {
+                                                "name": "tickLower",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "tickUpper",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "recipient",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.MintParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 5,
+                "title": "Provide liquidity to any token pair on Uniswap v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the tokens you just acquired, provide liquidity to any token pair on Uniswap v3 Arbitrum & earn fees when people swap using this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=arbitrum",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "slinging-trades-on-slingshot-polygon": {
+        "id": 479,
+        "title": "Slinging Trades on Slingshot Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "slinging-trades-on-slingshot-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-04T00:20:20.214Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "(Re)discover the magic of Slingshot Polygon & trading the web3 way.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 232,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 284,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30308264,
+                    "contractInteractions": [
+                        {
+                            "address": "0xF2e4209afA4C3c9eaA3Fb8e12eeD25D8f328171C",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a trade on Slingshot Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Take advantage of low fees and quick transactions to swap any tokens on Slingshot Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

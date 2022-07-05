@@ -15950,5 +15950,129 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "incentivized-vaults-arrakis-finance-on-polygon": {
+        "id": 481,
+        "title": "Incentivized Vaults: Arrakis Finance on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "incentivized-vaults-arrakis-finance-on-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-05T02:43:13.371Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the wonder of Arrakis's automated liquidity management with incentivized vaults on Polygon.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 101,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Arrakis",
+            "logoCid": "QmRp29ySJu89pkSdxoiwGcjcTTF75Ld5vGBNjmFKGc8RPc",
+            "__typename": "Dao",
+            "id": 175,
+            "namespace": "arrakis",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 294,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30349904,
+                    "transferTo": [
+                        "0xbc91a120ccd8f80b819eaf32f0996dac3fa76a6c"
+                    ],
+                    "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Add Liquidity to the WMATIC/WETH Vault",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the WMATIC/WETH vault on Arrakis Polygon to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/#/vaults/stake/0xDC0eCA1D69ab51C2B2171C870A1506499081dA5B",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 293,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30349904,
+                    "transferTo": [
+                        "0xbc91a120ccd8f80b819eaf32f0996dac3fa76a6c"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Add Liquidity to the WMATIC/USDC stablecoin Vault",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the WMATIC/USDC vault on Arrakis Polygon to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/#/vaults/stake/0x4520c823E3a84ddFd3F99CDd01b2f8Bf5372A82a/add",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

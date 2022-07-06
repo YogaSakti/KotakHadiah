@@ -16856,5 +16856,211 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "avalanche-crash-course-ii": {
+        "id": 486,
+        "title": "Avalanche Crash Course II: Part I",
+        "taskType": "BOUNTY",
+        "namespace": "avalanche-crash-course-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-06T21:48:41.557Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Dive deeper into the Avalanche ecosystem by using your sAVAX, providing liquidity, and experimenting with NFTs",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 12,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 301,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16988889,
+                    "transferTo": [
+                        "0xa389f9430876455c36478deea9769b7ca4e3ddb1"
+                    ],
+                    "tokenAddress": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Provide liquidity to the AVAX/USDC.e pool on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply tokens to the AVAX/USDC.e pool on Trader Joe to earn fees when users make swaps in this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/pool/AVAX/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664#/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 302,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16988889,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xF362feA9659cf036792c9cb02f8ff8198E21B4cB",
+                    "transferFrom": [
+                        "0xF362feA9659cf036792c9cb02f8ff8198E21B4cB"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Supply your sAVAX to the BenQi Money Market",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide the sAVAX you received in the previous step to the BenQi money market for additional APY. You'll use these LP tokens in an upcoming bounty.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#supply",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 303,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 0,
+                    "contractInteractions": [
+                        {
+                            "address": "0x486af39519b4dc9a7fccd318217352830e8ad9b4",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Mark sAVAX as collateral on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Head to the BenQi markets and mark your sAVAX as collateral by flipping the switch marked \"Collateral\" in the second column. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you've done this before, click \"Verify\" to complete the step",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#supply",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 304,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 16988889,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    "transferFrom": [
+                        "0xb715808a78f6041e46d61cb123c9b4a27056ae9c"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Borrow USDC on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow any amount of USDC using BenQi Avalanche. You can borrow against the sAVAX you just marked as collateral.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -17062,5 +17062,433 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "ahoy-matey-exploring-clipper-dex": {
+        "id": 489,
+        "title": "Ahoy, matey! Exploring Clipper DEX",
+        "taskType": "BOUNTY",
+        "namespace": "ahoy-matey-exploring-clipper-dex",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-07T14:16:05.562Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Clipper's new community liquidity pools (CLPs) are now open for business. Become a Clipper liquidity provider and swap using their protocol in a few easy steps.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 5,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Clipper",
+            "logoCid": "QmeUQvdVW5eWWwru32cKeH2L3CbKHomEWnBgzPyddxARSm",
+            "__typename": "Dao",
+            "id": 177,
+            "namespace": "clipper",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 306,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 14023266,
+                    "contractInteractions": [
+                        {
+                            "address": "0x93bab043d534fbfdd13b405241be9267d393b827",
+                            "methodId": "0x2963d983",
+                            "methodAbi": {
+                                "name": "depositForCoin",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "buyToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "minBuyAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "clipperAsset",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "depositAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "poolTokens",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "goodUntil",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "theSignature",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "v",
+                                                "type": "uint8",
+                                                "internalType": "uint8"
+                                            },
+                                            {
+                                                "name": "r",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "s",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            }
+                                        ],
+                                        "internalType": "struct ClipperCommonExchange.Signature"
+                                    },
+                                    {
+                                        "name": "auxData",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "buyAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "methodId": "0x0ce9a63d",
+                            "methodAbi": {
+                                "name": "packedTransmitAndSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "packedInput",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "packedOutput",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "packedDestination",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "auxData",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "r",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "vs",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on Clipper Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Clipper's exchange to make a swap on Optimism, using your token of choice.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://clipper.exchange/app/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 305,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 14019656,
+                    "contractInteractions": [
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "methodId": "0x66d5d61b",
+                            "methodAbi": {
+                                "name": "packedTransmitAndDepositOneAsset",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "packedInput",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "packedConfig",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "r",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "s",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "methodId": "0xc0d5ebfd",
+                            "methodAbi": {
+                                "name": "transmitAndDepositSingleAsset",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "inputToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "inputAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "nDays",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "poolTokens",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "goodUntil",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "theSignature",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "v",
+                                                "type": "uint8",
+                                                "internalType": "uint8"
+                                            },
+                                            {
+                                                "name": "r",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "s",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            }
+                                        ],
+                                        "internalType": "struct ClipperCommonExchange.Signature"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "methodId": "0x29d0c8fc",
+                            "methodAbi": {
+                                "name": "transmitAndDeposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "depositAmounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "nDays",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "poolTokens",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "goodUntil",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "theSignature",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "v",
+                                                "type": "uint8",
+                                                "internalType": "uint8"
+                                            },
+                                            {
+                                                "name": "r",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            },
+                                            {
+                                                "name": "s",
+                                                "type": "bytes32",
+                                                "internalType": "bytes32"
+                                            }
+                                        ],
+                                        "internalType": "struct ClipperCommonExchange.Signature"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Provide liquidity to the 'Clipper pool' on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply tokens to the Clipper pool on Clipper Optimism to earn fees when users make swaps in this pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You must join the ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Clipper",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://discord.gg/y9eGcdstBy",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Optimism",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://discord.gg/optimism",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " Discord servers to be whitelisted.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://clipper.exchange/app/liquidity",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

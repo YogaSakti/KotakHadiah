@@ -17754,5 +17754,111 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "avalanche-crash-course-ii-part-ii": {
+        "id": 495,
+        "title": "Avalanche Crash Course II: Part II",
+        "taskType": "BOUNTY",
+        "namespace": "avalanche-crash-course-ii-part-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-08T22:30:23.575Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Use your sAVAX to earn liquidity mining rewards & unlock borrowing power on Aave v3 Avalanche.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 7,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 313,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 17076299,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x513c7e3a9c69ca3e22550ef58ac1c0088e918fff",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Supply sAVAX to Aave v3 Avalanche to earn liquidity mining rewards",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit sAVAX into Aave v3 Avalanche to unlock borrowing power & earn Aave liquidity mining rewards. Obtain more sAVAX ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://staking.benqi.fi/stake",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_avalanche_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

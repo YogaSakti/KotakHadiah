@@ -17490,5 +17490,269 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-aave-expert": {
+        "id": 490,
+        "title": "Multichain Aave Expert",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-aave-expert",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-07T22:47:16.099Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the power of Aave's money markets across Polygon, Avalanche, and Optimism.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 171,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 307,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30460485,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Supply MATIC on Aave v3 Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, supply Matic on Polygon to unlock borrowing power.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 308,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30460485,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8619d80fb0141ba7f184cbf22fd724116d9f7ffc",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Borrow variable debt DAI on Aave v3 Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the tokens you just supplied to Aave v3, borrow variable debt DAI on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 309,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 14044684,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x625e7708f30ca75bfd92586e17077590c60eb4cd",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Supply USDC on Aave v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, supply USDC on Optimism to unlock borrowing power.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 310,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 14044684,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0c84331e39d6658cd6e6b9ba04736cc4c4734351",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Borrow variable debt WETH on Aave v3 Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, borrow variable debt WETH on Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 311,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 17034053,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Supply USDC on Aave v3 Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, supply USDC on Avalanche to unlock borrowing power.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_avalanche_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 312,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 17034053,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xfccf3cabbe80101232d343252614b6a3ee81c989",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 5,
+                "title": "Borrow variable debt USDC on Aave v3 Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Aave v3, borrow variable debt USDC on Avalanche.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_avalanche_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -17860,5 +17860,351 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "weekend-trading-on-slingshot-polygon": {
+        "id": 497,
+        "title": "Weekend trading on Slingshot Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "weekend-trading-on-slingshot-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-08T23:32:58.940Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 50,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the incredible experience of trading the web3 way with Slingshot Polygon.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 177,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 319,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30501591,
+                    "contractInteractions": [
+                        {
+                            "address": "0xf2e4209afa4c3c9eaa3fb8e12eed25d8f328171c",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a trade on Slingshot Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap any tokens the web3 way this weekend on Slingshot Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "intro-to-beefy-i": {
+        "id": 496,
+        "title": "Intro to Beefy: Part I",
+        "taskType": "BOUNTY",
+        "namespace": "intro-to-beefy-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-08T23:13:09.248Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the safety-focused multichain yield optimizer Beefy Finance.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 121,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 315,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30500803,
+                    "contractInteractions": [
+                        {
+                            "address": "0x540a9f99bb730631bf243a34b19fd00ba8cf315c",
+                            "methodId": "0x70fae20d",
+                            "methodAbi": {
+                                "name": "beefInETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "beefyVault",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenAmountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Deposit MATIC in the stMATIC-MATIC vault on Beefy Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap MATIC into the stMATIC-MATIC vault on Beefy Polygon to earn yield. This vault is currently being boosted by Lido. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Beefy?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.beefy.finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-stmatic-matic",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 318,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 17077692,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1b156c5c75e9df4caab2a5cc5999ac58ff4f9090",
+                            "methodId": "0x42220f34",
+                            "methodAbi": {
+                                "name": "depositBNB",
+                                "type": "function",
+                                "inputs": [],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Deposit AVAX in the AVAX vault on Beefy Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap Avax into the Avax vault on Beefy Avalanche to earn yield using their autocompounding techniques.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/aavev3-avax",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 317,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17280589,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Provide Liquidity to Curve's 2Pool on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn interest on your stables by depositing USDC or USDT into Curve's 2Pool on Arbitrum. Hold onto these LP tokens for the next step (don't stake them on Curve)!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/2pool/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 316,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 17280695,
+                    "contractInteractions": [
+                        {
+                            "address": "0xec7c0205a6f426c2cb1667d783b5b4fd2f875434",
+                            "methodId": "0xde5f6268",
+                            "methodAbi": {
+                                "name": "depositAll",
+                                "type": "function",
+                                "inputs": [],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xec7c0205a6f426c2cb1667d783b5b4fd2f875434",
+                            "methodId": "0xb6b55f25",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Deposit Curve 2Pool LP tokens in the USDC/USDT vault on Beefy Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap the LP tokens your received from the previous step into the USDC/USDT vault on Beefy Arbitrum to earn yield.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/curve-arb-2pool",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

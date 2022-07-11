@@ -18206,5 +18206,123 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "collect-our-q2-report-on-mirror": {
+        "id": 501,
+        "title": "Collect our Q2 Report on Mirror",
+        "taskType": "BOUNTY",
+        "namespace": "collect-our-q2-report-on-mirror",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-11T11:58:01.155Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Mint our Q2 Report as an NFT collectible on Mirror.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 112,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 328,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 1000,
+                    "contractInteractions": [
+                        {
+                            "address": "0x441F60b4E1f7E973CC5BaAFCD6d5b065eEF90358",
+                            "methodId": "0x3a1b1d57",
+                            "methodAbi": {
+                                "name": "purchase",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "tokenRecipient",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "message",
+                                        "type": "string",
+                                        "internalType": "string"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x302f746ee2fdc10ddff63188f71639094717a766",
+                            "methodId": "0xad3c6b61",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Mint our Q2 report as an NFT on Mirror",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "We just released our quarterly report. You can mint it as an NFT collectible on Mirror for free (just pay gas)!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://layer3.mirror.xyz/7XF9de_kfdGgTcxzSeQeuiVyhe_Pqu0FQ3vwukzzb-8",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

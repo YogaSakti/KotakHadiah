@@ -18830,5 +18830,349 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discover-balancer-on-l2s": {
+        "id": 509,
+        "title": "Discover Balancer on L2s",
+        "taskType": "BOUNTY",
+        "namespace": "discover-balancer-on-l2s",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-13T00:33:15.520Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore one of the most popular DeFi products –– Balancer –– on 2 of the most popular layer 2 networks.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 59,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Balancer",
+            "logoCid": "QmRyWjxYzTB4tvKE9B8LoQxF732ogYCN78TEpPYLCyFTwP",
+            "__typename": "Dao",
+            "id": 151,
+            "namespace": "balancer",
+            "coverCid": "QmVkxpFvhpJF8subQKZYcivsCdJ8UC1wFWS5jLbviyCAXm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 336,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30660639,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0297e37f1873d2dab4487aa67cd56b58e2f27875",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Deposit into the Polygon Base Pool on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using any tokens, deposit into the WMATIC-USDC-WETH-BAL pool on Balancer Polygon. You'll use the LP tokens you receive in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 337,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30660639,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x068ff98072d3eb848d012e3390703bb507729ed6",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Stake your Polygon Base Pool LP tokens on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake the LP tokens you received in the previous step to boost your rewards on Balancer. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already staked in the previous step, you'll be able to verify this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 338,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17163984,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8",
+                    "transferFrom": [
+                        "0xba12222222228d8ba445958a75a0704d566bf2c8"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Obtain BAL using the Balancer DEX on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the Balancer DEX, swap from any token to BAL. You'll use these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 339,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17512492,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xcc65a812ce382ab909a11e434dbf75b34f1cc59d",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Deposit BAL into the WETH-BAL pool on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit the BAL you obtained in the previous step to earn rewards on your BAL. You'll use the LP tokens you receive in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/pool/0xcc65a812ce382ab909a11e434dbf75b34f1cc59d000200000000000000000001",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 340,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17512543,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xfaad21203a7856889cb6eb644ab6864e7253107a",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Stake your WETH-BAL Pool LP tokens on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake the LP tokens you received in the previous step to boost your rewards on Balancer. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already staked in the previous step, you'll be able to verify this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/pool/0xcc65a812ce382ab909a11e434dbf75b34f1cc59d000200000000000000000001",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "weekly-slinging-on-slingshot-optimism": {
+        "id": 508,
+        "title": "Weekly Slinging on Slingshot Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "weekly-slinging-on-slingshot-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-13T00:26:29.228Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore why Slingshot is one of the coolest ways to trade in web3 on Optimism.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 154,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 335,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 14355599,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b",
+                            "methodId": "0x06e75722",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade using Slingshot on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Discover why Slingshot is one of the best places to trade tokens on one of the hottest L2's –– Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/DAI",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

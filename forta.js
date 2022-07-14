@@ -80,7 +80,7 @@ scannerData.forEach((el) => totalReward += el.rewardPool);
         Object.assign(scannerData[scannerData.findIndex((el) => el.chainId === chain.chainId)], chain)
     }
     
-    let parsedData = scannerData.map((x) => `*\\#${x.network}*\nAgents: ${x.upAgents}\nScanners: ${x.upScanners}\nWeekly Reward: ${parseFloat(x.rewardPool / x.totalScanners).toFixed(2)} FORT (Approximately)`)
+    let parsedData = scannerData.map((x) => `*\\#${x.network}*\nAgents: ${x.upAgents}\nScanners: ${x.upScanners}\nWeekly Reward: ${parseFloat(x.rewardPool / x.totalScanners).toFixed(2)} FORT (Approximately)\nWeekly Reward Pool: ${x.rewardPool} FORT`)
     // eslint-disable-next-line require-unicode-regexp
     let text = `${parsedData.toString().replaceAll(',', '\n\n')}\n\nReward Pool for __Week Ending ${getSundayOfCurrentWeek()}__ is *${totalReward.toLocaleString()}* FORT\n_Rewards per participant will depend on their relative performance to others, measured by an SLA score, and the amount of time in the week which they performed at an above minimum score (0.75). Average SLA will be the average of all the the values which were above minimum score._`.replace(/\./g, '\\.').replace(/\(/g, '\\(').replace(/\)/g, '\\)');
     // eslint-disable-next-line camelcase

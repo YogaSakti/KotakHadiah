@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { Telegraf } = require('telegraf');
 const moment = require('moment-timezone');
 const fetch = require('node-fetch');

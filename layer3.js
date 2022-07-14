@@ -3,7 +3,7 @@
 require('dotenv').config()
 const fetch = require('node-fetch');
 const log = require('log-beautify');
-const TelegramBot = require('node-telegram-bot-api');
+const { Telegraf } = require('telegraf');
 const JSONdb = require('simple-json-db');
 const capitalize = (s) => (s && s[0].toUpperCase() + s.slice(1)) || '';
 
@@ -13,7 +13,7 @@ log.useLabels = true
 let botToken = process.env.BOTTOKEN, 
     channelID = process.env.CHANNELID;
 
-const bot = new TelegramBot(botToken);
+const bot = new Telegraf(botToken);
 const bounties = new JSONdb('data/bounties.json');
 const query = new JSONdb('data/query.json');
 
@@ -45,7 +45,7 @@ const headers = {
             log.success(`${task.title} with reward ${task.rewardType}, Available for ${task.numberOfWinners === null ? 'Unlimited' : task.numberOfWinners} partisipant (${task.totalBountyClaimersCount} Claimers)`);
             const data = taskdetail.data.task
             const text = `#Layer3 - *Bounty*\n\n*${data.title}* By _${data.Dao.name}_\n\nReward Type: *${data.rewardType == 'ONLY_XP' ? 'XP' : data.rewardType}*\nReward Amount: *${data.rewardType !== 'ONLY_XP' ? `${data.rewardAmount} ${data.rewardToken.symbol}` : '-'}* | *${data.xp} XP*\nWinners: *${data.numberOfWinners ? data.numberOfWinners : 'Unlimited'}* _Participant_\n\nTask: \n${data.BountySteps.map((x) => `- \`${capitalize(x.title ? x.title : x.bountyActionKey.replaceAll('_', ' ').toLowerCase())}\``).toString().replaceAll(',', '\n')}`
-            const sendMessage = await bot.sendMessage(channelID, text, { protect_content: true, parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: `${data.title} - ${data.Dao.name}`, url: `https://beta.layer3.xyz/bounties/${slug}` }]] } })
+            const sendMessage = await bot.telegram.sendMessage(channelID, text, { protect_content: true, parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: `${data.title} - ${data.Dao.name}`, url: `https://beta.layer3.xyz/bounties/${slug}` }]] } })
             if (sendMessage.message_id) {
                 log.success(`Success Send Bounty to ${sendMessage.chat.type} ${sendMessage.chat.title}`)
                 bounties.set(slug, taskdetail.data.task)

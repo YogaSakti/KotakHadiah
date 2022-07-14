@@ -10,7 +10,7 @@ require('dotenv').config()
 const fetch = require('node-fetch');
 const log = require('log-beautify');
 const Table = require('cli-table3');
-const TelegramBot = require('node-telegram-bot-api');
+const { Telegraf } = require('telegraf');
 const JSONdb = require('simple-json-db');
 
 log.useSymbols = true
@@ -20,7 +20,7 @@ let botToken = process.env.BOTTOKEN,
     channelID = process.env.CHANNELID, 
     clientAuth = process.env.CLIENTAUTH;
 
-const bot = new TelegramBot(botToken);
+const bot = new Telegraf(botToken);
 const giftbox = new JSONdb('data/giftbox.json');
 
 const headers = {
@@ -74,8 +74,8 @@ const BaseApi = Buffer.from('aHR0cHM6Ly9zLmlzYWZlcGFsLmNvbS9zYXBpL3YxL2dpZnRib3g
         let text = quest.map((x) => `Question:<u>${x.topic.trim()}</u>\nAnswer: <b>${x.options[x.answer]}</b>\n\n`)
         text = text.toString().replaceAll(',Question:', '').replace('Question:', '')
         const text_final = `<b>#SafePal</b>\n\n<b>Question and Answers <i>${title}</i></b>\n\n${text}`
-        await bot.sendPhoto(channelID, banner)
-        const sendMessage = await bot.sendMessage(channelID, text_final, { protect_content: true, parse_mode: 'HTML' })
+        await bot.telegram.sendPhoto(channelID, banner)
+        const sendMessage = await bot.telegram.sendMessage(channelID, text_final, { protect_content: true, parse_mode: 'HTML' })
         if (sendMessage.message_id) {
             log.success(`Success Send QnA to ${sendMessage.chat.type} ${sendMessage.chat.title}`)
             data.post = true

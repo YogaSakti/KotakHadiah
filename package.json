@@ -6,6 +6,7 @@
   "scripts": {
     "giftbox": "node giftbox.js",
     "layer3": "node layer3.js",
+    "forta": "node forta.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,8 +15,9 @@
     "cli-table3": "^0.6.1",
     "dotenv": "^16.0.0",
     "log-beautify": "^1.2.0",
+    "moment-timezone": "^0.5.34",
     "node-fetch": "^2.6.7",
-    "node-telegram-bot-api": "^0.56.0",
-    "simple-json-db": "^2.0.0"
+    "simple-json-db": "^2.0.0",
+    "telegraf": "^4.8.5"
   }
 }

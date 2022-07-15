@@ -19664,5 +19664,713 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "incentivized-vaults-arrakis-finance-ii": {
+        "id": 516,
+        "title": "Incentivized Vaults: Arrakis Finance II",
+        "taskType": "BOUNTY",
+        "namespace": "incentivized-vaults-arrakis-finance-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-15T01:04:36.088Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Dive deeper & discover the wonder of Arrakis's automated liquidity management with incentivized vaults on Polygon.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 30,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Arrakis",
+            "logoCid": "QmRp29ySJu89pkSdxoiwGcjcTTF75Ld5vGBNjmFKGc8RPc",
+            "__typename": "Dao",
+            "id": 175,
+            "namespace": "arrakis",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 348,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 14522849,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4200000000000000000000000000000000000006",
+                            "methodId": "0xd0e30db0",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [],
+                                "outputs": [],
+                                "payable": true,
+                                "constant": false,
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Wrap ETH on Uniswap Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Head over to Uniswap on Optimism and wrap some ETH. You'll use these tokens in a later step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 349,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 14523067,
+                    "contractInteractions": [
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x1f0464d1",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "previousBlockhash",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x5ae401dc",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x472b43f3",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x42712a67",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Obtain OP on Uniswap Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Head to Uniswap on Optimism and pick up some OP, Optimism's token. You'll use these in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 350,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 14523259,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xd1dce56f7d8300d43d8b7d3b67650ddf9b2caf54",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to the WETH/OP vault on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the WETH/OP vault on Arrakis Optimism to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/vaults/10/0xD1DCE56F7D8300D43d8b7d3b67650ddF9b2CAF54/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 351,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 14523023,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8f9ab50fc5c0d2ead5953a2836d22e48e5788151",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Add liquidity to the USDC/DAI vault on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the USDC/DAI vault on Arrakis Optimism to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/vaults/10/0x8f9Ab50FC5C0d2EAD5953A2836D22E48e5788151/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 354,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30733425,
+                    "contractInteractions": [
+                        {
+                            "address": "0x477e509b9d08862baeb8ab69e901ae72b13efca0",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xbc91a120ccd8f80b819eaf32f0996dac3fa76a6c",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Add liquidity to the USDC/USDT vault on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add 1 USDT of liquidity to the USDC/USDT vault on Arrakis Polygon to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/vaults/137/0x2817E729178471DBAC8b1FC190b4fd8e6F3984e3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 353,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30733425,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x21f65ea5bf55c48a19b195d5d8cb0f708018ab6c",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 5,
+                "title": "Add liquidity to the WETH/DAI vault on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the WETH/DAI vault on Arrakis Polygon to take advantage of automatic best in-class LP strategies & earn fees.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://beta.arrakis.finance/vaults/137/0x21F65eA5bf55c48A19b195d5d8CB0f708018Ab6c",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "1inch-polygon-professional": {
+        "id": 515,
+        "title": "1swap on 1inch Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "1inch-polygon-professional",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-14T23:54:07.306Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the whole world of 1inch, mainly known for being a DEX aggregator, on Polygon!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 196,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "1inch",
+            "logoCid": "QmTweaJomqBMHB8yo9TpeA5L712D7onon36uxrest5yc82",
+            "__typename": "Dao",
+            "id": 110,
+            "namespace": "1inch",
+            "coverCid": "QmbT4LLxaedqg1jEskpWVMrXQ7dVdsV6eKvqBTeDGFwkRM",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 347,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30731805,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+                            "methodId": "0x7c025200",
+                            "methodAbi": {
+                                "name": "swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "caller",
+                                        "type": "address",
+                                        "internalType": "contract IAggregationExecutor"
+                                    },
+                                    {
+                                        "name": "desc",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "srcToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "dstToken",
+                                                "type": "address",
+                                                "internalType": "contract IERC20"
+                                            },
+                                            {
+                                                "name": "srcReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "dstReceiver",
+                                                "type": "address",
+                                                "internalType": "address payable"
+                                            },
+                                            {
+                                                "name": "amount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "minReturnAmount",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "flags",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "permit",
+                                                "type": "bytes",
+                                                "internalType": "bytes"
+                                            }
+                                        ],
+                                        "internalType": "struct AggregationRouterV4.SwapDescription"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "gasLeft",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+                            "methodId": "0xe449022e",
+                            "methodAbi": {
+                                "name": "uniswapV3Swap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+                            "methodId": "0xbc80f1a8",
+                            "methodAbi": {
+                                "name": "uniswapV3SwapTo",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "recipient",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    },
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+                            "methodId": "0x2e95b6c8",
+                            "methodAbi": {
+                                "name": "unoswap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "srcToken",
+                                        "type": "address",
+                                        "internalType": "contract IERC20"
+                                    },
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "pools",
+                                        "type": "bytes32[]",
+                                        "internalType": "bytes32[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on 1inch Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap any tokens by using 1inch's DEX aggregator to get you the best price on your trade.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/137/swap/MATIC/DAI",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

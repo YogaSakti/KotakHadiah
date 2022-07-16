@@ -20372,5 +20372,463 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "exploring-indexcoop-on-polygon": {
+        "id": 520,
+        "title": "Exploring IndexCoop on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "exploring-indexcoop-on-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-16T02:31:40.959Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover Index Coop's products to help you index different areas of the crypto market.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 156,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Index Coop",
+            "logoCid": "QmRzzTQSKrKQTVzE3D8kUNTSKycGuZqMfrxFtqzWc4m6pq",
+            "__typename": "Dao",
+            "id": 2,
+            "namespace": "index-coop",
+            "coverCid": "Qmdx6MmxP9d6fzVpo15kC23kKFTtvypTYcaLv73zx7ZXet",
+            "ogImageCid": "QmWeYpHQNF63Bng9XVxtnvhp8JZAtGagENtJqV5SV4HaHz"
+        },
+        "BountySteps": [
+            {
+                "id": 360,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x85955046df4668e1dd369d2de9f3aeb98dd2a369",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Swap from any token to $DPI on IndexCoop Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Index's native swap feature to obtain DPI on Polygon. You'll use these tokens in a later step. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DPI?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://indexcoop.com/defi-pulse-index-dpi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.indexcoop.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 361,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xfe712251173a2cd5f5be2b46bb528328ea3565e1",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Swap from any token to $MVI on IndexCoop Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Index's native swap feature to obtain MVI on Polygon. You'll use these tokens in a later step. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is MVI?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://indexcoop.com/metaverse-index-mvi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.indexcoop.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 362,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9f0c603476c3e41de989fc830e63961b23255332",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add DPI/USDC liquidity on SushiSwap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the DPI you obtained in a previous step to add DPI/USDC on SushiSwap Polygon to earn fees when people make swaps in that pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/legacy/add/0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174?chainId=137",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "introduction-to-frax-polygon": {
+        "id": 519,
+        "title": "Introduction to FRAX: Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "introduction-to-frax-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-16T02:02:44.813Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the wonder of FRAX – the makers of the first part-algorithmic, part-backed stablecoin.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 218,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Frax",
+            "logoCid": "QmaDeYyQpaLg3aJ6XAQtr9K4Bs1sehABNConekCCi8ki7g",
+            "__typename": "Dao",
+            "id": 180,
+            "namespace": "frax",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 357,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9bc2152fD37b196C0Ff3C16f5533767c9A983971",
+                            "methodId": "0xfb3bdb41",
+                            "methodAbi": {
+                                "name": "swapETHForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x9bc2152fD37b196C0Ff3C16f5533767c9A983971",
+                            "methodId": "0x7ff36ab5",
+                            "methodAbi": {
+                                "name": "swapExactETHForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Use Fraxswap to swap from MATIC to FRAX on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Obtain FRAX by swapping from MATIC to FRAX on Fraxswap, the native DEX of Frax.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.frax.finance/swap/main",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 358,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x5e5a23b52cb48f5e70271be83079ca5bc9c9e9ac",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit FRAX into the FRAX3CRV Pool on Curve",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "some",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " FRAX you obtained in the previous step to deposit into the FRAX3CRV pool on Curve Polygon to earn fees when people make swaps in that pool. You'll need some FRAX for the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/factory/11/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 359,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30771135,
+                    "contractInteractions": [
+                        {
+                            "address": "0xf039fe26456901f863c873556f40fb207c6c9c18",
+                            "methodId": "0xf5d07b60",
+                            "methodAbi": {
+                                "name": "beefIn",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "beefyVault",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenAmountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "tokenIn",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "tokenInAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Zap FRAX into the SushiSwap FRAX Vault on Beefy Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your FRAX to deposit into the SushiSwap FRAX Vault on Beefy to earn yield using their autocompounding techniques.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/sushi-fxs-frax",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

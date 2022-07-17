@@ -21754,5 +21754,424 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "polygon-defi-mastery-ii": {
+        "id": 523,
+        "title": "Polygon DeFi Mastery II",
+        "taskType": "BOUNTY",
+        "namespace": "polygon-defi-mastery-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-16T21:39:25.289Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Master DeFi on one of the most popular Layer2s",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 369,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30798778,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0x65b2489b",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0xe2ad025a",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a stablecoin swap on Curve (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore the power of deep stablecoin liquidity on Curve through swapping from the pool",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 370,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30798856,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0x84738499",
+                            "methodAbi": {
+                                "name": "add_liquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amounts",
+                                        "type": "uint256[5]"
+                                    },
+                                    {
+                                        "name": "_min_mint_amount",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Deposit your stables in the Curve 3-pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to the legendary Curve 3pool on Polygon to earn fees when people make swaps in that pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/atricrypto3/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 371,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30798968,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Trade any coin to BAL on Balancer (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using the Balancer DEX, swap from any token to BAL. You'll use these tokens in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 372,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30799087,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Invest your BAL in the Weighted Balancer Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your BAL in the WMATIC-USDC-WETH-BAL Weighted Pool on Balancer Polygon. You'll use the LP tokens received in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 373,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30799143,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x068Ff98072d3eB848D012e3390703BB507729ed6",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Stake your Weighted Pool LP tokens on Balancer",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake the LP tokens you received in the previous step to boost your rewards on Balancer. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already staked in the previous step, you'll be able to verify this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 374,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30799283,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4eCEDdF62277eD78623f9A94995c680f8fd6C00e",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 5,
+                "title": "Supply some DAI into CREAM Finance (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend your DAI into CREAM to earn a supply APR on your DAI. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 376,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30822006,
+                    "contractInteractions": [
+                        {
+                            "address": "0x20ca53e2395fa571798623f1cfbd11fe2c114c24",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 6,
+                "title": "Mark DAI as collateral on Cream",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Turn on the switch marked \"Collateral\" at the top of your Cream dashboard.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 377,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30822210,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                    "transferFrom": [
+                        "0x7ef18d0a9c3fb1a716ff6c3ed0edf52a2427f716"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 7,
+                "title": "Borrow WETH against your DAI",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using CREAM, borrow WETH against the DAI you just deposited. Congrats!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.cream.finance/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

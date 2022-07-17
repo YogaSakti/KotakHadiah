@@ -20830,5 +20830,929 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-dodo-expert": {
+        "id": 522,
+        "title": "Multichain DODO Expert",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-dodo-expert",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-16T16:13:34.481Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Enter the world of innovative algorithm-driven and decentralized trading through DODO",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 147,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "DODO",
+            "logoCid": "QmP24ra1jXienj23rRfngQtrNCbXSvBUQDezMaSF5Df1aK",
+            "__typename": "Dao",
+            "id": 181,
+            "namespace": "dodo",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 363,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30790431,
+                    "contractInteractions": [
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0xf87dc1b7",
+                            "methodAbi": {
+                                "name": "dodoSwapV2TokenToToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x2fa4334cfd7c56a0e7ca02bd81455205fcbdc5e9",
+                            "methodId": "0x7617b389",
+                            "methodAbi": {
+                                "name": "mixSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "mixAdapters",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "mixPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetTo",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "moreInfos",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x2fa4334cfd7c56a0e7ca02bd81455205fcbdc5e9",
+                            "methodId": "0x81791788",
+                            "methodAbi": {
+                                "name": "dodoMutliSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "totalWeight",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "splitNumber",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    },
+                                    {
+                                        "name": "midToken",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetFrom",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "sequence",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0x1e6d24c2",
+                            "methodAbi": {
+                                "name": "dodoSwapV2TokenToETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0x5028bb95",
+                            "methodAbi": {
+                                "name": "dodoSwapV2ETHToToken",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0x0dd4ebd9",
+                            "methodAbi": {
+                                "name": "dodoSwapV1",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dodoPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0x54bacd13",
+                            "methodAbi": {
+                                "name": "externalSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "approveTarget",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "swapTarget",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "callDataConcat",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa222e6a71d1a1dd5f279805fbe38d5329c1d0e70",
+                            "methodId": "0x23c38fa3",
+                            "methodAbi": {
+                                "name": "mixSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromTokenAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "minReturnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "mixAdapters",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "mixPairs",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "assetTo",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "directions",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "",
+                                        "type": "bool",
+                                        "internalType": "bool"
+                                    },
+                                    {
+                                        "name": "deadLine",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "returnAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on DODO Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap any tokens by using DODO exchange to get the best price on your swap through its DEX aggregation",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/?network=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 364,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30791006,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2C5CA709d9593F6Fd694D84971c55fB3032B87AB",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Add liquidity to the USDC/USDT pool on DODO Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to the USDC/USDT on DODO Polygon to earn trading fees from swaps on this pair.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/add-liquidity?network=polygon&poolAddress=0x813fddeccd0401c4fa73b092b074802440544e52",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 365,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30791328,
+                    "contractInteractions": [
+                        {
+                            "address": "0xcd288dd48d26a9f671a1a06bcc48c2a3ee800a13",
+                            "methodId": "0xb6b55f25",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Stake your USDC LP under DODO Earn Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "USDC LP",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " tokens you obtained in the previous step by depositing in the pool to earn extra DODO mining rewards! ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " click on 'Stake USDC' in USDC-USDT LP pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/mining?network=polygon&address=0x813fddeccd0401c4fa73b092b074802440544e52",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 366,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30791387,
+                    "contractInteractions": [
+                        {
+                            "address": "0xf4ae5322ed8b0af7a4f5161caf33c4894752f0f5",
+                            "methodId": "0xb6b55f25",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Stake your USDT LP under DODO Earn Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "USDT LP",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " tokens you obtained in the previous step by depositing in the pool to earn extra DODO mining rewards! ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " click on 'Stake USDT' in USDC-USDT LP pool",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/mining?network=polygon&address=0x813fddeccd0401c4fa73b092b074802440544e52",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 367,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17764640,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x82B423848CDd98740fB57f961Fa692739F991633",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Add liquidity to the USDC/USDT Pool on Dodo Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to the USDC/USDT on DODO Arbitrum to earn trading fees from swaps on this pair.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/add-liquidity?network=arbitrum&poolAddress=0xe4b2dfc82977dd2dce7e8d37895a6a8f50cbb4fb",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 368,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 17764877,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe3c10989ddc5df5b1b9c0e6229c2e4e0862fde3e",
+                            "methodId": "0x47e7ef24",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_lpToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 5,
+                "title": "Stake your USDT LP on Dodo Earn Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " LP",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " tokens from the previous step by depositing in the pool to earn extra DODO mining rewards! ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " click on 'Stake USDT' in USDC-USDT LP pool",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/mining?network=arbitrum&address=0xe4b2dfc82977dd2dce7e8d37895a6a8f50cbb4fb",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 375,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17764877,
+                    "transferTo": [
+                        "0xe3c10989ddc5df5b1b9c0e6229c2e4e0862fde3e"
+                    ],
+                    "tokenAddress": "0x7ebd8a1803ce082d4de609c0aa0813dd842bd4db",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 6,
+                "title": "Stake your USDC LP on Dodo Earn Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " USDC LP",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " tokens from the previous step by depositing in the pool to earn extra DODO mining rewards! ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " click on 'Stake USDC' in USDC-USDT LP pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/mining?network=arbitrum&address=0xe4b2dfc82977dd2dce7e8d37895a6a8f50cbb4fb",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -22173,5 +22173,129 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "for-the-love-of-btc-i-dodo": {
+        "id": 524,
+        "title": "For the love of BTC I: DODO",
+        "taskType": "BOUNTY",
+        "namespace": "for-the-love-of-btc-i-dodo",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-17T12:49:56.326Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Hold some good ol' BTC and earn mining rewards on it through DODO",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 200,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "DODO",
+            "logoCid": "QmP24ra1jXienj23rRfngQtrNCbXSvBUQDezMaSF5Df1aK",
+            "__typename": "Dao",
+            "id": 181,
+            "namespace": "dodo",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 378,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30822947,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Trade any token to WBTC on DODO Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get hold of some Bitcoin by making a trade on DODO Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/?from=MATIC&to=WBTC",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 379,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30823181,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7D55D4891C7C56417E64a91C6E7c9DdfaB33c277",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Add liquidity in the WBTC-WMATIC pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to the WBTC/WMATIC on DODO Polygon to earn trading fees from swaps on this pair.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dodoex.io/earn/add-liquidity?network=polygon&poolAddress=0x7d55d4891c7c56417e64a91c6e7c9ddfab33c277",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

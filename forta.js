@@ -17,8 +17,6 @@ const getSundayOfCurrentWeek = () => {
     return moment(sunday).format('MMMM Do');
 }
 
- Ethereum 200.000 KUAT Poligon 135.000 KUAT BSC 18.000 KUAT Salju longsor 15.000 KUAT arbitrase 12.000 KEKUATAN Optimisme 12.000 KEKUATAN Hantu 8.000 KEKUATAN
-
 const scannerData = [
     {
         'chainId': 1,

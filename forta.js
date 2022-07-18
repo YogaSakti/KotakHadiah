@@ -17,6 +17,8 @@ const getSundayOfCurrentWeek = () => {
     return moment(sunday).format('MMMM Do');
 }
 
+ Ethereum 200.000 KUAT Poligon 135.000 KUAT BSC 18.000 KUAT Salju longsor 15.000 KUAT arbitrase 12.000 KEKUATAN Optimisme 12.000 KEKUATAN Hantu 8.000 KEKUATAN
+
 const scannerData = [
     {
         'chainId': 1,
@@ -26,32 +28,32 @@ const scannerData = [
     {
         'chainId': 10,
         'network': 'Optimism',
-        'rewardPool': 10000
+        'rewardPool': 12000
     },
     {
         'chainId': 56,
         'network': 'BSC',
-        'rewardPool': 12000
+        'rewardPool': 18000
     },
     {
         'chainId': 137,
         'network': 'Polygon',
-        'rewardPool': 150000
+        'rewardPool': 135000
     },
     {
         'chainId': 250,
         'network': 'Fantom',
-        'rewardPool': 6000
+        'rewardPool': 8000
     },
     {
         'chainId': 42161,
         'network': 'Arbitrum',
-        'rewardPool': 10000
+        'rewardPool': 12000
     },
     {
         'chainId': 43114,
         'network': 'Avalanche',
-        'rewardPool': 12000
+        'rewardPool': 15000
     }
 ];
 

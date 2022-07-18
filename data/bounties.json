@@ -22297,5 +22297,537 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discover-arbitrum-iii-weekly": {
+        "id": 526,
+        "title": "Discover Arbitrum III (Weekly)",
+        "taskType": "BOUNTY",
+        "namespace": "discover-arbitrum-iii-weekly",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-17T17:15:46.370Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Dive deeper into the Arbitrum ecosystem by exploring new & established dApps.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 108,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Arbitrum",
+            "logoCid": "QmdP6ZkLq4FF8dcvxBs48chqFiXu7Gr8SgPCqMtfr7VA4L",
+            "__typename": "Dao",
+            "id": 160,
+            "namespace": "arbitrum",
+            "coverCid": "Qma4VT4qYsjqJy7PmMLZJaJEC33hHscVZHaoDXaWXnbsb6",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 381,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 17844353,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1111111254fb6c44bac0bed2854e76f90643097d",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a trade through 1inch Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get the best deal on your trade on 1inch Arbitrum!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 382,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30823805,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Bridge ETH from Polygon to Arbitrum on Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Bungee to move ETH between Polygon and Arbitrum. Get ready to explore more of Arbitrum!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 384,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 17845621,
+                    "contractInteractions": [
+                        {
+                            "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+                            "methodId": "0x3df02124",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x7f90122bf0700f9e7e1f688fe926940e8839f353",
+                            "methodId": "0xddc1f59d",
+                            "methodAbi": {
+                                "name": "exchange",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "int128"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Make a stablecoin swap on Curve Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore the power of deep stablecoin liquidity on Curve Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 385,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17846067,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7f90122BF0700F9E7e1F688fe926940E8839F353",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Deposit your stables into Curve 2-pool Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the USDC-USDT 2-pool by clicked ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'Deposit'",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " on Arbitrum to earn trading fees on swaps through it on Curve. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " at least deposit 0.01 USDC/USDT",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/2pool/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 386,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 17846196,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xCE5F24B7A95e9cBa7df4B54E911B4A3Dc8CDAf6f",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 5,
+                "title": "After depositing, stake your unstaked LP into Gauge (Curve)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on '",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "stake unstaked in gauge",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "' after depositing your liquidity to earn yield on your LP tokens!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.curve.fi/2pool/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "introduction-to-gnosis-safe-polygon": {
+        "id": 525,
+        "title": "Introduction to Gnosis Safe: Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "introduction-to-gnosis-safe-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-17T13:17:13.694Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn about creating Gnosis Safe, the most trusted platform to manage digital assets.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 363,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Gnosis",
+            "logoCid": "QmZ6JAzgLvMoa5DUdQLhcb3MiwZgfFAe286rGYbn6g3h9N",
+            "__typename": "Dao",
+            "id": 182,
+            "namespace": "gnosis",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 380,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30797399,
+                    "contractInteractions": [
+                        {
+                            "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+                            "methodId": "0x1688f0b9",
+                            "methodAbi": {
+                                "name": "createProxyWithNonce",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_singleton",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "initializer",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "saltNonce",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "proxy",
+                                        "type": "address",
+                                        "internalType": "contract GnosisSafeProxy"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+                            "methodId": "0xd18af54d",
+                            "methodAbi": {
+                                "name": "createProxyWithCallback",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_singleton",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "initializer",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    },
+                                    {
+                                        "name": "saltNonce",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "callback",
+                                        "type": "address",
+                                        "internalType": "contract IProxyCreationCallback"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "proxy",
+                                        "type": "address",
+                                        "internalType": "contract GnosisSafeProxy"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2",
+                            "methodId": "0x61b69abd",
+                            "methodAbi": {
+                                "name": "createProxy",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "singleton",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "proxy",
+                                        "type": "address",
+                                        "internalType": "contract GnosisSafeProxy"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Create your Gnosis Safe on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Take a step towards managing digital assets through creating a Gnosis Safe. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is a Gnosis Safe?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://gnosis.io/safe/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://gnosis-safe.io/app/welcome",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

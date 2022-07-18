@@ -5,7 +5,7 @@ name: Forta Network Monitor
 on: 
   push:
     branches:
-      - master
+      - forta 
   schedule:
     - cron: "0 0 * * *"
 

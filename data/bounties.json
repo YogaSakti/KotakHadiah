@@ -23105,5 +23105,167 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "juno": {
+        "id": 506,
+        "title": "Explore Juno's Crypto-Friendly Checking Account (US Users Only)",
+        "taskType": "BOUNTY",
+        "namespace": "juno",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": "10",
+        "rewardToken": {
+            "id": 13,
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "chainId": 137,
+            "updatedAt": "2022-07-19T13:47:28.120Z",
+            "usdPrice": "1.0002722044824952",
+            "__typename": "Token"
+        },
+        "rewardNft": null,
+        "createdAt": "2022-07-12T08:40:30.355Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 51,
+        "rewardTokenId": 13,
+        "numberOfWinners": 99,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Earn a $10 bounty by simply funding your Juno Crypto Wallet",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Juno",
+            "logoCid": "QmaFUQQXAV9NSdbLiMGeta3GRDWT7JJbkmuecuhTYWw2UW",
+            "__typename": "Dao",
+            "id": 142,
+            "namespace": "onjuno",
+            "coverCid": null,
+            "ogImageCid": "QmUJLsXyPffXvFr1mQTtpYDwgeY8iXBt2Qa4143CR4whUX"
+        },
+        "BountySteps": [
+            {
+                "id": 334,
+                "bountyActionKey": "REST_ENDPOINT",
+                "isFulfilled": false,
+                "data": {
+                    "url": "https://api.onjuno.com/partner-bounty?code=LAYER3",
+                    "headers": [
+                        {
+                            "key": "api-key",
+                            "value": "7b4199c1-a265-4d96-8225-8929e05d49f5"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Sign up on Juno Finance",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "1) Use the Juno Finance web or mobile app to sign up and create your Juno account (",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "https://juno.finance/",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://juno.finance/",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ")",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "2) Use the Layer3 referral code on sign up & enter your Layer3 connected wallet address. Make sure you use the referral code: ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "“layer3”",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to validate your sign up on Juno, and enter your Wallet address connected to Layer3. Your entry will not be verified without this code",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "3) Complete your KYC to verify your Juno account",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "4) Fund your Juno crypto wallet by (a) either buying any crypto at 0 fees on Juno or (b) by depositing crypto from an external crypto wallet",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

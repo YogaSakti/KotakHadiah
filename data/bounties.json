@@ -23566,5 +23566,293 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "decentralized-exchanges-meshswap": {
+        "id": 536,
+        "title": "Decentralized Exchanges: Meshswap Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "decentralized-exchanges-meshswap",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-20T11:20:32.936Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover liquidity mesh, a unique farm on Polygon and interact with it to earn more yields! ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 56,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Meshswap",
+            "logoCid": "QmYJYzWUuhGBgrY1McnBEXiRWNq7YYrWH5DFuD94DHjPZT",
+            "__typename": "Dao",
+            "id": 184,
+            "namespace": "meshswap",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 395,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30933281,
+                    "contractInteractions": [
+                        {
+                            "address": "0x10f4a785f458bc144e3706575924889954946639",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any swap on Meshswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade from one token to another on Meshswap. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "the deposit button is brown button on the right.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/exchange/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 396,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30933534,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xb880e6AdE8709969B9FD2501820e052581aC29Cf",
+                    "transferFrom": [
+                        "0xb880e6AdE8709969B9FD2501820e052581aC29Cf"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Lend your WMATIC in the WMATIC Meshswap Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your WMATIC in the single pools to earn MESH rewards! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/single/pool",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 397,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30933715,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x782D7eC740d997445D62e4463ce64C67c7484497",
+                    "transferFrom": [
+                        "0x782D7eC740d997445D62e4463ce64C67c7484497"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Lend your USDT in the USDT Meshswap Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your USDT in the single pool to earn MESH rewards!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/single/pool",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 398,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30933865,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6Ffe747579eD4E807Dec9B40dBA18D15226c32dC",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Add liquidity to the WMATIC/USDC pool on Meshswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "To earn extra MESH rewards, add liquidity to the WMATIC/USDC pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/exchange/pool/detail/0x6ffe747579ed4e807dec9b40dba18d15226c32dc",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 399,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30933983,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2915D57D076Ca2233F73B2E724Fea4F3DB967F9B",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Add liquidity to the WETH/USDC pool on Meshswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "To earn extra MESH rewards, add liquidity to the WETH/USDC pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/exchange/pool/detail/0x2915d57d076ca2233f73b2e724fea4f3db967f9b",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 400,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30934235,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9023621137a4abcee16a29d5e0c9288cdd268263",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 5,
+                "title": "Add liquidity in WETH/USDT in Leveraged Yield Farm on Meshwap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Accelerate your yields by adding leverage to your LP position on Meshswap. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "don't forget to set the leverage.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://meshswap.fi/plus/pool/detail/0x4111ddbedab99c356cce66f4dc68888310e0fd5f",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

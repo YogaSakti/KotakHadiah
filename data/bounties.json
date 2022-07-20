@@ -23267,5 +23267,203 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-asset-management-dhedge": {
+        "id": 533,
+        "title": "Multichain Asset Management: dHedge",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-asset-management-dhedge",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-19T13:18:42.854Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the world of decentralized, automated hedge fund strategies with dHedge.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 163,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "dHedge",
+            "logoCid": "QmPuxUVaMcEvXDSEs46CLbb5ouKQktvEVcSHf95gWuePmF",
+            "__typename": "Dao",
+            "id": 161,
+            "namespace": "dhedge",
+            "coverCid": "QmXnyMssLHoWfo81yEHfuTekEMvuenHujjRydTsjzEr3Rm",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 392,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30898037,
+                    "transferTo": [
+                        "0xbae28251b2a4e621aa7e20538c06dee010bc06de"
+                    ],
+                    "tokenAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Deposit into the dHEDGE Stablecoin Yield pool on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " DAI",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " into this pool to farm the highest supported stable pool on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0xbae28251b2a4e621aa7e20538c06dee010bc06de",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 393,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15000693,
+                    "transferTo": [
+                        "0x59babc14dd73761e38e5bda171b2298dc14da92d"
+                    ],
+                    "tokenAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit into the SNX Debt Mirror Pool on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "USDC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " into the low-risk SNX Debt Mirror Pool on dHedge Optimism to earn yield.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x59babc14dd73761e38e5bda171b2298dc14da92d",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 394,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15000693,
+                    "transferTo": [
+                        "0x1ec50880101022c11530a069690f5446d1464592"
+                    ],
+                    "tokenAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit into the Stablecoin Yield Pool on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "USDC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " into the Stablecoin Yield Pool on Polygon to farm the highest low-risk yield on dHedge.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x1ec50880101022c11530a069690f5446d1464592",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

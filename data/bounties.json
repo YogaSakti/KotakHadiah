@@ -23465,5 +23465,106 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridges-weekly-bridging-greater-optimism": {
+        "id": 532,
+        "title": "Weekly Bridging on Bungee",
+        "taskType": "BOUNTY",
+        "namespace": "bridges-weekly-bridging-greater-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-19T12:21:37.118Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Use the Bungee bridge aggregator find the best route for your USDC on Polygon to Optimism",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 272,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Bungee",
+            "logoCid": "QmNf9vmJdUb4QPAFM4UnZ3pJtpV4wq3o29TdnwAuUGXU2S",
+            "__typename": "Dao",
+            "id": 155,
+            "namespace": "bungee",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 391,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30896956,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bride any asset from Polygon to Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the bungee to unlock your path to Optimism by bridging tokens from Polygon. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "If you're having trouble finding route, increase the amount. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

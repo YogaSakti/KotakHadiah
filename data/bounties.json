@@ -23854,5 +23854,372 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "for-the-love-of-btc-ii-curve": {
+        "id": 540,
+        "title": "For the love of BTC II: Curve",
+        "taskType": "BOUNTY",
+        "namespace": "for-the-love-of-btc-ii-curve",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-21T07:31:07.727Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Hold some good ol' BTC and earn yields from its Curve pool!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 69,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Curve",
+            "logoCid": "QmYXyqr2pqkKeaVr4Zc87uCq8YvAyQWBy3vbYEyo5RdDGb",
+            "__typename": "Dao",
+            "id": 146,
+            "namespace": "curve",
+            "coverCid": "QmUBaekSK6fnRjUU95a98qWVV1jdK9mVSWmRcyNSdVnBDt",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 408,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30966790,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Swap from any token to WBTC on Uniswap (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Uniswap, trade from any token to ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "WBTC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " in a matter of seconds!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 409,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30967075,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0x65b2489b",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0xe2ad025a",
+                            "methodAbi": {
+                                "name": "exchange_underlying",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "i",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "j",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_dx",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_min_dy",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0xb9947eb0",
+                            "methodAbi": {
+                                "gas": 2673,
+                                "name": "underlying_coins",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "arg0",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "address"
+                                    }
+                                ],
+                                "stateMutability": "view"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Trade to WBTC on atricrypto3 Pool on Curve (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade from the underlying tokens in atricrypto3 pool to WBTC on Curve Polygon",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/atricrypto3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 410,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 30967242,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0x84738499",
+                            "methodAbi": {
+                                "name": "add_liquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amounts",
+                                        "type": "uint256[5]"
+                                    },
+                                    {
+                                        "name": "_min_mint_amount",
+                                        "type": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1d8b86e3d88cdb2d34688e87e72f388cb541b7c8",
+                            "methodId": "0xcf2b51b8",
+                            "methodAbi": {
+                                "name": "add_liquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amounts",
+                                        "type": "uint256[5]"
+                                    },
+                                    {
+                                        "name": "_min_mint_amount",
+                                        "type": "uint256"
+                                    },
+                                    {
+                                        "name": "_receiver",
+                                        "type": "address"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Deposit your wBTC in the atricrypto3 Pool on Curve (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn yields on your wBTC by clicking '",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "deposit'",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " into the atricrypto3 pool on Curve (Polygon). ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Make sure other values are set to '0' when depositing except wBTC.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/atricrypto3/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 411,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30967382,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xBb1B19495B8FE7C402427479B9aC14886cbbaaeE",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Stake your LP into the Pool Gauge on Curve (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on '",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Stake unstaked in gauge' ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to stake your existing LP into the gauge and earn a yield on it!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/atricrypto3/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -24221,5 +24221,176 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "exploring-synthetix-staking-snx-optimism": {
+        "id": 537,
+        "title": "Exploring Synthetix: Staking SNX (Optimism)",
+        "taskType": "BOUNTY",
+        "namespace": "exploring-synthetix-staking-snx-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-20T12:11:31.110Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Earn weekly rewards that are a combination of protocol fees and inflationary supply by staking SNX (collateral for debt pool)",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 47,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Synthetix",
+            "logoCid": "Qmaz7jojAhRhPsYo7XcoMxeiTsR4ASKJcSsWMGySt33YYs",
+            "__typename": "Dao",
+            "id": 22,
+            "namespace": "synthetix",
+            "coverCid": null,
+            "ogImageCid": "QmQGV2RffHdFhxsqH4PG451bGLyfU7QhahobcbtbbTR93b"
+        },
+        "BountySteps": [
+            {
+                "id": 401,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15117446,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.09"
+                },
+                "orderIndex": 0,
+                "title": "Use Uniswap to swap into SNX on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Uniswap, swap any of your tokens into SNX on Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": Swap into ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "at least 0.1 SNX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ", would be required for other steps.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 402,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15119860,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.009"
+                },
+                "orderIndex": 1,
+                "title": "Stake your SNX to mint sUSD on Synthethix (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Mint sUSD by staking your swapped SNX. SNX stakers earn weekly staking rewards in exchange for managing their Collateralization Ratio and debt. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "the sUSD will be used for the part II of this bounty.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://staking.synthetix.io/staking",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

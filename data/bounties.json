@@ -25113,5 +25113,128 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "streaming-payments-on-superfluid": {
+        "id": 544,
+        "title": "Streaming Payments on Superfluid",
+        "taskType": "BOUNTY",
+        "namespace": "streaming-payments-on-superfluid",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-22T14:31:09.802Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "(Re)discover programming money streams on Superfluid Polygon!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 4,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Superfluid",
+            "logoCid": "QmQNGZBVyVomgLvqj59Lp5ux8BHKXd31Rs3imLqvGTkQhV",
+            "__typename": "Dao",
+            "id": 154,
+            "namespace": "superfluid",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 419,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31014753,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x3aD736904E9e65189c3000c7DD2c8AC8bB7cD4e3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Wrap MATIC into MATICx on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "To stream payments, you must wrap your tokens in Superfluid. Wrap MATIC into MATICx on your dashboard.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.superfluid.finance/wrap?upgrade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 420,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31014926,
+                    "contractInteractions": [
+                        {
+                            "address": "0x3e14dc1b13c488a8d5d310918780c983bd5982e7",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Set up a streaming payment on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using your newly wrapped tokens, set up a streaming payment to anyone by clicking \"Send\".",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.superfluid.finance/send",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

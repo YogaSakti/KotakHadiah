@@ -24392,5 +24392,291 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridge-on-across": {
+        "id": 541,
+        "title": "Across Referral Program",
+        "taskType": "BOUNTY",
+        "namespace": "bridge-on-across",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-21T08:11:54.996Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 700,
+        "rewardTokenId": null,
+        "numberOfWinners": 670,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover bridging on Across, an optimistic cross-chain bridge protocol that allows users to execute transactions between chains nearly instantaneously.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 66,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Across",
+            "logoCid": "QmUopFdvdr4RFPuczQbxqNKph7LqWA7pg5Aix3vGSc7BNX",
+            "__typename": "Dao",
+            "id": 170,
+            "namespace": "across",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 412,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 30967894,
+                    "transferTo": [
+                        "0x69b5c72837769ef1e7c164abc6515dcff217f920"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "50"
+                },
+                "orderIndex": 0,
+                "title": "Bridge at least 50 USDC from Polygon to Arbitrum on Across",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the Across bridge to transfer 50 $USDC to Arbitrum from Polygon. You can track your bridging progress ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://across.to/transactions",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Important: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You're using a referral link when you're clicking on '",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Start', ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "which showcases how even you can create a link (you'll be creating one in the next step) and share it with someone to benefit from the Across Referral program and earn $ACX rewards. You can read about that ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here!",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://medium.com/across-protocol/across-referral-program-is-now-live-how-you-can-farm-acx-tokens-today-695019797820",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://across.to?referrer=0x006734473b8AE6f50A2e42e28c9ca56f1BdC17aA",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 413,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "#AcrossReferralLink"
+                },
+                "orderIndex": 1,
+                "title": "Share your referral link on Twitter with #AcrossReferralLink",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Generate your Across referral link from ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://across.to/rewards",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "and share it in your Tweet with the #AcrossReferralLink hashtag!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 414,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 18225506,
+                    "transferTo": [
+                        "0xb88690461ddbab6f04dfad7df66b7725942feb9c"
+                    ],
+                    "tokenAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "50"
+                },
+                "orderIndex": 2,
+                "title": "Use your own Referral link to bridge 50 USDC from Arbitrum to Boba",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your generated referral link (from the previous step) ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to complete a 50 USDC bridging transaction from Arbitrum to Boba ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "on Across",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "After completing the transaction, you would've used your own referral link to get refunded part of what you paid for fees in $ACX!",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Similarly, share your referral link with other people in order to earn part of their fees in $ACX as well! Read more about this ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here!",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://medium.com/across-protocol/across-referral-program-is-now-live-how-you-can-farm-acx-tokens-today-695019797820",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

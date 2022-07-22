@@ -24678,5 +24678,440 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "exploring-synthetix-ii-using-susd": {
+        "id": 538,
+        "title": "Exploring Synthetix II: Using sUSD (Optimism)",
+        "taskType": "BOUNTY",
+        "namespace": "exploring-synthetix-ii-using-susd",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-20T15:15:06.408Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "After minting sUSD from SNX, learn about the utility of this token!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 76,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Synthetix",
+            "logoCid": "Qmaz7jojAhRhPsYo7XcoMxeiTsR4ASKJcSsWMGySt33YYs",
+            "__typename": "Dao",
+            "id": 22,
+            "namespace": "synthetix",
+            "coverCid": null,
+            "ogImageCid": "QmQGV2RffHdFhxsqH4PG451bGLyfU7QhahobcbtbbTR93b"
+        },
+        "BountySteps": [
+            {
+                "id": 403,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15135212,
+                    "contractInteractions": [
+                        {
+                            "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Use your sUSD to trade Synths on Kwenta (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Synths = Synthetic assets. Use Kwenta to trade from one Synth (sUSD) to any synth. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://kwenta.io/exchange",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 404,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15135603,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Supply your sUSD on Aave V3 (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend your sUSD on Aave ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Optimism",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " market to earn yields on it!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 405,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15136042,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x061b87122Ed14b9526A813209C8a59a633257bAb",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit your sUSD in the Curve Factory Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'Deposit' ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to add liquidity to the sUSD pool on Curve. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://optimism.curve.fi/factory/0/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 406,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15136246,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xc5aE4B5F86332e70f3205a8151Ee9eD9F71e0797",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Stake the previous LP tokens into the Gauge on Curve",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'Stake unstaked in gauge' ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to stake your LP tokens to earn extra yield on Curve Optimism!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://optimism.curve.fi/factory/0/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 407,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15138129,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0x219f5d17",
+                            "methodAbi": {
+                                "name": "increaseLiquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "tokenId",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.IncreaseLiquidityParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0x99fbab88",
+                            "methodAbi": {
+                                "name": "positions",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "nonce",
+                                        "type": "uint96",
+                                        "internalType": "uint96"
+                                    },
+                                    {
+                                        "name": "operator",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "token0",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "token1",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fee",
+                                        "type": "uint24",
+                                        "internalType": "uint24"
+                                    },
+                                    {
+                                        "name": "tickLower",
+                                        "type": "int24",
+                                        "internalType": "int24"
+                                    },
+                                    {
+                                        "name": "tickUpper",
+                                        "type": "int24",
+                                        "internalType": "int24"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "feeGrowthInside0LastX128",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "feeGrowthInside1LastX128",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "tokensOwed0",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "tokensOwed1",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    }
+                                ],
+                                "stateMutability": "view"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Add liquidity to the sUSD/WETH pool on Uniswap (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your sUSD to provide liquidity in the sUSD/WETH pool to earn fees from trading of that pair on Uniswap Optimism!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add/ETH/0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9/3000?chain=optimism",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

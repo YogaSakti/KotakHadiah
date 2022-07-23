@@ -25758,5 +25758,128 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "yield-protocol-lping-and-lending-fixed-term": {
+        "id": 551,
+        "title": "Yield Protocol: LPing and Lending (Arbitrum)",
+        "taskType": "BOUNTY",
+        "namespace": "yield-protocol-lping-and-lending-fixed-term",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-23T22:28:31.136Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn about providing liquidity and lending on a fixed-rate for a fixed-term on Yield Arbitrum",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Yield Protocol",
+            "logoCid": "QmNp8D2q8YJvWcYtH12hCG3cURGu5DW7gmYx1T2SnfoEmk",
+            "__typename": "Dao",
+            "id": 157,
+            "namespace": "yield-protocol",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 426,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 18396087,
+                    "contractInteractions": [
+                        {
+                            "address": "0x16e25cf364cecc305590128335b8f327975d0560",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Lend USDC on Yield Protocol Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "On Yield, lend USDC for a fixed-rate of returns with either maturity date (Arbitrum)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.yieldprotocol.com/lend",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 427,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 18396335,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x92A5B31310a3ED4546e0541197a32101fCfBD5c8",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Provide USDC liquidity to the Yield Pool on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Become a LP by providing liquidity to the pool on Yield Arbitrum. Earn yields based on the protocol usage.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.yieldprotocol.com/pool",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

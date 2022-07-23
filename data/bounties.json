@@ -25236,5 +25236,527 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "dcaing-with-mean": {
+        "id": 548,
+        "title": "DCAing with Mean",
+        "taskType": "BOUNTY",
+        "namespace": "dcaing-with-mean",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-23T08:29:48.822Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Timing the market is hard. Rediscover Dollar-Cost-Averaging with Mean Finance on Polygon and Optimism",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 31,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Mean Finance",
+            "logoCid": "QmZerMVpY38Htk8qpqhtJ8VUTPCJJMHGFQopvLFR7cWK9v",
+            "__typename": "Dao",
+            "id": 167,
+            "namespace": "mean-finance",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 423,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31042180,
+                    "contractInteractions": [
+                        {
+                            "address": "0x059d306a25c4ce8d7437d25743a8b94520536bd5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Dollar-cost-average from USDC to Matic on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to Matic. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/137/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 424,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31042341,
+                    "contractInteractions": [
+                        {
+                            "address": "0x059d306a25c4ce8d7437d25743a8b94520536bd5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Dollar-cost-average from USDC to WETH on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to WETH. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/137/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 425,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15464667,
+                    "contractInteractions": [
+                        {
+                            "address": "0x059d306a25c4ce8d7437d25743a8b94520536bd5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Dollar-cost-average from USDC to OP on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to OP on Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/10/0x7f5c764cbc14f9669b88837ca1490cca17c31607/0x4200000000000000000000000000000000000042",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "bear-market-stablecoin-mastery-optimism": {
+        "id": 543,
+        "title": "Bear Market Stablecoin Mastery: Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "bear-market-stablecoin-mastery-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-22T00:02:35.650Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover the coolest ways to earn yields on your stablecoins through 3 of the most popular protocols on Optimism!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 415,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15297844,
+                    "contractInteractions": [
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x1f0464d1",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "previousBlockhash",
+                                        "type": "bytes32",
+                                        "internalType": "bytes32"
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x472b43f3",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0x42712a67",
+                            "methodAbi": {
+                                "name": "swapTokensForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountInMax",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "methodId": "0xfa461e33",
+                            "methodAbi": {
+                                "name": "uniswapV3SwapCallback",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amount0Delta",
+                                        "type": "int256",
+                                        "internalType": "int256"
+                                    },
+                                    {
+                                        "name": "amount1Delta",
+                                        "type": "int256",
+                                        "internalType": "int256"
+                                    },
+                                    {
+                                        "name": "_data",
+                                        "type": "bytes",
+                                        "internalType": "bytes"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap into any stablecoin on Uniswap (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Uniswap to swap from any token to a stablecoin (USDT/USDC)! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 416,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15298564,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Add USDT/USDC liquidity in Uniswap Pool (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your stables into the pool on Uniswap Optimism to earn fees when people make swaps in that pool!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add/0x94b008aA00579c1307B0EF2c499aD98a8ce58e58/0x7F5c764cBc14f9669B88837ca1490cCa17c31607/500?chain=optimism&minPrice=0.998691&maxPrice=1.000690",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 417,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15298916,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x1337BedC9D22ecbe766dF105c9623922A27963EC",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to the 3pool on Curve (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit any tokens into the legendary Curve 3pool on Optimism to earn fees when people make swaps in that pool",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://optimism.curve.fi/3pool/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 418,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15299306,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Supply USDT on Aave v3 (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your USDT on Aave Optimism to earn a lending APR on it!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app-v3.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

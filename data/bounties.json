@@ -26550,5 +26550,161 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-portfolio-management-nested": {
+        "id": 554,
+        "title": "Multichain Portfolio Management: Nested",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-portfolio-management-nested",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-25T11:26:20.857Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Manage your assets and portfolios on multiple chains through Nested Finance!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 146,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Nested",
+            "logoCid": "QmfReUCv4TzZR4v8CrM3VT1QAJhAatFhtNVzPHJFYxpiwt",
+            "__typename": "Dao",
+            "id": 172,
+            "namespace": "nested",
+            "coverCid": "QmVCq2M4TPHmBUnNJTdeqHkdqQSnHUiNVehTKZoEKKjpkk",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 432,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15720254,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9a065e500cdcd01c0a506b0eb1a8b060b0ce1379",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Create a portfolio on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Create a portfolio with any combination and weight of your favorite tokens using Nested on Optimism. You'll earn when other people use your portfolio!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.nested.fi/portfolios/new",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 433,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 17783397,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9a065e500cdcd01c0a506b0eb1a8b060b0ce1379",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Create a portfolio on Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Create a portfolio with any combination and weight of your favorite tokens using Nested on Avalanche. You'll earn when other people use your portfolio!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.nested.fi/portfolios/new",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 434,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31120373,
+                    "contractInteractions": [
+                        {
+                            "address": "0xfd896db057f260adce7fd1fd48c6623e023406cd",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Create a portfolio on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Create a portfolio with any combination and weight of your favorite tokens using Nested on Polygon. You'll earn when other people use your portfolio!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.nested.fi/portfolios/new",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

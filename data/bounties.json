@@ -26706,5 +26706,211 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "optimism-ecosystem-explorer-i": {
+        "id": 557,
+        "title": "Optimism Ecosystem Explorer I",
+        "taskType": "BOUNTY",
+        "namespace": "optimism-ecosystem-explorer-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-26T11:29:36.153Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1250,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the low-cost and lightning-fast Optimism ecosystem & discover the popular web3 dApps on this Layer2.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 152,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 435,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 15824897,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdef1abe32c034e558cdd535791643c58a13acc10",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade on Matcha Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Matcha, find the best prices for your trade across exchanges!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://matcha.xyz/markets/10/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 436,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15825086,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Supply WETH to Aave v3 (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your WETH to Aave v3 Optimism Market to earn lending APR on it!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 437,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15825211,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Borrow USDC against your WETH on Aave (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow some USDC ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "(Variable APY)",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " against your WETH collateral on Aave Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 438,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 15825480,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x59bAbc14Dd73761e38E5bdA171b2298DC14da92d",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Invest in SNX Debt Mirror on dHedge Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Invest your USDC into automated hedge fund strategies with dHedge Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x59babc14dd73761e38e5bda171b2298dc14da92d",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

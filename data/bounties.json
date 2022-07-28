@@ -27250,5 +27250,173 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "the-flippening-is-near": {
+        "id": 600,
+        "title": "The Flippening is Near",
+        "taskType": "BOUNTY",
+        "namespace": "the-flippening-is-near",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Knockout",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": 1,
+            "previewImageCid": "QmWYpXNu6RswdbrjrddNwuBqXRb3QMpKYi2a8NcHbwgue1",
+            "previewVideoCid": "Qmctx1BCRcNLVmx8nErFng7cC1dThjfvuKQJSBzhZ5irpT",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-07-28T13:28:01.376Z",
+        "expirationDate": "2022-07-31T22:59:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "For the BTC maxis in your life. Swap some wBTC for ETH and receive an exclusive Muhammad Ali-as-ETH NFT.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 115,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 490,
+                "bountyActionKey": "TOKEN_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+                    "chainId": 10,
+                    "displayName": "wBTC",
+                    "thresholdAmount": "0.00000004"
+                },
+                "orderIndex": 0,
+                "title": "Have wBTC on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You’ll need wBTC on Optimism for the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Don’t have it? Get it from ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Uniswap",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.uniswap.org/#/swap?chain=optimism",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " or bridge it to Optimism (through Bungee)!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 491,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 16233858,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4200000000000000000000000000000000000006",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Swap your wBTC to wETH on Uniswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Receive an exclusive Layer3 NFT for swapping your wBTC to wETH on Uniswap (",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Optimism",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "), our good ol' and trusted way to do swaps on our favorite networks.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "Qmbekg1BHXen4iAoXdsFpqWmVYdowSeCk47gTUCJtKFua4",
+        "__typename": "Task"
     }
 }

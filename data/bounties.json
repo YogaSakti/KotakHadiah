@@ -26912,5 +26912,175 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "for-the-hodlers-hold-any-nft-receive-an-nft": {
+        "id": 560,
+        "title": "For the HODLers: Hold any NFT, receive an NFT",
+        "taskType": "BOUNTY",
+        "namespace": "for-the-hodlers-hold-any-nft-receive-an-nft",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Layer3 Early Express (Series 2)",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": 0,
+            "previewImageCid": "QmSfQZEyZuqS8WzWSZ3d6vCA9mT2PQjZv5FCXmTeokEqoz",
+            "previewVideoCid": "QmUmCNz4VdUL4iaxRAKijmaYpLAHfAi575WnVqyjszJcYf",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-07-26T17:55:00.067Z",
+        "expirationDate": "2022-07-31T22:59:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "NFT Rewards are coming to Layer3! Complete this bounty and receive our Early Express Series 2 NFT to commemorate the occasion.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 7646,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 447,
+                "bountyActionKey": "NFT_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "type": "ERC721",
+                    "address": "*",
+                    "chainId": 1
+                },
+                "orderIndex": 0,
+                "title": "Hold any NFT in your wallet on mainnet",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Have any NFT (ERC-721 or ERC-1155 standard) in your wallet on Ethereum mainnet.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://opensea.io/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 446,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 1,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 445,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "#L3EarlyExpress"
+                },
+                "orderIndex": 2,
+                "title": "Share the NFT love",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Quote tweet ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "this tweet",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1552289570821120003",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " with the phrase ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "\"Claiming the first @layer3xyz NFT Bounty! #L3EarlyExpress\"  ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for your tweet to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1552289570821120003",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "QmPD87HPAN2ECdRACemavS1pRowwiHQUfUxGobKLMUpW5y",
+        "__typename": "Task"
     }
 }

@@ -44,7 +44,9 @@ const headers = {
         } else { // save and post
             log.success(`${task.title} with reward ${task.rewardType}, Available for ${task.numberOfWinners === null ? 'Unlimited' : task.numberOfWinners} partisipant (${task.totalBountyClaimersCount} Claimers)`);
             const data = taskdetail.data.task
-            const text = `#Layer3 - *Bounty*\n\n*${data.title}* By _${data.Dao.name}_\n\nReward Type: *${data.rewardType == 'ONLY_XP' ? 'XP' : data.rewardType}*\nReward Amount: *${data.rewardType !== 'ONLY_XP' ? `${data.rewardAmount} ${data.rewardToken.symbol}` : '-'}* | *${data.xp} XP*\nWinners: *${data.numberOfWinners ? data.numberOfWinners : 'Unlimited'}* _Participant_\n\nTask: \n${data.BountySteps.map((x) => `- \`${capitalize(x.title ? x.title : x.bountyActionKey.replaceAll('_', ' ').toLowerCase())}\``).toString().replaceAll(',', '\n')}`
+            const rewardtype = data.rewardType == 'ONLY_XP' ? 'XP' : data.rewardType
+            const rewardamount = data.rewardType == 'ONLY_XP' ? '-' : data.rewardType == 'NFT' ? `1 ${data.rewardNft.name}` : `${data.rewardAmount} ${data.rewardToken.symbol}`
+            const text = `#Layer3 - *Bounty*\n\n*${data.title}* By _${data.Dao.name}_\n\nReward Type: *${rewardtype}*\nReward Amount: *${rewardamount}* | *${data.xp} XP*\nWinners: *${data.numberOfWinners ? data.numberOfWinners : 'Unlimited'}* _Participant_\n\nTask: \n${data.BountySteps.map((x) => `- \`${capitalize(x.title ? x.title : x.bountyActionKey.replaceAll('_', ' ').toLowerCase())}\``).toString().replaceAll(',', '\n')}`
             const sendMessage = await bot.telegram.sendMessage(channelID, text, { protect_content: true, parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: `${data.title} - ${data.Dao.name}`, url: `https://beta.layer3.xyz/bounties/${slug}` }]] } })
             if (sendMessage.message_id) {
                 log.success(`Success Send Bounty to ${sendMessage.chat.type} ${sendMessage.chat.title}`)

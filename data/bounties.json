@@ -27564,5 +27564,279 @@
         ],
         "ogImageCid": "QmaN9sGS2XJnNCSQ5QJLaEUHoFRWEVHqvZQxYB5qg6NGbp",
         "__typename": "Task"
+    },
+    "future-of-defi-lending-with-rocifi": {
+        "id": 602,
+        "title": "Future of DeFi Lending with RociFi",
+        "taskType": "BOUNTY",
+        "namespace": "future-of-defi-lending-with-rocifi",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-29T15:30:41.078Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 700,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Mint your onchain credit score (NFCS) on the first ever Web3-native under-collateralized credit protocol and earn yields through lending and borrowing",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 3,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "RociFI",
+            "logoCid": "QmdB4YCwy1pavJWFoueC9rW6VoLsvgjPGAHoctXr3oamd9",
+            "__typename": "Dao",
+            "id": 223,
+            "namespace": "rocifi",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 494,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31240934,
+                    "contractInteractions": [
+                        {
+                            "address": "0x839a06a50a087fe3b842df1877ef83a443e37fbe",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Mint an NFCS",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Mint an NFCS on RociFi ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to receive your credit passport cataloging your on-chain behaviour. NFCS is your Non-Fungible Credit Score.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://roci.fi/app/markets?utm_source=nfcsid_23&utm_campaign=layer3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 495,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31280140,
+                    "contractInteractions": [
+                        {
+                            "address": "0x978f89de413594378a68cb9c14a83cec0cec721b",
+                            "methodId": "0x0f0c186f",
+                            "methodAbi": {
+                                "name": "depositPool",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "version",
+                                        "type": "string",
+                                        "internalType": "string"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x8bf2b880b48ea3d1b13677f327c5058480b4e1d0",
+                            "methodId": "0x0f0c186f",
+                            "methodAbi": {
+                                "name": "depositPool",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "version",
+                                        "type": "string",
+                                        "internalType": "string"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x883f10dc3960493f38f69b8696dc331d22fded76",
+                            "methodId": "0x0f0c186f",
+                            "methodAbi": {
+                                "name": "depositPool",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "version",
+                                        "type": "string",
+                                        "internalType": "string"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x883f10dc3960493f38f69b8696dc331d22fded76",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Deposit USDC to earn yield",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn yields on your USDC by lending them into one of the RociFi target risk pools on Polygon!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://roci.fi/app/deposit?utm_source=nfcsid_23&utm_campaign=layer3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 496,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31280385,
+                    "transferTo": [
+                        "0x6cb3c5e73b9a6b9e5e9745545a0f40c9724e2337"
+                    ],
+                    "tokenAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add WETH as collateral  ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add wETH as collateral on RociFi Polygon in order to borrow USDC in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://roci.fi/app/collateral?utm_source=nfcsid_23&utm_campaign=layer3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 497,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31280568,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "5"
+                },
+                "orderIndex": 3,
+                "title": "Borrow at least 5 USDC ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow USDC from RociFi Polygon to grow your credit history.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://roci.fi/app/borrow?utm_source=nfcsid_23&utm_campaign=layer3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

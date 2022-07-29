@@ -27418,5 +27418,151 @@
         ],
         "ogImageCid": "Qmbekg1BHXen4iAoXdsFpqWmVYdowSeCk47gTUCJtKFua4",
         "__typename": "Task"
+    },
+    "life-in-the-fast-lane": {
+        "id": 601,
+        "title": "Life in the Fast Lane",
+        "taskType": "BOUNTY",
+        "namespace": "life-in-the-fast-lane",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Turbocharged",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": 2,
+            "previewImageCid": "QmNf4yFaLwnF7EU7ogEFuBNcqefxSumxD9ioxRcDbxykG3",
+            "previewVideoCid": "QmP32pw6eyw1i4G5RcVJDRpGgdpCTUm75pb94yEJ4FdzLU",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-07-29T14:56:01.876Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 420,
+        "rewardTokenId": null,
+        "numberOfWinners": 5000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "A special-edition “Turbocharged” NFT for those who’ve reached Level 10 on Layer3. Only 5,000 will ever be minted.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 686,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 492,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 493,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "RT @layer3xyz"
+                },
+                "orderIndex": 1,
+                "title": "It’s lights out and away we go… 🏁",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Congrats on making it to Level 10! Share your reward on Twitter by ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "retweeting this tweet (",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "No quote tweets",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        },
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ").",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for your RT to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1553039140958134273",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "QmaN9sGS2XJnNCSQ5QJLaEUHoFRWEVHqvZQxYB5qg6NGbp",
+        "__typename": "Task"
     }
 }

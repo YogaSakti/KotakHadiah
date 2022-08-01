@@ -28791,5 +28791,199 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "avalanche-defi-money-markets": {
+        "id": 605,
+        "title": "Avalanche: DeFi Money Markets",
+        "taskType": "BOUNTY",
+        "namespace": "avalanche-defi-money-markets",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-01T13:19:04.810Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the utilities of Money Markets on Avalanche and earn yields on your tokens while you're at it! ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 255,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 507,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18076664,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x5C0401e81Bc07Ca70fAD469b451682c0d747Ef1c",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000001"
+                },
+                "orderIndex": 0,
+                "title": "Supply your AVAX on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply your AVAX tokens on BenQi to earn yields on your resting AVAX tokens!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets#supply",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 508,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18077323,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000001"
+                },
+                "orderIndex": 1,
+                "title": "Stake your AVAX on BenQi to receive sAVAX",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Take the benefit of liquid staking by staking AVAX to earn yields as well receive sAVAX. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://staking.benqi.fi/stake",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 509,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18077421,
+                    "transferTo": [
+                        "0x6bf686d99a4ce17798c45d09c21181fac29a9fb3"
+                    ],
+                    "tokenAddress": "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.00000001"
+                },
+                "orderIndex": 2,
+                "title": "Deposit your sAVAX in T-SAVAX-C vault on Ribbon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your sAVAX tokens in the T-SAVAX-C theta vault on Ribbon to earn yield through its covered call strategy.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-sAVAX-C",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 511,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18077788,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4b946c91C2B1a7d7C40FB3C130CdfBaf8389094d",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000000000001"
+                },
+                "orderIndex": 4,
+                "title": "Add your sAVAX into AVAX/sAVAX pool on TraderJoe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn APR on TraderJOE by adding liquidity to sAVAX/AVAX pool!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/pool/AVAX/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE#/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

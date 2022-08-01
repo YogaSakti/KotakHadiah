@@ -28492,5 +28492,304 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "defi-masterchef-ii-sushiswap-polygon": {
+        "id": 604,
+        "title": "DeFi Masterchef II: Sushiswap Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "defi-masterchef-ii-sushiswap-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-01T10:51:59.054Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Go from zero to hero with SushiSwap Polygon. Explore the robust ecosystem Sushi provides its users across Swaps, Kashi, and Onsen.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 134,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "SushiSwap",
+            "logoCid": "QmYaJn2sKkfnPdgQKb4e6cKHniix7SrMBVpK9qnAGAqw3s",
+            "__typename": "Dao",
+            "id": 130,
+            "namespace": "sushiswap",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 502,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31389810,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc5017BE80b4446988e8686168396289a9A62668E",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                            "methodId": "0xfb3bdb41",
+                            "methodAbi": {
+                                "name": "swapETHForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc5017BE80b4446988e8686168396289a9A62668E",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                            "methodId": "0x7ff36ab5",
+                            "methodAbi": {
+                                "name": "swapExactETHForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make a swap on Sushiswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore Sushi's amazing DEX by swapping any two tokens on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?chainId=137",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 503,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31389987,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x878182116df061c9EAcB8c498c345c5a0ec3A547",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Add liquidity to the WETH/USDT pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to the WETH/USDT pool on SushiSwap Polygon to earn fees when users make swaps in that pool!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/trident/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xc2132D05D31c914a87C6611C10748AEb04B58e8F?fee=5&twap=false&chainId=137",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 505,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31390398,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6FF62bfb8c12109E8000935A6De54daD83a4f39f",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000000000001"
+                },
+                "orderIndex": 3,
+                "title": "Add Liquidity to the WETH/DAI Onsen Farm",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Discover how to use SushiSwap Onsen to farm yield on your WETH & DAI. You'll need to search for WETH/DAI pool on the farm page. You'll use the LP tokens you obtain in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/farm?chainId=137",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 506,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31390522,
+                    "transferTo": [
+                        "*"
+                    ],
+                    "tokenAddress": "0x6FF62bfb8c12109E8000935A6De54daD83a4f39f",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.0000000000001"
+                },
+                "orderIndex": 4,
+                "title": "Stake your LP tokens in the same WETH/DAI pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Under 'Staking' in the same pool, stake the LP tokens you received in the previous step to boost your earnings.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/farm?chainId=137",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

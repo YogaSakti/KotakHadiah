@@ -28985,5 +28985,386 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-lp-on-uniswap": {
+        "id": 606,
+        "title": "Multichain LP on Uniswap",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-lp-on-uniswap",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-01T14:53:34.560Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore LPing on multiple chains on Uniswap, one of the biggest DEXs!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 315,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Uniswap",
+            "logoCid": "Qmc1k2ARRhYgHTggx3L9E8YjMWtxMtFhuaWmLvApFKsdm3",
+            "__typename": "Dao",
+            "id": 5,
+            "namespace": "uniswap",
+            "coverCid": "Qmd158PGUaKTJnVRZ29b5Y5JrXjmWfGcqmRCY3b3JfqBNR",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 512,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31396642,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0xac9650d8",
+                            "methodAbi": {
+                                "name": "multicall",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "data",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "results",
+                                        "type": "bytes[]",
+                                        "internalType": "bytes[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0x219f5d17",
+                            "methodAbi": {
+                                "name": "increaseLiquidity",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "tokenId",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.IncreaseLiquidityParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "methodId": "0x88316456",
+                            "methodAbi": {
+                                "name": "mint",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "params",
+                                        "type": "tuple",
+                                        "components": [
+                                            {
+                                                "name": "token0",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "token1",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "fee",
+                                                "type": "uint24",
+                                                "internalType": "uint24"
+                                            },
+                                            {
+                                                "name": "tickLower",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "tickUpper",
+                                                "type": "int24",
+                                                "internalType": "int24"
+                                            },
+                                            {
+                                                "name": "amount0Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Desired",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount0Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "amount1Min",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            },
+                                            {
+                                                "name": "recipient",
+                                                "type": "address",
+                                                "internalType": "address"
+                                            },
+                                            {
+                                                "name": "deadline",
+                                                "type": "uint256",
+                                                "internalType": "uint256"
+                                            }
+                                        ],
+                                        "internalType": "struct INonfungiblePositionManager.MintParams"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "tokenId",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "liquidity",
+                                        "type": "uint128",
+                                        "internalType": "uint128"
+                                    },
+                                    {
+                                        "name": "amount0",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amount1",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "LP on Uniswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to any token pair on Uniswap Polygon. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquidity providing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://academy.binance.com/en/articles/what-are-liquidity-pools-in-defi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 513,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 17102792,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "LP on Uniswap Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to any token pair on Uniswap Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquidity providing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://academy.binance.com/en/articles/what-are-liquidity-pools-in-defi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 514,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 19126732,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "LP on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Provide liquidity to any token pair on Uniswap Arbitrum. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquidity providing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://academy.binance.com/en/articles/what-are-liquidity-pools-in-defi",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add/ETH?chain=arbitrum",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

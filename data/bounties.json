@@ -29366,5 +29366,238 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "aave-meets-curve-polygon": {
+        "id": 612,
+        "title": "Aave meets Curve: Polygon ",
+        "taskType": "BOUNTY",
+        "namespace": "aave-meets-curve-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-02T20:54:05.024Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the utility of borrowing on Aave by using it to on Curve and earning those extra yields on your tokens! ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 198,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 519,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31439014,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.00000001"
+                },
+                "orderIndex": 0,
+                "title": "Supply your WETH on Aave Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply your WETH on Aave and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "turn on ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "the collateral switch to be able to borrow in the next step",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 520,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31439098,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xFCCf3cAbbe80101232d343252614b6A3eE81C989",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.000001"
+                },
+                "orderIndex": 1,
+                "title": "Borrow USDC against your WETH collateral ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the WETH that you supplied as collateral and borrow ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "variable debt ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "USDC on Aave Polygon",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 521,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31439248,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.00000001"
+                },
+                "orderIndex": 2,
+                "title": "Deposit the borrowed USDC on Aave Curve Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Now it's time to use the borrowed USDC to earn extra yields through Curve. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/aave/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 522,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31439294,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x20759F567BB3EcDB55c817c9a1d13076aB215EdC",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000001"
+                },
+                "orderIndex": 3,
+                "title": "Stake unstaked LP tokens in gauge",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the button ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Stake unstaked in gauge",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to stake your LP tokens and earn extra yield on that too!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/aave/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

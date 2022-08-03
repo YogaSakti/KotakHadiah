@@ -29599,5 +29599,432 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "multichain-swapping-with-hashflow-ii": {
+        "id": 608,
+        "title": "Multi-chain Swapping with Hashflow II",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-swapping-with-hashflow-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-01T22:58:58.465Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 450,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Part II of a multi-chain journey. Trade seamlessly across any chain in minutes without using bridges. Zero slippage. MEV-protection. All in one place.",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Note: You may need to complete this Bounty to access future Bounties with token rewards.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Hashflow",
+            "logoCid": "QmYG9ChgAEjED9ixywS2wTcWcJuckevp5tGCnbJu1z4xEU",
+            "__typename": "Dao",
+            "id": 156,
+            "namespace": "hashflow",
+            "coverCid": null,
+            "ogImageCid": "QmPqhbZyxXskubEywj73YCkynzc1CpkkWFkeB3mgmFbzmD"
+        },
+        "BountySteps": [
+            {
+                "id": 517,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31410590,
+                    "transferTo": [
+                        "0x012566234e737f3c8aaa892be36100240e952345",
+                        "0xdfe0295618c385375dd14ede49328bf4c9653a65",
+                        "0xce8bfa6d1084b09d1765342974539cbaf0d761cc",
+                        "0x945bcf562085de2d5875b9e2012ed5fd5cfab927",
+                        "0x84ea0b90566eec9bc4509ae1a67cd6cc94242c6f"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "5"
+                },
+                "orderIndex": 0,
+                "title": "Swap ≥ 5 USDC on Polygon using Hashflow",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap on Polygon through Hashflow to experience seamless and fast trades!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hashflow.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 518,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18094585,
+                    "transferTo": [
+                        "0x424be4e9295e1917971f2080aea11ac2f960c731",
+                        "0xc0d76d179e6a50bc2b91f64eae6e5c7f2d931107"
+                    ],
+                    "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "5"
+                },
+                "orderIndex": 1,
+                "title": "Swap ≥ 5 USDC on Avalanche using Hashflow",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap on Avalanche through Hashflow to experience seamless and fast trades!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hashflow.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "multichain-swapping-with-hashflow": {
+        "id": 607,
+        "title": "Multi-chain Swapping with Hashflow I",
+        "taskType": "BOUNTY",
+        "namespace": "multichain-swapping-with-hashflow",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-01T22:44:32.692Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 2500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "The first of many: Trade seamlessly across any chain in minutes without using bridges. Zero slippage. MEV-protection. All in one place.",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Note: You may need to complete this Bounty to access future Bounties with token rewards.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Hashflow",
+            "logoCid": "QmYG9ChgAEjED9ixywS2wTcWcJuckevp5tGCnbJu1z4xEU",
+            "__typename": "Dao",
+            "id": 156,
+            "namespace": "hashflow",
+            "coverCid": null,
+            "ogImageCid": "QmPqhbZyxXskubEywj73YCkynzc1CpkkWFkeB3mgmFbzmD"
+        },
+        "BountySteps": [
+            {
+                "id": 515,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 19149850,
+                    "transferTo": [
+                        "0x46c0fe865545353311d61e247201a1de3ca0e62e",
+                        "0xbfaabce766c86d9c5d70d2cb9d10bab6729197e5",
+                        "0x1e91011bf7caf4942f199236227ba4858ae389f6",
+                        "0xff89292f469c0bf58f7f2e15c6286b98c7184a38",
+                        "0x2522c45d1c497c5d46edadfaf9f74c9a381bf222",
+                        "0xb788590a36b6282f90a48071a770a0b2a710bb4d",
+                        "0x2b43b3fcc798bb824b927e26f75f4caa4cb3ba57",
+                        "0xcf2c81698451b00f7c2f72614822a42a00bf5b45",
+                        "0x1b07bd16825a84558206bc2e2712ee332a01b6d7",
+                        "0x20628b67ce5cddac1cb95198c0ff5271f39fc048",
+                        "0x3c41e036854db226bfdf240327ba02bab6baa53d",
+                        "0x040ee81b6245ffa331d70891234d07e3076d283a",
+                        "0xaaa342f13d886684c1eccfcdf821fd5e082029ac",
+                        "0x7c9a788ea2413ceead8e9cc6280d6714dd5603aa",
+                        "0x5d4893ae780a2a218f53867363e01b970c188634",
+                        "0x6d432952bd83c29bd1636da801100cb01a775ab7",
+                        "0x40101b2bfadf035ffb42243de50c07cf4c35fd34",
+                        "0x1988cb13b735db67eeda6c3fbbf604716be15dc5",
+                        "0xd13bd333a4fe131d7da70da7591267f4f083c907",
+                        "0x2bbcad0ce16d61dd3487d8dede06e0349f168d95",
+                        "0x0afa3651c22f7f0465c0ba2d9efea9f63a8d7b24"
+                    ],
+                    "tokenAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.000001"
+                },
+                "orderIndex": 0,
+                "title": "Swap USDC to any other token on Hashflow (Arbitrum)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Hashflow on Arbitrum to trade seamlessly from USDC to any other token",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hashflow.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 516,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 17151467,
+                    "contractInteractions": [
+                        {
+                            "address": "0x54a06197130e02aa0244c4a413f70c52348c3610",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Swap ETH to any other token on Hashflow (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Hashflow on Optimism to trade seamlessly from ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "ETH ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to any other token",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hashflow.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "get-started-with-flipside-crypto": {
+        "id": 603,
+        "title": "Get Started with Flipside Crypto",
+        "taskType": "BOUNTY",
+        "namespace": "get-started-with-flipside-crypto",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-29T16:56:16.377Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 600,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Join one of the most powerful crypto analytics communities and dive deeper into crypto analysis.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 293,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Flipside Crypto",
+            "logoCid": "QmXSWSfLjNHajM9quoqrgy8GDThYDhUohgtqwTtA7TyVno",
+            "__typename": "Dao",
+            "id": 139,
+            "namespace": "flipside-analytics",
+            "coverCid": "QmZ67ozbiV22QanqJ4WXsx559GxkREnGMVqf3FrDkCEf3j",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 499,
+                "bountyActionKey": "REST_ENDPOINT",
+                "isFulfilled": false,
+                "data": {
+                    "url": "https://flipsidecrypto.xyz/api/layer3/verify?task=connect-wallet",
+                    "headers": [
+                        {
+                            "key": "x-api-key",
+                            "value": "d63ad54b-5b69-4ffc-a671-fb231657a06d"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Create a Flipside Account and link your Ethereum wallet to your Flipside profile",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Create your Flipside Crypto account and connect your Ethereum wallet to dive deeper into crypto analysis right away!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://flipsidecrypto.xyz/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 500,
+                "bountyActionKey": "REST_ENDPOINT",
+                "isFulfilled": false,
+                "data": {
+                    "url": "https://flipsidecrypto.xyz/api/layer3/verify?task=connect-discord",
+                    "headers": [
+                        {
+                            "key": "x-api-key",
+                            "value": "d63ad54b-5b69-4ffc-a671-fb231657a06d"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Link your Discord account to your Flipside profile",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Connect your Discord account to your created Flipside profile!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

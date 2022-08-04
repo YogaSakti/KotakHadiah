@@ -30026,5 +30026,361 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "trader-joe-avalanche-pro": {
+        "id": 613,
+        "title": "Trader Joe Avalanche Pro",
+        "taskType": "BOUNTY",
+        "namespace": "trader-joe-avalanche-pro",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-04T09:26:35.328Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Learn how to do DeFi on Avalanche like a pro with Trader Joe.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 249,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Trader Joe",
+            "logoCid": "QmbpnGMTachWvvH95qCoC5Y9ZzZdUSi9Kg2qT2yWEDp6qj",
+            "__typename": "Dao",
+            "id": 149,
+            "namespace": "trader-joe",
+            "coverCid": "QmNpJFmJEucGzheFw8dVVucbR9VFsR26jJmj2nXbrLgPLD",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 523,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18197841,
+                    "contractInteractions": [
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x8a657e67",
+                            "methodAbi": {
+                                "name": "swapAVAXForExactTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOut",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0xa2a1623d",
+                            "methodAbi": {
+                                "name": "swapExactAVAXForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0xc57559dd",
+                            "methodAbi": {
+                                "name": "swapExactAVAXForTokensSupportingFeeOnTransferTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x60ae616a2155ee3d9a68541ba4544862310933d4",
+                            "methodId": "0x38ed1739",
+                            "methodAbi": {
+                                "name": "swapExactTokensForTokens",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "amountIn",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "amountOutMin",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "path",
+                                        "type": "address[]",
+                                        "internalType": "address[]"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "deadline",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "name": "amounts",
+                                        "type": "uint256[]",
+                                        "internalType": "uint256[]"
+                                    }
+                                ],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap from AVAX to any token on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make a trade on Trader Joe (Avalanche) from AVAX to any other token.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 524,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18198127,
+                    "transferTo": [
+                        "0xf4003F4efBE8691B60249E6afbD307aBE7758adb"
+                    ],
+                    "tokenAddress": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.00001"
+                },
+                "orderIndex": 1,
+                "title": "Provide liquidity to the AVAX / USDC pool on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supply more than",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " AVAX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to the AVAX/USDC pool on Trader Joe to earn fees when users make swaps in this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/pool/AVAX/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 525,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18198356,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4483f0b6e2f5486d06958c20f8c39a7abe87bf8f",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Stake your LP tokens in the Trader Joe Farm",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Boost your earnings from the previous step by staking your LP tokens in the Trader Joe farm! Congrats, you're earning with Trader Joe.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/farm/0xf4003F4efBE8691B60249E6afbD307aBE7758adb-0x4483f0b6e2F5486D06958C20f8C39A7aBe87bf8F",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 526,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18198501,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xC22F01ddc8010Ee05574028528614634684EC29e",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.00000001"
+                },
+                "orderIndex": 3,
+                "title": "Lend your AVAX into Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn a deposit APR on Trader Joe Avalanche by supplying your AVAX tokens! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/lending/supply/0xC22F01ddc8010Ee05574028528614634684EC29e",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

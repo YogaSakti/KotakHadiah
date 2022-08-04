@@ -30382,5 +30382,297 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "synthetix-crash-course-i": {
+        "id": 614,
+        "title": "Synthetix Crash Course I",
+        "taskType": "BOUNTY",
+        "namespace": "synthetix-crash-course-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-04T11:38:55.654Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the basics of Synthetix and discover the utility of its ecosystem!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Synthetix",
+            "logoCid": "Qmaz7jojAhRhPsYo7XcoMxeiTsR4ASKJcSsWMGySt33YYs",
+            "__typename": "Dao",
+            "id": 22,
+            "namespace": "synthetix",
+            "coverCid": null,
+            "ogImageCid": "QmQGV2RffHdFhxsqH4PG451bGLyfU7QhahobcbtbbTR93b"
+        },
+        "BountySteps": [
+            {
+                "id": 527,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17637451,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.09"
+                },
+                "orderIndex": 0,
+                "title": "Use Uniswap to swap into SNX on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Uniswap, swap any of your tokens into SNX on Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": Swap into ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "at least 0.1 SNX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ", would be required for other steps.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 528,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17637451,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.009"
+                },
+                "orderIndex": 1,
+                "title": "Stake your SNX to mint sUSD on Synthethix (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Mint sUSD by staking your swapped 0.1 SNX. SNX stakers earn weekly staking rewards in exchange for managing their Collateralization Ratio and debt. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "the sUSD will be used in the next steps!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://staking.synthetix.io/staking",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 529,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17637451,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x061b87122Ed14b9526A813209C8a59a633257bAb",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit your sUSD in the Curve Factory Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'Deposit' ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to add liquidity to the sUSD pool on Curve. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Manually type your sUSD amount if you don't see it in the balance. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://optimism.curve.fi/factory/0/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 530,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17637451,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Supply your sUSD on Aave V3 (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend your sUSD on Aave ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Optimism",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " market to earn yields on it as well as the $OP ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Liquidity Mining rewards",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

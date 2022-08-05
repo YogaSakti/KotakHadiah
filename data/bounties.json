@@ -30674,5 +30674,154 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "synthetix-crash-course-ii": {
+        "id": 615,
+        "title": "Synthetix Crash Course II",
+        "taskType": "BOUNTY",
+        "namespace": "synthetix-crash-course-ii",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-04T20:17:39.883Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 200,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the basics of Synthetix and discover the utility of its ecosystem in part II of this series!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 30,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Synthetix",
+            "logoCid": "Qmaz7jojAhRhPsYo7XcoMxeiTsR4ASKJcSsWMGySt33YYs",
+            "__typename": "Dao",
+            "id": 22,
+            "namespace": "synthetix",
+            "coverCid": null,
+            "ogImageCid": "QmQGV2RffHdFhxsqH4PG451bGLyfU7QhahobcbtbbTR93b"
+        },
+        "BountySteps": [
+            {
+                "id": 531,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17733022,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x59bAbc14Dd73761e38E5bdA171b2298DC14da92d",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0.0000001"
+                },
+                "orderIndex": 0,
+                "title": "Deposit your sUSD to hedge your debt on dHedge",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit sUSD to get dSNX on dHedge Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "dSNX token is a tool that replicates the payoff of the synthetix debt index, enabling users to hedge their active debt exposure. Read more ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://staking.synthetix.io/debt",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x59babc14dd73761e38e5bda171b2298dc14da92d",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 532,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 17734198,
+                    "transferTo": [
+                        "0x0392b358ce4547601befa962680bede836606ae2"
+                    ],
+                    "tokenAddress": "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0.000001"
+                },
+                "orderIndex": 1,
+                "title": "Add liquidity to the Uniswap WETH/SNX pool on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get your share of fees when trades happen in this pair, and add liquidity to this top SNX pool on Uniswap Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add/0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4/0x4200000000000000000000000000000000000006/3000?maxPrice=0.004645&chain=optimism",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

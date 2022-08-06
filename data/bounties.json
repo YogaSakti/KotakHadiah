@@ -31017,5 +31017,212 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "sustainable-yield-on-polygon": {
+        "id": 617,
+        "title": "Sustainable Yield on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "sustainable-yield-on-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-05T17:56:30.711Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore the safest places to earn sustainable yields on your tokens on Polygon!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 538,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31556083,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0297e37f1873d2dab4487aa67cd56b58e2f27875",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Deposit into the Polygon Base Pool on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using any tokens, deposit into the WMATIC-USDC-WETH-BAL pool on Balancer Polygon. You'll use the LP tokens you receive in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 539,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31556329,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x068ff98072d3eb848d012e3390703bb507729ed6",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Stake your Polygon Base Pool LP tokens on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake the LP tokens you received in the previous step to boost your rewards on Balancer. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already staked in the previous step, you'll be able to verify this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.balancer.fi/#/pool/0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 540,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31556398,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe7CEA2F6d7b120174BF3A9Bc98efaF1fF72C997d",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit MATIC into stMATIC/WMATIC Factory Pool on Curve",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Invest your MATIC into the stMATIC/WMATIC pool to get a share of Base vAPY + LDO LP reward!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/factory-crypto/13/deposit",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 541,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31556733,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9633E0749faa6eC6d992265368B88698d6a93Ac0",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Stake unstaked LP tokens in the Curve Gauge",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Click on 'Stake unstaked tokens' button and earn yields on depositing your existing LP tokens in the Gauge",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://polygon.curve.fi/factory-crypto/13/deposit",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -31224,5 +31224,177 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "lido-boosted-yield-on-quickswap": {
+        "id": 618,
+        "title": "Lido Boosted Yield on Quickswap",
+        "taskType": "BOUNTY",
+        "namespace": "lido-boosted-yield-on-quickswap",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-07T05:47:48.358Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Earn extra yields on the stMATIC/MATIC pool which is boosted by Lido.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 206,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "QuickSwap",
+            "logoCid": "QmQ8tiVsQDKTUvJAD3nDJJBxxDfwFo7RMKi8BgzAoRqGTh",
+            "__typename": "Dao",
+            "id": 162,
+            "namespace": "quickswap",
+            "coverCid": "QmU1CzT5jt4P17jzJbkaATJsNHXVn29ELYoWhGcVXty4P9",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 542,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31612448,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Get yourself some stMATIC on Quickswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Quickswap, swap any token to stMATIC (a product of Lido) to use in the next step. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is stMATIC?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://news.shardlabs.io/what-is-matic-stmatic-token-7ac4da2874a1",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://quickswap.exchange/#/swap?outputCurrency=0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 543,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31612635,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x65752C54D9102BDFD69d351E1838A1Be83C924C6",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit in the stMATIC/MATIC pool on Quickswap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Become a stMATIC/MATIC LP on Quickswap and start earning rewards boosted by Lido on top of the usual yield!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://quickswap.exchange/#/add/0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 544,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31612790,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8829ADf1a9a7facE44c8FAb3Bc454f93F330E492",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deploy your stMATIC-MATIC LP into Beefy",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Now we'll use Beefy to optimize our yield even further on the Lido boosted vault on Quickswap!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-stmatic-matic",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

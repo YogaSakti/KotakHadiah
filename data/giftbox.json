@@ -110,5 +110,21 @@
         "post": true,
         "post_at": 1653097842,
         "post_id": 68
+    },
+    "Metanoids": {
+        "name": "Metanoids",
+        "title": "Metanoids",
+        "banner": "https://s.pvcliping.com/plaza/gbad_metanoid.png",
+        "hot_num": 75,
+        "start_time": 1659920400,
+        "end_time": 1660006800,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1659860281,
+        "post": true,
+        "post_at": 1659860284,
+        "post_id": 228
     }
 }

@@ -31578,5 +31578,326 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "stargate-op-rewards-on-farms": {
+        "id": 620,
+        "title": "Stargate: OP Rewards on Farms",
+        "taskType": "BOUNTY",
+        "namespace": "stargate-op-rewards-on-farms",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-07T20:41:43.029Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 2000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore provisioning of liquidity and farming on Stargate (Optimism), and earn rewards in $OP tokens!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 490,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Stargate",
+            "logoCid": "QmW8YSuJVH5w7163WrAPMWixa13mzVCjfgKgCPge1NRmQn",
+            "__typename": "Dao",
+            "id": 152,
+            "namespace": "stargate",
+            "coverCid": "QmTXT6p4LXAAuTStCEfVsQi6aEaQecU1LH9y15roGoTqWL",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 548,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 18215006,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Add USDC liquidity to the Stargate USDC Pool (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn yield on Stargate by adding liquidity to the USDC-pool on Stargate Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/pool/usdc-optimism/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 549,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 18215988,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xd22363e3762cA7339569F3d33EADe20127D5F98C",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Add ETH liquidity to the Stargate ETH Pool (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn yield on Stargate by adding liquidity to the ETH-pool on Stargate Optimism",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/pool/ETH-OPTIMISM/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 550,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 18216196,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4dea9e918c6289a52cd469cac652727b7b412cd2",
+                            "methodId": "0x2b8bbbe8",
+                            "methodAbi": {
+                                "name": "add",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_allocPoint",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_lpToken",
+                                        "type": "address",
+                                        "internalType": "contract IERC20"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x4dea9e918c6289a52cd469cac652727b7b412cd2",
+                            "methodId": "0xe2bbb158",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_pid",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Migrate/Farm yield on your ETH LP on Stargate Farms (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn $OP rewards on farming your ETH LP tokens on Stargate. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "If you already have staked the LP before, you'll need to migrate, don't worry you'll be able to verify even if you just migrate. Stargate would automatically help drive those actions.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/farm/eth-optimism/add",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 551,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 18215006,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4dea9e918c6289a52cd469cac652727b7b412cd2",
+                            "methodId": "0x2b8bbbe8",
+                            "methodAbi": {
+                                "name": "add",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_allocPoint",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_lpToken",
+                                        "type": "address",
+                                        "internalType": "contract IERC20"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x4dea9e918c6289a52cd469cac652727b7b412cd2",
+                            "methodId": "0xe2bbb158",
+                            "methodAbi": {
+                                "name": "deposit",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "_pid",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "_amount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "nonpayable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Migrate/Farm yield on your USDC LP on Stargate Farms (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn $OP rewards on farming your USDC LP tokens on Stargate. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " If you already have staked the LP before, you'll need to migrate, don't worry you'll be able to verify even if you just migrate. Stargate would automatically help drive those actions.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/farm/USDC-OPTIMISM/add",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

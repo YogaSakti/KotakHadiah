@@ -126,5 +126,21 @@
         "post": true,
         "post_at": 1659860284,
         "post_id": 228
+    },
+    "Binions": {
+        "name": "Binions",
+        "title": "Binions",
+        "banner": "https://s.pvcliping.com/plaza/gbad_goodfellas_new.png",
+        "hot_num": 3721,
+        "start_time": 1660006800,
+        "end_time": 1660093200,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "3 Challenges",
+        "status": "Ongoing Event(s)",
+        "now": 1660009374,
+        "post": true,
+        "post_at": 1660009378,
+        "post_id": 233
     }
 }

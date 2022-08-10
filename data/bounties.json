@@ -31899,5 +31899,157 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "help-fund-the-open-web-with-gitcoin": {
+        "id": 621,
+        "title": "Help Fund the Open Web with Gitcoin",
+        "taskType": "BOUNTY",
+        "namespace": "help-fund-the-open-web-with-gitcoin",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Coronation",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": 3,
+            "previewImageCid": "QmS8jEnfgZQ4g2bmi4UGY6VCUyiee5PfrVU3J6g3RiAQRH",
+            "previewVideoCid": "QmT1e3mGuisTwQA2RUCfuDEkrhhc5hQFfZX1ME3vG9W9Y8",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-08T12:14:45.367Z",
+        "expirationDate": "2022-08-15T10:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "The future of the web is open. Earn the \"Coronation\" NFT for helping fund a public goods project with Gitcoin Grants.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 3690,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 552,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 556,
+                "bountyActionKey": "GITHUB_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 1,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 553,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 31660710,
+                    "contractInteractions": [
+                        {
+                            "address": "0xb99080b9407436ebb2b8fe56d45ffa47e9bb8877",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Donate MATIC to a Project on Gitcoin",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Fund digital public goods by donating MATIC to any Gitcoin Grant on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Important: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Make sure you change your currency to MATIC in the \"Amount/Currency\" section in the cart. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://gitcoin.co/grants/explorer",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "QmUsN87JHFM5XtDh8AsHpLgRmPVYUFzN7xwkrwsNfEGkGE",
+        "__typename": "Task"
     }
 }

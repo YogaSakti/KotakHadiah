@@ -32312,5 +32312,256 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "bridging-with-router-protocol": {
+        "id": 630,
+        "title": "Bridging with Router Protocol",
+        "taskType": "BOUNTY",
+        "namespace": "bridging-with-router-protocol",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-10T11:00:27.708Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 550,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Experience bridging on Router Protocol, a modular infrastructure layer enabling blockchains to communicate with each other. Perform the swap on Router's cross-chain swap DApp - Voyager.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 46,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Router Protocol",
+            "logoCid": "QmY3oBeN1G6D8G9mRVdkMXo9UjVsDL5jGoWDdTt3RCWBzq",
+            "__typename": "Dao",
+            "id": 224,
+            "namespace": "router-protocol",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 572,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18426131,
+                    "transferTo": [
+                        "0x6e14f48576265272b6caa3a7cc500a26050be64e"
+                    ],
+                    "tokenAddress": "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "50"
+                },
+                "orderIndex": 0,
+                "title": "Bridge minimum 50 USDC.e from Avalanche to any token on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Voyager, transfer at least 50 ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "USDC.e ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "(not to be confused with USDC) to any token on Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.thevoyager.io/swap?toChain=137&toToken=0x4c28f48448720e9000907BC2611F73022fdcE1fA&fromToken=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&fromChain=43114",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 573,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31703001,
+                    "transferTo": [
+                        "0xfed3c880ff02b195abee916328c5a3953976befd"
+                    ],
+                    "tokenAddress": "0x4c28f48448720e9000907BC2611F73022fdcE1fA",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "50"
+                },
+                "orderIndex": 1,
+                "title": "Transfer minimum 50 MATIC from Polygon to any token on Avalanche/Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Voyager, transfer at least 50 MATIC from Polygon to any token on either Avalanche OR Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.thevoyager.io/swap?fromChain=137&fromToken=0x4c28f48448720e9000907BC2611F73022fdcE1fA&toToken=0xc7198437980c041c805A1EDcbA50c1Ce5db95118&toChain=43114",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "staking-1inch-on-1inch-earn-mainnet": {
+        "id": 623,
+        "title": "Staking 1INCH on 1inch Earn (Mainnet)",
+        "taskType": "BOUNTY",
+        "namespace": "staking-1inch-on-1inch-earn-mainnet",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-09T01:11:43.136Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 700,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore using 1inch Earn which offers liquidity providers attractive APYs through efficient use of capital.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 3,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "1inch",
+            "logoCid": "QmTweaJomqBMHB8yo9TpeA5L712D7onon36uxrest5yc82",
+            "__typename": "Dao",
+            "id": 110,
+            "namespace": "1inch",
+            "coverCid": "QmbT4LLxaedqg1jEskpWVMrXQ7dVdsV6eKvqBTeDGFwkRM",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 567,
+                "bountyActionKey": "TWITTER_ACCOUNT_FOLLOWED",
+                "isFulfilled": false,
+                "data": {
+                    "twitterAccountId": "1137038394503114753"
+                },
+                "orderIndex": 0,
+                "title": "Follow @1inch on Twitter",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Follow 1inch on Twitter in order to keep track of any updates/communication from 1inch's Twitter account.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/1inch",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 558,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 1,
+                    "fromBlock": 15302801,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe47b867b2b5b21a2022068c9ef1293783864b274",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Stake your 1INCH under 1inch Earn (ETH Mainnet)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your 1INCH into the Turbo 1INCH pool to earn an attractive APR. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.1inch.io/#/1/earn/strategies/opium/pool/PEER_2_POOL_OPTION_CALL_ONE_INCH_V1/stake",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

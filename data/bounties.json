@@ -32563,5 +32563,202 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "structured-products-in-crypto-ribbon": {
+        "id": 632,
+        "title": "Gift Wrapped: Structured Products with Ribbon",
+        "taskType": "BOUNTY",
+        "namespace": "structured-products-in-crypto-ribbon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-11T11:40:42.471Z",
+        "expirationDate": "2022-08-12T12:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Crypto, packaged nicely. Earn sustainable yield through decentralized option vaults on Ribbon.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 21,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": [],
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Avalanche",
+            "logoCid": "QmZGDNdHYvJLARBZGuh3xwTFn8swFsz8EZqiN5QVvcHdiF",
+            "__typename": "Dao",
+            "id": 165,
+            "namespace": "avalanche",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 575,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18501981,
+                    "contractInteractions": [
+                        {
+                            "address": "0x98d03125c62dae2328d9d3cb32b7b969e6a87787",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Deposit in the T-AVAX-C options vault on Ribbon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "The vault earns yield on its AVAX deposits by running a weekly automated covered call strategy. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What are theta vaults?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.ribbon.finance/theta-vault/theta-vault",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-AVAX-C",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 576,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18501981,
+                    "contractInteractions": [
+                        {
+                            "address": "0x2b2c81e08f1af8835a78bb2a90ae924ace0ea4be",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Stake AVAX for sAVAX on BenQi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Turn your AVAX into sAVAX, the liquid staked AVAX token, using BenQi and earn yield for staking. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is liquid staking?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.benqi.fi/benqi-liquid-staking/overview",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://staking.benqi.fi/stake",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 577,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18501981,
+                    "contractInteractions": [
+                        {
+                            "address": "0x6bf686d99a4ce17798c45d09c21181fac29a9fb3",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Deposit your sAVAX in T-SAVAX-C vault on Ribbon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "sAVAX",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " tokens in the T-SAVAX-C theta vault on Ribbon to earn yield through its covered call strategy.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-sAVAX-C",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

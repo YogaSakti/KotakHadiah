@@ -33686,5 +33686,160 @@
         ],
         "ogImageCid": "QmSKYiYqvmsfQBqNgCawZdD2EvJ6GBANS59MLC7sXDoSVc",
         "__typename": "Task"
+    },
+    "slingshot-trade-and-earn-op-i": {
+        "id": 626,
+        "title": "Slingshot: Trade and Earn OP ",
+        "taskType": "BOUNTY",
+        "namespace": "slingshot-trade-and-earn-op-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-09T21:21:32.918Z",
+        "expirationDate": "2022-08-22T03:59:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Trade minimum of $100 worth of ETH to USDC on Slingshot Optimism to earn OP tokens!",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "The OP rewards would be decided on the basis of your trade volume (min $100 to be eligible). To know about the tiered system and your OP reward eligibility, please visit this page: ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "OP Token Rewards",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://op.slingshot.finance/?utm_source=layer3&utm_medium=web&utm_campaign=op_token&utm_content=evergreen",
+                                        "class": null,
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 4,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 568,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 18423082,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+                    "transferFrom": [
+                        "0xe74fa58448aedd329ddf07404b9babf76a31b978",
+                        "0x00F7a8D50BCA743169D1b9D3Bb30CE852511fA79",
+                        "0x7F5c764cBc14f9669B88837ca1490cCa17c31607"
+                    ],
+                    "thresholdAmount": "100"
+                },
+                "orderIndex": 0,
+                "title": "Swap from ETH to USDC on Slingshot Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Swap at least ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "$100 ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "worth of",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " ETH to USDC ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "in order to be eligible for OP Token rewards on your trades.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make sure you only trade through the link from 'Start' button. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://op.slingshot.finance/?utm_source=layer3&utm_medium=web&utm_campaign=op_token&utm_content=evergreen",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

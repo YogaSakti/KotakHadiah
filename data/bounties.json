@@ -33167,5 +33167,524 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "save-your-stables-usdc": {
+        "id": 644,
+        "title": "Save Your Stables: USDC",
+        "taskType": "BOUNTY",
+        "namespace": "save-your-stables-usdc",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-15T13:39:33.654Z",
+        "expirationDate": "2022-08-16T13:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Crypto portfolio not looking so hot? Anxious about volatility? Lessen the risk by holding the ol’ reliable: Stablecoins!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 361,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 602,
+                "bountyActionKey": "TOKEN_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "chainId": 1,
+                    "displayName": "USDC",
+                    "thresholdAmount": "0.00001"
+                },
+                "orderIndex": 0,
+                "title": "Hold USDC on Ethereum Mainnet",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Have USDC on mainnet to verify this step. You can swap to USDC on Uniswap if you don’t have any.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 603,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "#SaveYourStables"
+                },
+                "orderIndex": 1,
+                "title": "Share your bear market smarts",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Quote tweet this ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "tweet",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1559173624522833922?s=20&t=cwcn3A_61TfH413iGuB7XA",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and include the text: ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "I just saved some stablecoins via @layer3xyz ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "L3.xyz/Stablecoins",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "http://L3.xyz/Stablecoins",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " #SaveYourStables",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for the tweet to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1559173624522833922?s=20&t=cwcn3A_61TfH413iGuB7XA",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "defi-marathon": {
+        "id": 643,
+        "title": "DeFi Marathon",
+        "taskType": "BOUNTY",
+        "namespace": "defi-marathon",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Out of this World",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": 4,
+            "previewImageCid": "QmR9jSHicHiTbe25GbBFS5kxuM3xfKcYxRCDWo9U3Xk2dH",
+            "previewVideoCid": "QmdRyPP3soRiFfLUXRGPAzZXrsbCTg8dXZN15LPPCZrwYV",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-15T12:07:05.695Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Earn yield and put your crypto to work by becoming a multi-chain DeFi wizard. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 412,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 596,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 1917609,
+                    "contractInteractions": [
+                        {
+                            "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Wrap your MATIC to WMATIC on Slingshot Polygon ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Wrap your MATIC to WMATIC on Slingshot Polygon and dive into the utility of wrapped tokens. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/MATIC",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 597,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 19177868,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4200000000000000000000000000000000000006",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Wrap your ETH to WETH on Slingshot Optimism ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Wrap your ETH to WETH on Slingshot Optimism and dive into the utility of wrapped tokens. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 598,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 19178082,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x7eE71053102d54Fc843BaEBaf07277C2b6dB64f1",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit ETH in Aave Vault on Beefy (Optimism)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore the multichain yield Optimiser Beefy by depositing ETH into its Aave v3 vault on Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/aavev3-op-eth",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 599,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31918439,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8829ADf1a9a7facE44c8FAb3Bc454f93F330E492",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Deposit your WMATIC in the stMATIC-MATIC LP vault on Beefy (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get exposure to the yields of stMATIC-MATIC pool which is also boosted by Lido by depositing Wrapped Matic in the Beefy Vault (Polygon).",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-stmatic-matic",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 600,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18674498,
+                    "contractInteractions": [
+                        {
+                            "address": "0x98d03125c62dae2328d9d3cb32b7b969e6a87787",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Deposit in the T-AVAX-C options vault on Ribbon (Avalanche)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "The vault earns yield on its AVAX deposits by running a weekly automated covered call strategy. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What are theta vaults?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.ribbon.finance/theta-vault/theta-vault",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.ribbon.finance/v2/theta-vault/T-AVAX-C",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 601,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "I just completed a DeFi marathon on @layer3xyz ⚡ #DeFiWizard"
+                },
+                "orderIndex": 5,
+                "title": "Share your DeFi skills",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Pick ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "one ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "out of any four of the photos in t",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "his tweet",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1559196180051017728?s=20&t=DIZkzZmVBzRxbTfHBeZGeQ",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and quote tweet with the photo and caption, ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "I just completed a DeFi marathon on @layer3xyz ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "⚡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://emojipedia.org/high-voltage/",
+                                                "class": "c-link",
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " #DeFiWizard",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1559196180051017728",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "QmSKYiYqvmsfQBqNgCawZdD2EvJ6GBANS59MLC7sXDoSVc",
+        "__typename": "Task"
     }
 }

@@ -34018,5 +34018,241 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "cross-chain-swapping-and-earning-on-woofi": {
+        "id": 645,
+        "title": "Cross-chain Swapping and Earning on WOOFi",
+        "taskType": "BOUNTY",
+        "namespace": "cross-chain-swapping-and-earning-on-woofi",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-15T21:55:18.866Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore WOOFi, a decentralized exchange with competitive price execution, low swap fees, and one-click cross-chain swaps.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 38,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "WOOFi",
+            "logoCid": "QmS6VJwTd18FmpBJ88NTxJqPVWgWjT2gKLL1ZRf7ziPjkx",
+            "__typename": "Dao",
+            "id": 228,
+            "namespace": "woofi",
+            "coverCid": null,
+            "ogImageCid": "QmUPH9186KrnJuVu7U6ZXG9FLMHYeJ55TVwQK7hV1uAmSC"
+        },
+        "BountySteps": [
+            {
+                "id": 604,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 43114,
+                    "fromBlock": 18691027,
+                    "contractInteractions": [
+                        {
+                            "address": "0xdf37f7a85d4563f39a78494568824b4df8669b7a",
+                            "methodId": "0x4c904106",
+                            "methodAbi": {
+                                "name": "crossSwap",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "refId_",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "fromToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "toToken",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "fromAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "srcMinQuoteAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "dstMinToAmount",
+                                        "type": "uint256",
+                                        "internalType": "uint256"
+                                    },
+                                    {
+                                        "name": "srcChainId",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    },
+                                    {
+                                        "name": "dstChainId",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    },
+                                    {
+                                        "name": "to",
+                                        "type": "address",
+                                        "internalType": "address payable"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap from any asset on Avalanche to $BNB on BNB Chain",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using WOOFi, perform a cross-chain swap from any asset on Avalanche to $BNB on BNB Chain (BSC)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://fi.woo.org/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 605,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 56,
+                    "fromBlock": 20473418,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0ba6C34aF9713D15141dcc91d2788c3F370ecb9E",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit any amount of $BNB into the Supercharger vault ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn with zero impermanent loss by depositing $BNB into the Supercharger vault on WOOFi on BNB Chain. Click on the BNB vault with ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "WOOFi Exclusive ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "tag. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "make sure",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " to read the ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "withdrawal policy",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://learn.woo.org/woofi/earn",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " before depositing funds.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://fi.woo.org/earn/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -33841,5 +33841,182 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "introduction-to-bnb-staking-on-ankr": {
+        "id": 546,
+        "title": "Introduction to BNB Staking on Ankr",
+        "taskType": "BOUNTY",
+        "namespace": "introduction-to-bnb-staking-on-ankr",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-07-22T16:17:53.697Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 800,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Stake your BNB on Ankr to get corresponding reward bearing/earning asset on BNB Chain!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 32,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Ankr",
+            "logoCid": "QmXnLCpybiZRYUJN1qY92P2dWAWHBivAeGG9LEEycM91cy",
+            "__typename": "Dao",
+            "id": 185,
+            "namespace": "ankr",
+            "coverCid": null,
+            "ogImageCid": "QmbhefZ221Tj1w5rrE3QELgMfe6ifWLb5Puf6uBygsjJkn"
+        },
+        "BountySteps": [
+            {
+                "id": 442,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 56,
+                    "fromBlock": 20490910,
+                    "contractInteractions": [
+                        {
+                            "address": "0x66bea595aefd5a65799a920974b377ed20071118",
+                            "methodId": "0x9f893188",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x66bea595aefd5a65799a920974b377ed20071118",
+                            "methodId": "0xff0a42de",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Stake your BNB to get aBNBb/aBNBc (BNB Chain)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your BNB on Ankr Staking to get aBNBb/aBNBc on BNB Chain (aka Binance Smart Chain).",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "bulletList",
+                            "content": [
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "text": "aBNBb is a reward-earning asset, its quantity grows daily just being in your wallet.",
+                                                    "type": "text"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "listItem",
+                                    "content": [
+                                        {
+                                            "type": "paragraph",
+                                            "content": [
+                                                {
+                                                    "text": "aBNBс (reward bearing) its quantity is stable, but redemption ratio grows daily. ",
+                                                    "type": "text"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Read more about liquid BNB Staking on Ankr ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here!",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.ankr.com/docs/staking/liquid-staking/bnb/overview/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Important:",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " You need to at least stake 1.002 BNB!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.ankr.com/staking/stake/bnb/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

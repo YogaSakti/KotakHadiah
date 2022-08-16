@@ -34254,5 +34254,164 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "swap-on-zapper-save-your-stables": {
+        "id": 647,
+        "title": "Save Your Stables: Swap on Zapper",
+        "taskType": "BOUNTY",
+        "namespace": "swap-on-zapper-save-your-stables",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-16T12:47:20.102Z",
+        "expirationDate": "2022-08-17T12:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 150,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore Zapper V2, your web3 dashboard. Swap into stables using the best quotes from 20+ exchanges. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 628,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 609,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31957341,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Swap from any coin to USDC on Zapper (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Zapper to swap into USDC from your existing tokens, using the best quotes from over 20 sources.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://zapper.fi/exchange?buyToken=0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 610,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31957501,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Swap from wETH to DAI on Zapper (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Zapper to swap into DAI from your wETH, using the best quotes from over 20 sources.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://zapper.fi/exchange?buyToken=0x8f3cf7ad23cd3cadbd9735aff958023239c6a063&sellToken=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&sellTokenAmount=",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 611,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31957501,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Swap from wBTC to FRAX on Zapper (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Zapper to swap into FRAX from your wBTC, using the best quotes from over 20 sources.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://zapper.fi/exchange?buyToken=0x45c32fa6df82ead1e2ef74d17b76547eddfaff89&sellToken=0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6&sellTokenAmount=0.0000008",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

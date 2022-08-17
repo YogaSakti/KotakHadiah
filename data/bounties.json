@@ -34413,5 +34413,164 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "save-your-stables-beefy": {
+        "id": 651,
+        "title": "Save Your Stables: Beefy Finance",
+        "taskType": "BOUNTY",
+        "namespace": "save-your-stables-beefy",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-17T12:22:02.419Z",
+        "expirationDate": "2022-08-18T12:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Put your stablecoins to work. Explore Beefy to optimize yields on your stables!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 183,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 619,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31994750,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9DA4048550C1a73686E594f726310F0b0585fBA3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Deposit your DAI into the Quickswap DAI-ETH Pool on Beefy (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap into the Quickswap Beefy Pool on Polygon to earn yields on your stablecoin position!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-dai-eth",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 620,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31994750,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4462817b53E76b722c2D174D0148ddb81452f1dE",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Deposit your USDT in the USDC-USDT Pool on Beefy",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make good use of your stables by depositing into the USDC-USDT stablecoin pool by Quickswap on Beefy Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-usdc-usdt",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 621,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31994750,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8440DAe4E1002e83D57fbFD6d33E6F3684a35036",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit your USDC in the Apeswap USDC-DAI pool on Beefy Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap in your USDC into the Apeswap USDC-DAI pool to optimize your stablecoin yield on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/ape-usdc-dai",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

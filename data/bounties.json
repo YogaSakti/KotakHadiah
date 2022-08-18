@@ -34779,5 +34779,143 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "stargate-bridging-and-lp-rewards": {
+        "id": 648,
+        "title": "Across the Universe with Stargate",
+        "taskType": "BOUNTY",
+        "namespace": "stargate-bridging-and-lp-rewards",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-16T19:48:29.420Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 450,
+        "rewardTokenId": null,
+        "numberOfWinners": 1000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "The universe is infinite with Stargate. Journey into Stargate's fully composable liquidity pools and seamless cross-chain bridging. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 57,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Stargate",
+            "logoCid": "QmW8YSuJVH5w7163WrAPMWixa13mzVCjfgKgCPge1NRmQn",
+            "__typename": "Dao",
+            "id": 152,
+            "namespace": "stargate",
+            "coverCid": "QmTXT6p4LXAAuTStCEfVsQi6aEaQecU1LH9y15roGoTqWL",
+            "ogImageCid": "QmfU2hBVD6mnt51HvqhDQ6nAQgPvEvty15PW1JeuyPnbN2"
+        },
+        "BountySteps": [
+            {
+                "id": 612,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 31967551,
+                    "transferTo": [
+                        "0x1205f31718499dbf1fca446663b532ef87481fe1"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "100"
+                },
+                "orderIndex": 0,
+                "title": "Transfer at least 100 USDC from Polygon to Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Transfer a minimum of 100 USDC from Polygon (Matic) to Optimism through Stargate. You'll require the USDC in the next step. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/transfer",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 613,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 10,
+                    "fromBlock": 117940,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298",
+                    "transferFrom": [
+                        "0x0000000000000000000000000000000000000000"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Provide USDC liquidity on Stargate Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees by providing USDC liquidity to Stargate's USDC Optimism pool. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Read more about Stargate",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://stargate.finance",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://stargate.finance/pool/USDC-OPTIMISM",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -34572,5 +34572,212 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "save-your-stables-supplying-and-borrowing-with-aave": {
+        "id": 657,
+        "title": "Save Your Stables: Supplying & Borrowing with Aave",
+        "taskType": "BOUNTY",
+        "namespace": "save-your-stables-supplying-and-borrowing-with-aave",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-18T10:49:02.193Z",
+        "expirationDate": "2022-08-19T12:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Earn lending APRs on your stables and borrow stables against your collateral on Aave.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Aave",
+            "logoCid": "QmeG11YaqCAirSXPhiN6qLNDqMsnED8WLJLgv2bhtE3QaS",
+            "__typename": "Dao",
+            "id": 128,
+            "namespace": "aave",
+            "coverCid": "QmYyKysknjjgsMsUTFbLuCDfpJ1H84JXG49vKbnftPLYoU",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 623,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32029647,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x625E7708f30cA75bfd92586e17077590C60eb4cD",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Supply USDC on Aave Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit USDC to earn lending APR on Aave v3 Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 624,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32029679,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Supply USDT on Aave Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit USDT to earn lending APR on Aave v3 Polygon",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 625,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32029679,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Lend WETH as collateral on Aave Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend your WETH and tick the collateral switch to be able to borrow against WETH on Aave v3 Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 626,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32029679,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Borrow DAI (variable) against WETH",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Borrow ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "variable debt ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "DAI against your WETH collateral on Aave v3 Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

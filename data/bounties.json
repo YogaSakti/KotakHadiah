@@ -34917,5 +34917,259 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "save-your-stables-multichain-explorer": {
+        "id": 659,
+        "title": "Save Your Stables: Multichain Explorer",
+        "taskType": "BOUNTY",
+        "namespace": "save-your-stables-multichain-explorer",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-19T10:01:13.735Z",
+        "expirationDate": "2022-08-20T12:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Travel across chains and explore the utility of your stables on various protocols. Become a multichain explorer!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 628,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 20670956,
+                    "contractInteractions": [
+                        {
+                            "address": "0x16e25cf364cecc305590128335b8f327975d0560",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Lend USDC on Yield Protocol Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "On Yield, lend USDC for a fixed-rate of returns with either maturity date (Arbitrum)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.yieldprotocol.com/lend",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 630,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 19746236,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4a16A42407AA491564643E1dfc1fd50af29794eF",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x059d306a25c4ce8d7437d25743a8b94520536bd5",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Dollar-cost-average from USDC to ETH on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn how to dollar-cost-average (DCA) with Mean Finance by opening a position from USDC to ETH. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is DCAing?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/d/dollarcostaveraging.asp",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://mean.finance/10/0x7f5c764cbc14f9669b88837ca1490cca17c31607/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 631,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32066769,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x9DA4048550C1a73686E594f726310F0b0585fBA3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Deposit your DAI into the Quickswap DAI-ETH Pool on Beefy (Polygon)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Zap into the Quickswap Beefy Pool on Polygon to earn yields on your stablecoin position!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-dai-eth",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 632,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32066769,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4462817b53E76b722c2D174D0148ddb81452f1dE",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Deposit your USDT in the USDC-USDT Pool on Beefy",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make good use of your stables by depositing into the USDC-USDT stablecoin pool by Quickswap on Beefy ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Polygon. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.beefy.com/vault/quick-usdc-usdt",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 633,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18840234,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xbb4646a764358ee93c2a9c4a147d5aDEd527ab73",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 4,
+                "title": "Provide Liquidity in USDT-AVAX Pool on Trader Joe",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "LP USDT / AVAX pool on Trader Joe to earn fees when users make swaps in this pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://traderjoexyz.com/pool/0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7/AVAX",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -35171,5 +35171,368 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "weekend-warrior-save-your-stables": {
+        "id": 661,
+        "title": "Weekend Warrior: Save Your Stables",
+        "taskType": "BOUNTY",
+        "namespace": "weekend-warrior-save-your-stables",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-20T12:03:30.513Z",
+        "expirationDate": "2022-08-22T13:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 650,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Your weekend dose of tasks. Have you done them all? Explore the week in summary as well as some bonus tasks.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 272,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 635,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32109430,
+                    "contractInteractions": [
+                        {
+                            "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Swap into any stablecoin on Uniswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Using Uniswap, trade into any token you want from your existing tokens",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 636,
+                "bountyActionKey": "TOKEN_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+                    "chainId": 137,
+                    "displayName": "DAI",
+                    "thresholdAmount": "1"
+                },
+                "orderIndex": 1,
+                "title": "Hold at least 1 DAI on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stablecoin warrior, are you true to saving your stables? Stables help you when you need capital the most! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 637,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32109610,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Add DAI-USDC Liquidity on Uniswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Add liquidity to the DAI-USDC stablecoin pool to earn part of the swapping fees on Uniswap.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/add/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/100?maxPrice=1.000925&chain=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 638,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32109610,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Lend your USDT on Aave v3 Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend USDT on Aave v3 Polygon to earn lending APR on your USDT.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 639,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 20774793,
+                    "contractInteractions": [
+                        {
+                            "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Trade into any stablecoin on Balancer Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Ready up your stablecoin arsenal by trading any token into a stablecoin to invest.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 640,
+                "bountyActionKey": "TOKEN_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+                    "chainId": 42161,
+                    "displayName": "USDC",
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 5,
+                "title": "Hold USDC on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stablecoin warrior, are you true to saving your stables on Arbitrum as well? Stables help you when you need capital the most! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 641,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 19915612,
+                    "contractInteractions": [
+                        {
+                            "address": "0x1ec50880101022c11530a069690f5446d1464592",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 6,
+                "title": "Invest your DAI on dHedge Optimism ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore automated stablecoin yield strategies on dHedge Optimism by depositing your DAI into one such yield pool.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dhedge.org/pool/0x1ec50880101022c11530a069690f5446d1464592",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 642,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 43114,
+                    "fromBlock": 18886640,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0xB715808a78F6041E46d61Cb123C9B4A27056AE9C",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 7,
+                "title": "Supply USDC on BenQi Avalanche Markets",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore DeFi money markets on BenQi and earn yield on your USDC by supplying. (you'll earn Supply APR + Distribution APR!)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.benqi.fi/markets",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 643,
+                "bountyActionKey": "TOKEN_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+                    "chainId": 43114,
+                    "displayName": "USDt",
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 8,
+                "title": "Hold USDt on Avalanche",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stablecoin warrior, you need to be prepared on all chains. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "(Do not confuse USDt/USDT with USDT.e)",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

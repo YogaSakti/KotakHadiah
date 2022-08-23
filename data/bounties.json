@@ -35835,5 +35835,156 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "time-to-refuel": {
+        "id": 667,
+        "title": "Time to Refuel",
+        "taskType": "BOUNTY",
+        "namespace": "time-to-refuel",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Refuel",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": "6",
+            "previewImageCid": "QmWuCkVih13n4G4UEdUfAJW8yJNbWoeoF5mS2vvxUtpm8h",
+            "previewVideoCid": "QmPmc6pjSJzXAtWrHwb3rqCY1XXdXYDSgapiG5PE1bkiei",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-23T13:10:49.435Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 20000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "A special-edition \"Refuel\" NFT for those who've reached Level 5 on Layer3. Only a limited number will be minted to reward our earliest Level 5 users! ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 180,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 652,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 653,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "RT @layer3xyz"
+                },
+                "orderIndex": 1,
+                "title": "Fuel up for the bear ⛽️",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Congrats on making it to Level 5! Share your reward on Twitter by ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "retweeting ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "this tweet ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1562084669193068545",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "(no quote tweets). ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for your RT to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1562084669193068545",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "Qme1niumrNcxaDhxZg3MbKAFCuFyHeCyGhsemH6Ru9z2MU",
+        "__typename": "Task"
     }
 }

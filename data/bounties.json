@@ -35636,5 +35636,204 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-week-gearing-up": {
+        "id": 666,
+        "title": "Arbitrum Week: Gearing Up ",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-week-gearing-up",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-23T11:53:47.306Z",
+        "expirationDate": "2022-08-24T12:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Gear up for the upcoming week to explore and utilize dApps on Arbitrum. Come and explore the magic of this optimistic rollup on Layer3!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 649,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32227865,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": " Bridge ETH from Polygon to Arbitrum on Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Bungee to move ETH between Polygon and Arbitrum. Get ready to explore more of Arbitrum!",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": If you face errors in finding routes, please increase the amount. Make sure you've selected ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'WETH' on Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'ETH' on Arbitrum.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 650,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 20963726,
+                    "contractInteractions": [
+                        {
+                            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Wrap your ETH to WETH on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get ready by wrapping your ETH to WETH on Arbitrum to explore the utility of this wrapped token throughout this week!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=arbitrum",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 651,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21047118,
+                    "contractInteractions": [
+                        {
+                            "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Use your WETH to swap into any stable on Balancer Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Are you even ready if you don't have a stablecoin? Use Balancer to trade your WETH into a stablecoin of your choice. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

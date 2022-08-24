@@ -36092,5 +36092,228 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-week-explorations-i": {
+        "id": 672,
+        "title": "Arbitrum Week: Explorations I",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-week-explorations-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-24T12:10:59.813Z",
+        "expirationDate": "2022-08-25T12:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore various dApps and utility on Arbitrum to refresh your memory of those to double down on yields on your crypto!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 657,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc09e69e79106861df5d289da88349f10e2dc6b5c",
+                            "methodId": "0x474cf53d",
+                            "methodAbi": {
+                                "name": "depositETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "onBehalfOf",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Supply an asset on Aave v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Don't forget you can also benefit from Aave on Arbitrum, supply any asset and optimize your yields through lending APR.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_arbitrum_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 658,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe8c97BF6d084880De38Aec1a56d97ED9fDfA0C9b",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make a trade through Slingshot Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade the web3 way by making any trade through Slingshot on Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 659,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x905dfCD5649217c42684f23958568e533C711Aa3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to WETH/USDC pool on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the WETH and USDC you obtained during the greaing up bounty to add liquidity to WETH/USDC Farm on Sushiswap.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": To quickly search the farm, type ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'USDC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "' in the search bar and click on the WETH/USDC farm to add liquidity.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/farm?filter=sushi&chainId=42161",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

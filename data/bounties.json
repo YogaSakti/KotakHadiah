@@ -35534,5 +35534,786 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "trade-on-dfyn-polygon": {
+        "id": 660,
+        "title": "Trade on Dfyn Exchange (Polygon) ",
+        "taskType": "BOUNTY",
+        "namespace": "trade-on-dfyn-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-19T14:00:03.551Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 450,
+        "rewardTokenId": null,
+        "numberOfWinners": 400,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Trade at least $100 worth of MATIC/USDC, ETH/USD or WBTC/USDC on Dfyn Exchange (Polygon), a multi-chain DEX. ",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Unlike traditional AMMs the orders will be directly filled by competitive market makers.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 402,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Dfyn",
+            "logoCid": "QmZ4r1pAmkMNPa1CXmNtGgF4UyniTAKxFD76tWfPubnvsF",
+            "__typename": "Dao",
+            "id": 229,
+            "namespace": "dfyn",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 634,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32073715,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "0x876cea61f692f1624b6c8b1a8ac3d7a978a9f4fb",
+                        "0x4f5df10b9991482bcd2db19dae1fd0e0184397c2"
+                    ],
+                    "thresholdAmount": "100"
+                },
+                "orderIndex": 0,
+                "title": "Trade at least $100 worth of MATIC, ETH OR WBTC into USDC on Dfyn",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade your MATIC, ETH or WBTC (at least $100 worth) into USDC on Dfyn Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://exchange.dfyn.network/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "arbitrum-week-gearing-up": {
+        "id": 666,
+        "title": "Arbitrum Week: Gearing Up ",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-week-gearing-up",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-23T11:53:47.306Z",
+        "expirationDate": "2022-08-24T12:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Gear up for the upcoming week to explore and utilize dApps on Arbitrum. Come and explore the magic of this optimistic rollup on Layer3!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 649,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32227865,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": " Bridge ETH from Polygon to Arbitrum on Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Bungee to move ETH between Polygon and Arbitrum. Get ready to explore more of Arbitrum!",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": If you face errors in finding routes, please increase the amount. Make sure you've selected ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'WETH' on Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'ETH' on Arbitrum.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 650,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 20963726,
+                    "contractInteractions": [
+                        {
+                            "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Wrap your ETH to WETH on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get ready by wrapping your ETH to WETH on Arbitrum to explore the utility of this wrapped token throughout this week!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=arbitrum",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 651,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21047118,
+                    "contractInteractions": [
+                        {
+                            "address": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Use your WETH to swap into any stable on Balancer Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Are you even ready if you don't have a stablecoin? Use Balancer to trade your WETH into a stablecoin of your choice. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/trade",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "time-to-refuel": {
+        "id": 667,
+        "title": "Time to Refuel",
+        "taskType": "BOUNTY",
+        "namespace": "time-to-refuel",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Refuel",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": "6",
+            "previewImageCid": "QmWuCkVih13n4G4UEdUfAJW8yJNbWoeoF5mS2vvxUtpm8h",
+            "previewVideoCid": "QmPmc6pjSJzXAtWrHwb3rqCY1XXdXYDSgapiG5PE1bkiei",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-23T13:10:49.435Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 20000,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "A special-edition \"Refuel\" NFT for those who've reached Level 5 on Layer3. Only a limited number will be minted to reward our earliest Level 5 users! ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 180,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 652,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 653,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "RT @layer3xyz"
+                },
+                "orderIndex": 1,
+                "title": "Fuel up for the bear ⛽️",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Congrats on making it to Level 5! Share your reward on Twitter by ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "retweeting ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "this tweet ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1562084669193068545",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "(no quote tweets). ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for your RT to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1562084669193068545",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "Qme1niumrNcxaDhxZg3MbKAFCuFyHeCyGhsemH6Ru9z2MU",
+        "__typename": "Task"
+    },
+    "trading-on-slingshot-optimism": {
+        "id": 669,
+        "title": "Trading on Slingshot Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "trading-on-slingshot-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-23T20:37:17.692Z",
+        "expirationDate": "2022-08-24T03:30:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discover trading crypto the web3 way with Slingshot. On Optimism.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 545,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Slingshot",
+            "logoCid": "QmZWJmpEqqrh4UtiwCD5JiA825wJ5NWv8TCEaa55RFQ6FK",
+            "__typename": "Dao",
+            "id": 145,
+            "namespace": "slingshot",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 654,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 20331000,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x4200000000000000000000000000000000000006",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Make any trade using Slingshot on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore the power of trading on Slingshot Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "What is Slingshot?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://wiki.rugdoc.io/docs/introduction-to-slingshot-finance/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "arbitrum-week-explorations-i": {
+        "id": 672,
+        "title": "Arbitrum Week: Explorations I",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-week-explorations-i",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-24T12:10:59.813Z",
+        "expirationDate": "2022-08-25T12:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Explore various dApps and utility on Arbitrum to refresh your memory of those to double down on yields on your crypto!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 657,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "contractInteractions": [
+                        {
+                            "address": "0x794a61358d6845594f94dc1db02a252b5b4814ad",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0xc09e69e79106861df5d289da88349f10e2dc6b5c",
+                            "methodId": "0x474cf53d",
+                            "methodAbi": {
+                                "name": "depositETH",
+                                "type": "function",
+                                "inputs": [
+                                    {
+                                        "name": "pool",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "onBehalfOf",
+                                        "type": "address",
+                                        "internalType": "address"
+                                    },
+                                    {
+                                        "name": "referralCode",
+                                        "type": "uint16",
+                                        "internalType": "uint16"
+                                    }
+                                ],
+                                "outputs": [],
+                                "stateMutability": "payable"
+                            },
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Supply an asset on Aave v3 Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Don't forget you can also benefit from Aave on Arbitrum, supply any asset and optimize your yields through lending APR.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_arbitrum_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 658,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "contractInteractions": [
+                        {
+                            "address": "0xe8c97BF6d084880De38Aec1a56d97ED9fDfA0C9b",
+                            "objectType": "ContractInteraction"
+                        },
+                        {
+                            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make a trade through Slingshot Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade the web3 way by making any trade through Slingshot on Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 659,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 21146242,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x905dfCD5649217c42684f23958568e533C711Aa3",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to WETH/USDC pool on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use the WETH and USDC you obtained during the greaing up bounty to add liquidity to WETH/USDC Farm on Sushiswap.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": To quickly search the farm, type ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'USDC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "' in the search bar and click on the WETH/USDC farm to add liquidity.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/farm?filter=sushi&chainId=42161",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

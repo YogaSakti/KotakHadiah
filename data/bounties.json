@@ -36593,5 +36593,1206 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discovery-week-exploring-arbitrum": {
+        "id": 693,
+        "title": "Discovery Week: TreasureDAO and Dopex",
+        "taskType": "BOUNTY",
+        "namespace": "discovery-week-exploring-arbitrum",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-30T20:11:57.728Z",
+        "expirationDate": "2022-08-31T16:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "The best way to explore Arbitrum. Curated protocols for a smooth L2 experience.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 2458,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 702,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 22034917,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Trade into some MAGIC on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore $MAGIC, the natural resource of the Treasure metaverse. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn more about MAGIC ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.treasure.lol/getting-started/what-is-magic",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You can use $MAGIC to buy NFTs on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Treasure.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://treasure.lol/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x539bdE0d7Dbd336b79148AA742883198BBF60342&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 703,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 22036149,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Buy DPX on Sushiswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get $DPX, the limited supply governance token of DOPEX.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "It accrues fees and revenue from pools, vaults and wrappers.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You'll use this token in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 704,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 22034917,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x0C1Cf6883efA1B496B01f654E247B9b419873054",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to ETH-DPX pool on Sushi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get the DPX-ETH(WETH) LP on Sushi Arbitrum to farm it on DOPEX Arbitrum in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/add/ETH/0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55?tokens=ETH&tokens=0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 705,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 22037575,
+                    "transferTo": [
+                        "*"
+                    ],
+                    "tokenAddress": "0x0C1Cf6883efA1B496B01f654E247B9b419873054",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 3,
+                "title": "Farm your SushiSwap LP on DOPEX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your Sushiswap DPX-ETH LP Tokens to farm yields on DOPEX. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You can also use DPX, ETH and other tokens to deposit in ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Single Stake Option Vaults.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.dopex.io/ssov",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dopex.io/farms",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "integrate-sudoswap-nft-marketplace-to-dappradar": {
+        "id": 689,
+        "title": "Integrate SudoSwap NFT Marketplace to DappRadar",
+        "taskType": "BOUNTY",
+        "namespace": "integrate-sudoswap-nft-marketplace-to-dappradar",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": "50000",
+        "rewardToken": {
+            "id": 80,
+            "address": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
+            "name": "DappRadar",
+            "symbol": "RADAR",
+            "decimals": 18,
+            "chainId": 1,
+            "updatedAt": "2022-08-31T06:48:41.393Z",
+            "usdPrice": "0.01143557",
+            "__typename": "Token"
+        },
+        "rewardNft": null,
+        "createdAt": "2022-08-29T18:17:31.093Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 2671,
+        "rewardTokenId": 80,
+        "numberOfWinners": 1,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Contribute to our open-source repository by integrating SudoSwap NFT marketplace",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "DappRadar",
+            "logoCid": "QmTbLFX3vwdvmdRir2DdqnFLvm57obopMA5h7X7c5EvxdE",
+            "__typename": "Dao",
+            "id": 143,
+            "namespace": "dappradar",
+            "coverCid": null,
+            "ogImageCid": "QmPJxVcrwhdtWG3M2dU4g4yb77QeV48GuYRm1pUCE9gbgk"
+        },
+        "BountySteps": [
+            {
+                "id": 697,
+                "bountyActionKey": "GITHUB_CONNECTED",
+                "isFulfilled": false,
+                "data": null,
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 698,
+                "bountyActionKey": "GITHUB_PR_MERGED",
+                "isFulfilled": false,
+                "data": {
+                    "repo": "nft-sales-adapters",
+                    "label": "sudoswap",
+                    "owner": "dappradar"
+                },
+                "orderIndex": 1,
+                "title": "Integrate SudoSwap on DappRadar",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Contribute to our GitHub repository by integrating the SudoSwap marketplace. Make sure you label your PR as ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "\"sudoswap\".",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "As soon as the PR will be merged, you will receive your rewards. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Links:",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "GitHub Issue",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://github.com/dappradar/nft-sales-adapters/issues/89",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Documentation",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://dappradar.github.io/nft-sales-adapters/#/general/index",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Help: ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "#developers in Discord",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": " https://dappradar.com/discord",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "discovery-week-stables-on-optimism": {
+        "id": 688,
+        "title": "Discovery Week: Stables on Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "discovery-week-stables-on-optimism",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-29T17:22:32.385Z",
+        "expirationDate": "2022-08-30T20:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Hear ye, hear ye. New protocols on Layer3 just dropped. Explore curated trading on Slingshot and Velodrome via Optimism. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 5030,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 694,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21036035,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Trade into DAI from any token on Slingshot Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade the web3 way on Slingshot. Get some DAI, which will be used in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 699,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21036912,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9c12939390052919af3155f41bf4160fd3666a6f",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": " Deposit your DAI in the USDC-DAI Stable Pool on Velodrome",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore Velodrome on Optimism and earn APR on your DAI by investing it into the USDC-DAI ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "stable pool.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Read more about Velodrome here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.velodrome.finance/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": Please click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Stable",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " when adding liquidity, then click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Deposit and Stake",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ". And if you're facing issues, please refresh the page and try again.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.velodrome.finance/liquidity/manage?address=0x4f7ebc19844259386dbddb7b2eb759eefc6f8353",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 700,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21055237,
+                    "contractInteractions": [
+                        {
+                            "address": "0x9c12939390052919af3155f41bf4160fd3666a6f",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Deposit your Velodrome LP tokens in the Gauge",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You'll be able to",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " verify this step instantly since your tokens have already been deposited",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " in the Gauge",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " in the previous step.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "l2-power-user": {
+        "id": 685,
+        "title": "Layer2 Power User: Arbitrum and Optimism",
+        "taskType": "BOUNTY",
+        "namespace": "l2-power-user",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "To L2s and Beyond",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": "7",
+            "previewImageCid": "QmdRYMkbLcRjEysS5VcBsWgPcKdWdpmUXsnzaXbosFHUgJ",
+            "previewVideoCid": "QmUVesp8JJtN151fDq7Z7FgbwEwS5wZvoWEriQ8kfpuAYa",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-27T16:07:33.525Z",
+        "expirationDate": "2022-09-03T14:30:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Are you an early adopter of L2s? Celebrate your part in scaling the future of Ethereum by claiming your free NFT reward.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 9205,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 687,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": "*",
+                                        "transferTo": "*",
+                                        "transferFrom": [
+                                            "userAddress"
+                                        ],
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 10,
+                            "timeConstraint": {
+                                "afterBlock": 0,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": "*",
+                                        "transferTo": "*",
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 0,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Do any transaction on Optimism or Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "If you've done any transaction on Optimism or Arbitrum, you'll be able to verify this step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 701,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 1,
+                "title": "Connect your Twitter to Layer3 and join our Discord",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Go to ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "your Layer3 profile",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://beta.layer3.xyz/meowllark.eth",
+                                                "class": "c-hDdBLZ c-bhhujY c-hDdBLZ-fPSeYF-color-white",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and connect your Twitter. Make sure you've ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "joined our Discord ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://discord.gg/layer3",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "as well.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 689,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "#L2sOnL3"
+                },
+                "orderIndex": 2,
+                "title": "Share your progress on L2s",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Early adopter syndrome? We think not. Tweet about your crypto smarts!",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Quote Retweet (QRT) this tweet and include the quote, ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "I just claimed my free NFT from @layer3xyz by completing transactions on @optimismFND and @arbitrum ⛓️ #L2sOnL3",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1564620954843680769",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
+    },
+    "powered-by-eth": {
+        "id": 682,
+        "title": "Powered by ETH ⚡",
+        "taskType": "BOUNTY",
+        "namespace": "powered-by-eth",
+        "isClosed": false,
+        "rewardType": "NFT",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": {
+            "name": "Powered by ETH",
+            "chainId": 137,
+            "address": "0x200FB6e28EdF0FBC9B5fabf7d39Ae583981f5038",
+            "tokenId": "5",
+            "previewImageCid": "QmWBefqwkgDhJHxmBJYyWz52bSpkdZC5VT51LQQ87Ztffg",
+            "previewVideoCid": "QmPHqdb158Dw3PM8f8dEE1ZpL2mKHw2grxG9D5Y1eejann",
+            "__typename": "Nft"
+        },
+        "createdAt": "2022-08-26T16:22:01.734Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 100,
+        "rewardTokenId": null,
+        "numberOfWinners": 7500,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "A special-edition \"Powered by ETH ⚡\" NFT for those who've reached Level 20 on Layer3. Only 7,500 will be minted to reward our earliest Level 20 users!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": {
+            "id": 3,
+            "slug": "level-20",
+            "name": "Level 20",
+            "description": "Complete 40,000 XP worth of on-chain and off-chain actions on Layer3.",
+            "category": "LEVEL",
+            "color": "#27558C",
+            "imageCid": "QmVwKXTMpHTztUwyTaZsgH4ckJQwroLafjxNKCdHTRQAHH"
+        },
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 392,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 676,
+                "bountyActionKey": "TWITTER_CONNECTED",
+                "isFulfilled": false,
+                "data": {},
+                "orderIndex": 0,
+                "title": null,
+                "description": null,
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 677,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "RT @layer3xyz"
+                },
+                "orderIndex": 1,
+                "title": "Celebrate the upcoming Merge 🗓",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Congrats on making it to Level 20! Share the ETH love on Twitter by ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "retweeting ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "this tweet",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1564219186942984193",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        },
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " (no quote tweets).",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Please wait 10 seconds for your RT to verify",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1564219186942984193",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": "QmSofmKJyAzw2NS7NgZKMkaKPxC5qVcRiHtdtuyRB5p2Rd",
+        "__typename": "Task"
+    },
+    "the-magic-starts-here": {
+        "id": 654,
+        "title": "The Magic Starts Here ✨",
+        "taskType": "QUEST",
+        "namespace": "the-magic-starts-here",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-17T17:35:48.269Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": null,
+        "rewardTokenId": null,
+        "numberOfWinners": 1,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Get started with Layer3, the easiest way to discover and explore web3.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [],
+        "ogImageCid": "QmXEmwbKC4kvZbkEXC3og7WF6naLQvJDe5xdFLWWYyEeNx",
+        "__typename": "Task"
     }
 }

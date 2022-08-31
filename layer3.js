@@ -1,3 +1,4 @@
+/* eslint-disable init-declarations */
 /* eslint-disable no-extra-parens */
 /* eslint-disable camelcase */
 require('dotenv').config()
@@ -17,7 +18,8 @@ const bot = new Telegraf(botToken);
 const bounties = new JSONdb('data/bounties.json');
 const query = new JSONdb('data/query.json');
 
-const BaseApi = 'https://beta.layer3.xyz/api/graphql';
+const BaseGraphqlApi = 'https://beta.layer3.xyz/api/graphql';
+const BaseApi = 'https://beta.layer3.xyz/api/trpc';
 const headers = { 
     accept: 'application/json',
     'content-type': 'application/json',
@@ -27,10 +29,9 @@ const headers = {
 };
 
 (async () => {
-    const activeBounties = await fetch(`${BaseApi}`, { method: 'POST', headers, body: JSON.stringify(query.get('GetAllTasks')) }).then((res) => res.json());
-    const bountiesDetails = (slug) => fetch(`${BaseApi}`, { method: 'POST', headers, body: JSON.stringify(query.get('GetTaskFromSlug')).replace('change-this-text', slug) }).then((res) => res.json());
-
-    const { tasks } = activeBounties.data
+    const bountiesDetails = (slug) => fetch(`${BaseGraphqlApi}`, { method: 'POST', headers, body: JSON.stringify(query.get('GetTaskFromSlug')).replace('change-this-text', slug) }).then((res) => res.json());
+    const getTask = await fetch(`${BaseApi}/${query.get('GetTasks')}`, { method: 'GET', headers }).then((res) => res.json());
+    let { json: tasks } = getTask[0].result.data
     
     for (let i = 0; i < tasks.length; i++) {
         const task = tasks[i];
@@ -43,10 +44,25 @@ const headers = {
             log.warning(`${slug} already exist and posted`)
         } else { // save and post
             log.success(`${task.title} with reward ${task.rewardType}, Available for ${task.numberOfWinners === null ? 'Unlimited' : task.numberOfWinners} partisipant (${task.totalBountyClaimersCount} Claimers)`);
+            const missionDoc = task?.missionDoc?.content[0].content[0].text
             const data = taskdetail.data.task
-            const rewardtype = data.rewardType == 'ONLY_XP' ? 'XP' : data.rewardType
-            const rewardamount = data.rewardType == 'ONLY_XP' ? '-' : data.rewardType == 'NFT' ? `1 ${data.rewardNft.name}` : `${data.rewardAmount} ${data.rewardToken.symbol}`
-            const text = `#Layer3 - *Bounty*\n\n*${data.title}* By _${data.Dao.name}_\n\nReward Type: *${rewardtype}*\nReward Amount: *${rewardamount}* | *${data.xp} XP*\nWinners: *${data.numberOfWinners ? data.numberOfWinners : 'Unlimited'}* _Participant_\n\nTask: \n${data.BountySteps.map((x) => `- \`${capitalize(x.title ? x.title : x.bountyActionKey.replaceAll('_', ' ').toLowerCase())}\``).toString().replaceAll(',', '\n')}`
+            let rewardamount, rewardtype
+            if (data.rewardType == 'ONLY_XP') {
+                rewardtype = 'XP'
+                rewardamount = 0
+            } else if (data.rewardType == 'NFT') {
+                rewardtype = data.rewardType
+                rewardamount = `1 ${data.rewardNft.name}`
+            } else if (data.rewardType == 'TOKEN') {
+                rewardtype = data.rewardType
+                rewardamount = `${data?.rewardAmount || 0} ${data.rewardToken?.symbol || ''}`.trim()
+            }
+            let tasklist = data.BountySteps.map((x) => `- \`${capitalize(x.title ? x.title : x.bountyActionKey.replaceAll('_', ' ').toLowerCase()).trim()}\``)
+            if (data.GatingAchievement) {
+                let achievement = data.GatingAchievement
+                tasklist.unshift(`- \`${capitalize(achievement.name)}\``)
+            }
+            const text = `#Layer3 - *Bounty*\n\n*${data.title}* By _${data.Dao.name}_\n\n${missionDoc}\n\nReward Type: *${rewardtype}*\nReward Amount: *${rewardamount}* | *${data.xp || 0} XP*\nWinners: *${data.numberOfWinners ? data.numberOfWinners : 'Unlimited'}* _Participant_\n\nTasks: \n${tasklist.length == 0 ? '- `Check on Web`' : tasklist.toString().replaceAll(',', '\n')}`
             const sendMessage = await bot.telegram.sendMessage(channelID, text, { protect_content: true, parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: `${data.title} - ${data.Dao.name}`, url: `https://beta.layer3.xyz/bounties/${slug}` }]] } })
             if (sendMessage.message_id) {
                 log.success(`Success Send Bounty to ${sendMessage.chat.type} ${sendMessage.chat.title}`)

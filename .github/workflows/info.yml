@@ -29,6 +29,8 @@ jobs:
         echo CLIENTAUTH=${{ secrets.CLIENTAUTH }} >> .env
     - name: Run GiftBox
       run: npm run giftbox
+    - name: Run layer3
+      run: npm run layer3
     - name: Update Last Check
       run: TZ='Asia/Jakarta' date +%c > lastCheck
     - name: Push LogFile

@@ -38152,5 +38152,350 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discovery-week-refi-on-polygon": {
+        "id": 699,
+        "title": "Discovery Week: ReFi on Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "discovery-week-refi-on-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-01T19:16:16.632Z",
+        "expirationDate": "2022-09-02T19:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Save the world using web3. Literally. Explore ReFi, DeFi which is working for the Earth. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 127,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 714,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32566642,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x4e78011Ce80ee02d2c3e649Fb657E45898257815",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 0,
+                "title": "Buy KLIMA on Sushiswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Every KLIMA token is backed by 1 Carbon Tonne. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Interesting right? ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "By owning KLIMA, you're fighting climate change. Yes. Read more about it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.klimadao.finance/tokenomics-and-mechanisms/primer-on-klima",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?tokens=MATIC&tokens=0x4e78011Ce80ee02d2c3e649Fb657E45898257815&chainId=137",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 715,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32566816,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4d70a031fc76da6a9bc0c922101a05fa95c3a227",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Stake your KLIMA on KlimaDAO Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Start earning value on your KLIMA by staking it in KlimaDAO. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Staking is the primary reward distribution mechanism of the protocol. It is intended to be the primary mechanism of value accrual for the majority of users. Read more about it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.klimadao.finance/tokenomics-and-mechanisms/staking",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.klimadao.finance/#/stake",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 716,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32567170,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2F800Db0fdb5223b3C3f354886d907A671414A7F",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": "Buy $BCT for the Earth on Sushi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "BCT is Toucan Protocol's Base Carbon Tonne token.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Want to know how does it work to help save the earth? Read more ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.toucan.earth/protocol/pool/key-concepts",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?tokens=MATIC&tokens=0x2F800Db0fdb5223b3C3f354886d907A671414A7F&chainId=137",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 717,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32567351,
+                    "contractInteractions": [
+                        {
+                            "address": "0x2f800db0fdb5223b3c3f354886d907a671414a7f",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Redeem TCO2 from BCT on Toucan Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore Carbon Pools on Toucan protocol by ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Redeeming ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "your TCO2 for your BCT. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Click ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'Redeem TCO2' ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "to get your TCO2 tokens.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Read about the usage of why Carbon pools make offsets to be grouped and help increase liquidity ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.toucan.earth/protocol/pool/pools",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://toucan.earth/pools?chainId=137",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

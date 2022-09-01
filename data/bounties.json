@@ -37888,5 +37888,269 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discovery-week-hop-to-alpha-homora-and-defi-saver": {
+        "id": 696,
+        "title": "Discovery Week: Hop to Optimism ",
+        "taskType": "BOUNTY",
+        "namespace": "discovery-week-hop-to-alpha-homora-and-defi-saver",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-08-31T22:03:22.860Z",
+        "expirationDate": "2022-09-01T18:31:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 500,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Discovery’s just a bunny hop away. Bridge from Polygon from Optimism and explore these curated capital management tools.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 204,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 707,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32531458,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc315239cfb05f1e130e7e28e603cea4c014c57f0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge ETH from Polygon to Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get ready to explore Optimism by bridging through Hop on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hop.exchange/#/send?token=ETH&sourceNetwork=polygon&destNetwork=optimism",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 710,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21395251,
+                    "contractInteractions": [
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any swap on Clipper DEX on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make any trade on Clipper, built to give the self-made crypto trader the best possible prices on small trades (< $10k).",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://clipper.exchange/app/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 708,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21392723,
+                    "contractInteractions": [
+                        {
+                            "address": "0x86b4d2636ec473ac4a5dd83fc2beda98845249a7",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Supply your ETH in DeFi Saver Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore asset management at its finest on DeFi Saver Optimism. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Supply ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "your ETH in Aave through DeFi Saver. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.defisaver.com/aave/manage",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 709,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21393072,
+                    "contractInteractions": [
+                        {
+                            "address": "0xbcb8b7ce255ad6268924407342b78c065df5986d",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Lend your DAI on Alpha Homora Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore lending and borrowing on Alpha Homora. Deposit DAI in the following vault to bear interest on your lend position.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://homora-v2.alphaventuredao.io/lend/supply/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 711,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21395764,
+                    "contractInteractions": [
+                        {
+                            "address": "0xd5a8f233cbddb40368d55c3320644fb36e597002",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Deposit in USDC vault on Pika Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees in form of trading fees, funding fees and liquidation profit of trades.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn more about the USDC vault ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://pikaprotocol.gitbook.io/pika-protocol/user-guide/liquidity",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.pikaprotocol.com/#/vault",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -1,13 +1,13 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-name: Forta Reward Checker
+name: Giftbox Event Checker
 
 on: 
   # push:
   #   branches:
-  #     - master 
+  #     - master
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */3 * * *"
 
 jobs:
   build:
@@ -24,17 +24,20 @@ jobs:
     - name: Create .env file
       run: |
         touch .env
-        echo BOTTOKENFORTA=${{ secrets.BOTTOKENFORTA }} >> .env
-        echo CHANNELIDFORTA=${{ secrets.CHANNELIDFORTA }} >> .env
-    - name: Run Forta Network Checker
-      run: npm run forta
+        echo BOTTOKEN=${{ secrets.BOTTOKEN }} >> .env
+        echo CHANNELID=${{ secrets.CHANNELID }} >> .env
+        echo CLIENTAUTH=${{ secrets.CLIENTAUTH }} >> .env
+    - name: Run GiftBox
+      run: npm run giftbox
+    - name: Run layer3
+      run: npm run layer3
     - name: Update Last Check
-      run: TZ='Asia/Jakarta' date +%c > lastCheckForta
+      run: TZ='Asia/Jakarta' date +%c > lastCheckGiftbox
     - name: Push LogFile
       run: |
-        git config --global user.name 'Tukang Monitor Forta'
-        git config --global user.email 'TukangMonitor@users.noreply.github.com'
+        git config --global user.name 'Tukang Info Giftbox'
+        git config --global user.email 'TukangInfo@users.noreply.github.com'
         git add .
-        git commit -am "Monitor"
+        git commit -am "Giftbox"
         git push
     

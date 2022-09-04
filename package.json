@@ -14,6 +14,7 @@
   "dependencies": {
     "cli-table3": "^0.6.1",
     "dotenv": "^16.0.0",
+    "jsonminify": "^0.4.2",
     "log-beautify": "^1.2.0",
     "moment-timezone": "^0.5.34",
     "node-fetch": "^2.6.7",

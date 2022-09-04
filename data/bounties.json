@@ -38497,5 +38497,472 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "discovery-week-weekend-warrior": {
+        "id": 700,
+        "title": "Discovery Week: Weekend Warrior",
+        "taskType": "BOUNTY",
+        "namespace": "discovery-week-weekend-warrior",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-02T19:19:27.705Z",
+        "expirationDate": "2022-09-05T18:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 650,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Let us curate your weekend experience into a revision of your on-chain activity that you did on Layer3 over the week. Multi-chain travels go brrr!",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 4648,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 718,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32607915,
+                    "contractInteractions": [
+                        {
+                            "address": "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge to Optimism or Arbitrum from Polygon with Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Gear up for the weekend revision by using the Bridge aggregator you love to bridge from one Layer2 to the other Layer2s",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 719,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21723965,
+                    "contractInteractions": [
+                        {
+                            "address": "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Trade into DAI on Slingshot Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade from a token of your choice to DAI token on Slingshot Optimism. Trading the web3 way on weekend is fun, isn't it?",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stables. Helps you when you need them the most!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.slingshot.finance/trade/ETH",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 720,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 42161,
+                    "fromBlock": 22539068,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+                    "transferFrom": [
+                        "*"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 2,
+                "title": " Trade into some MAGIC on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore $MAGIC, the natural resource of the Treasure metaverse. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn more about MAGIC ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.treasure.lol/getting-started/what-is-magic",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You can use $MAGIC to buy NFTs on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Treasure.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://treasure.lol/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x539bdE0d7Dbd336b79148AA742883198BBF60342&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 721,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21723965,
+                    "contractInteractions": [
+                        {
+                            "address": "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Make any swap on Clipper DEX on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Make any trade on Clipper, built to give the self-made crypto trader the best possible prices on small trades (< $10k).",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://clipper.exchange/app/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 722,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 10,
+                    "fromBlock": 21723965,
+                    "contractInteractions": [
+                        {
+                            "address": "0xd5a8f233cbddb40368d55c3320644fb36e597002",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": " Deposit in USDC vault on Pika Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn fees in form of trading fees, funding fees and liquidation profit of trades.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn more about the USDC vault ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://pikaprotocol.gitbook.io/pika-protocol/user-guide/liquidity",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.pikaprotocol.com/#/vault",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 723,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32608547,
+                    "contractInteractions": [
+                        {
+                            "address": "0x266e2dc3c4c59e42aa07afee5b09e964cffe6778",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 5,
+                "title": "Add WETH into Hop's Polygon Pool",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Help support the bridging process on Hop by adding WETH liquidity to its Polygon Pool and also earn yields on your ETH.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "NOTE: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "You can also add liquidity by just adding WETH in the input. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.hop.exchange/#/pool?token=ETH&sourceNetwork=polygon&destNetwork=polygon",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 724,
+                "bountyActionKey": "TRANSACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "count": 1,
+                    "chainId": 137,
+                    "fromBlock": 32566816,
+                    "contractInteractions": [
+                        {
+                            "address": "0x4d70a031fc76da6a9bc0c922101a05fa95c3a227",
+                            "objectType": "ContractInteraction"
+                        }
+                    ]
+                },
+                "orderIndex": 6,
+                "title": "Stake your KLIMA on KlimaDAO Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Start earning value on your KLIMA by staking it in KlimaDAO. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Staking is intended to be the primary mechanism of value accrual for the majority of users. Read more about it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.klimadao.finance/tokenomics-and-mechanisms/staking",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "If you don't have KLIMA, get it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here!",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.sushi.com/swap?tokens=MATIC&tokens=0x4e78011Ce80ee02d2c3e649Fb657E45898257815",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "NOTE: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Stakers that completed this step in the previous bounty would be able to verify this step as well.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.klimadao.finance/#/stake",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

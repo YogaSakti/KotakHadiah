@@ -4,6 +4,7 @@
 require('dotenv').config()
 const fetch = require('node-fetch');
 const log = require('log-beautify');
+const minify = require('jsonminify')
 const { Telegraf } = require('telegraf');
 const JSONdb = require('simple-json-db');
 const capitalize = (s) => (s && s[0].toUpperCase() + s.slice(1)) || '';
@@ -28,11 +29,46 @@ const headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36' 
 };
 
+let tasksQuery = (q = 0) => encodeURI(JSON.minify(JSON.stringify({
+    0: {
+        json: {
+            taskType: [
+                'BOUNTY',
+                'QUEST'
+            ],
+            onlyUnavailable: null,
+            onlyCompleted: null,
+            includeFeatured: true,
+            includeClaimed: false,
+            includeExpired: false,
+            cursor: q
+        },
+        meta: {
+            values: {
+                onlyUnavailable: ['undefined'],
+                onlyCompleted: ['undefined'],
+                includeFeatured: ['undefined']
+            }
+        }
+    }
+})));
+
+
+
 (async () => {
+    let next,
+        tasks = [];
+        
+    do {
+        const getTask = await fetch(`${BaseApi}/task.getTasks?batch=1&input=${tasksQuery(next || 0)}`, { method: 'GET', headers }).then((res) => res.json());
+        const { items, nextCursor } = getTask[0].result.data.json
+        tasks = [...tasks, ...items]
+        next = nextCursor || 0
+    } while (next > 0);
+
     const bountiesDetails = (slug) => fetch(`${BaseGraphqlApi}`, { method: 'POST', headers, body: JSON.stringify(query.get('GetTaskFromSlug')).replace('change-this-text', slug) }).then((res) => res.json());
-    const getTask = await fetch(`${BaseApi}/${query.get('GetTasks')}`, { method: 'GET', headers }).then((res) => res.json());
-    let { json: tasks } = getTask[0].result.data
-    
+
+    log.info('Found:', tasks.length, 'Bounties')
     for (let i = 0; i < tasks.length; i++) {
         const task = tasks[i];
         const slug = task.namespace

@@ -38964,5 +38964,456 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-nitro": {
+        "id": 701,
+        "title": "Arbitrum Nitro Kick-Off",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-nitro",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-05T14:05:39.521Z",
+        "expirationDate": "2022-09-06T18:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Arbitrum One is now running on Nitro. One small step for L2, one giant leap for Ethereum. ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "What’s Arbitrum Nitro?",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450",
+                                        "class": "c-link",
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 275,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 726,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 32607915,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 10,
+                            "timeConstraint": {
+                                "afterBlock": 22003920,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 43114,
+                            "timeConstraint": {
+                                "afterBlock": 19570600,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": " Bridge ETH from any chain to Arbitrum on Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Ready to go? Use Bungee to move ETH from any chain to Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": If you face errors in finding routes, please increase the amount. Make sure you've selected ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'WETH' on Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'ETH' on Arbitrum.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 727,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 22971164,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any trade on GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade on GMX, a decentralized derivatives exchange on Arbitrum. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Read more here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://newsletter.banklesshq.com/p/perpetuals-arbitrum-gmx-defi-ethereum-layer2",
+                                                "class": "c-link",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": Click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Swap ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "section and perform the trade. Do not click on Long or Short section to do the trade.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.gmx.io/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 728,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x1aDDD80E6039594eE970E5872D247bf0414C8903"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 22974311,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Buy GLP from GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Earn yield from GMX trades. GLP is a GMX token that accrues 70% of the platform’s generated fees. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Enjoy the yield! ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Read more here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://gmxio.gitbook.io/gmx/glp",
+                                                "class": "c-link",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.gmx.io/#/buy_glp",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 729,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x289ba1701C2F088cf0faf8B3705246331cB8A839"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 22974311,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Trade into LPT on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade into LPT on Uniswap Arbitrum. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "You’ll be using LPT for tomorrow’s Bounty.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "There are issues of wrong gas estimations on Arbitrum on MetaMask, please proceed with the transaction. The gas fee should be minimal and low. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?outputCurrency=0x58b6a8a3302369daec383334672404ee733ab239",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

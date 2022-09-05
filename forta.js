@@ -26,17 +26,17 @@ const scannerData = [
     {
         'chainId': 10,
         'network': 'Optimism',
-        'rewardPool': 20000
+        'rewardPool': 25000
     },
     {
         'chainId': 56,
         'network': 'BSC',
-        'rewardPool': 25000
+        'rewardPool': 30000
     },
     {
         'chainId': 137,
         'network': 'Polygon',
-        'rewardPool': 100000
+        'rewardPool': 80000
     },
     {
         'chainId': 250,
@@ -46,12 +46,12 @@ const scannerData = [
     {
         'chainId': 42161,
         'network': 'Arbitrum',
-        'rewardPool': 20000
+        'rewardPool': 25000
     },
     {
         'chainId': 43114,
         'network': 'Avalanche',
-        'rewardPool': 25000
+        'rewardPool': 30000
     }
 ];
 

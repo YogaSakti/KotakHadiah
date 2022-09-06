@@ -39415,5 +39415,404 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-nitro-jonesdao-and-livepeer": {
+        "id": 711,
+        "title": "Arbitrum Nitro: JonesDAO & LivePeer ",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-nitro-jonesdao-and-livepeer",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-06T14:55:41.249Z",
+        "expirationDate": "2022-09-07T18:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Howdy. Explore Arbitrum Nitro through automated options strategies such as JonesDAO, and manage your capital using LivePeer.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 738,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23213060,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x35bcf3c30594191d53231e4ff333e8a770453e40"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Delegate LPT to an Orchestrator ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "If you completed yesterday’s bounty, you should have some LPT in your wallet. Delegate this to an Orchestrator on LivePeer.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "NOTE: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Please wait & refresh the page after approving, it might take a bit for the transaction to go through. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://explorer.livepeer.org/accounts/0x525419ff5707190389bfb5c87c375d710f5fcb0e/orchestrating",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 739,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x10393c20975cF177a3513071bC110f7962CD67da"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23214120,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Get JONES on Sushi Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade into JONES on Sushi Arbitrum to use it on JonesDAO.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "The JONES token is designed for a variety of use cases—governance, fee accrual, liquidity incentives, and superpowers.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x10393c20975cF177a3513071bC110f7962CD67da&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 740,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23214792,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xb94d1959084081c5a11c460012ab522f5a0fd756"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Stake JONES on JonesDAO",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your JONES on JonesDAO under the ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Staking",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " section to earn yields on your capital. Read more about JonesDAO ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.jonesdao.io/jones-dao/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.jonesdao.io/staking",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 741,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x662d0f9Ff837A51cF89A1FE7E0882a906dAC08a3"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": [
+                                            "0x0000000000000000000000000000000000000000"
+                                        ],
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23215082,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x662d0f9Ff837A51cF89A1FE7E0882a906dAC08a3"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23215082,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Deposit into Jones DAO’s ETH Vault",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Access the best yields with actively managed, fully optimised, and hedged options strategies with 1-click on JonesDAO. Read more ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.jonesdao.io/jones-dao/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "IMPORTANT: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "In case the vault gets filled up, you can get jETH from Sushiswap ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x662d0f9Ff837A51cF89A1FE7E0882a906dAC08a3&chainId=42161",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "as an alternative option.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.jonesdao.io/vaults",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

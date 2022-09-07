@@ -158,5 +158,21 @@
         "post": true,
         "post_at": 1661695779,
         "post_id": 262
+    },
+    "NEXTYPE": {
+        "name": "NEXTYPE2",
+        "title": "NEXTYPE",
+        "banner": "https://s.pvcliping.com/plaza/gbad_nextype_new.png",
+        "hot_num": 493,
+        "start_time": 1662598800,
+        "end_time": 1662685200,
+        "award_type": "claim",
+        "type_param": "{\"random_award\":1}",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1662575460,
+        "post": true,
+        "post_at": 1662575464,
+        "post_id": 277
     }
 }

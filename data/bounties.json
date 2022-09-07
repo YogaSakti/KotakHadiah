@@ -39814,5 +39814,125 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "trading-on-dfyn-polygon": {
+        "id": 697,
+        "title": "Trading on Dfyn Polygon",
+        "taskType": "BOUNTY",
+        "namespace": "trading-on-dfyn-polygon",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-01T14:17:34.530Z",
+        "expirationDate": "2022-09-08T03:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Trade at least $50 worth of MATIC/USDC, ETH/USD or WBTC/USDC on Dfyn Exchange (Polygon), a multi-chain DEX. ",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Unlike traditional AMMs the orders will be directly filled by competitive market makers.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 604,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Dfyn",
+            "logoCid": "QmZ4r1pAmkMNPa1CXmNtGgF4UyniTAKxFD76tWfPubnvsF",
+            "__typename": "Dao",
+            "id": 229,
+            "namespace": "dfyn",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 712,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 137,
+                    "fromBlock": 32808272,
+                    "transferTo": [
+                        "userAddress"
+                    ],
+                    "tokenAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+                    "transferFrom": [
+                        "0x876cea61f692f1624b6c8b1a8ac3d7a978a9f4fb",
+                        "0x4f5df10b9991482bcd2db19dae1fd0e0184397c2",
+                        "0x7d51bad48d253dae37cc82cad07f73849286deec",
+                        "0x04713447de5594aabfc248c501e53a67210d9b4c",
+                        "0xc0ab47b79bc66f98e5c9ee5ff386a7150d3f4174",
+                        "0xcf8172441b953e9609c425fce91b32be780fdfbd"
+                    ],
+                    "thresholdAmount": "50"
+                },
+                "orderIndex": 0,
+                "title": "Trade at least $50 worth of MATIC, ETH OR WBTC into USDC on Dfyn",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade your MATIC, ETH or WBTC (at least $50 worth) ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "into USDC",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " on Dfyn Polygon. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://exchange.dfyn.network/?utm_source=layer3&utm_medium=referral&utm_campaign=dfyn#/swap",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -40412,5 +40412,363 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-nitro-dopex-and-sperax": {
+        "id": 714,
+        "title": "Arbitrum Nitro: Dopex & Sperax",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-nitro-dopex-and-sperax",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-08T13:22:12.527Z",
+        "expirationDate": "2022-09-09T18:45:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Optimize your yield on Arbitrum. Trade decentralized options on Dopex and generate organic stablecoin yield via Sperax.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 751,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0xD74f5255D557944cf7Dd0E45FF521520002D5748"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23587939,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Do a stablecoin swap from USDC to USDs on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade USDs from Uniswap earn yield natively. USDs is a product of Sperax Protocol. You can learn more about that ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.sperax.io/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "USDs is a ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "stablecoin",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/s/stablecoin.asp",
+                                                "class": "css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-eafdt9 r-1i6wzkk r-lrvibr",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " which generates auto-yield natively.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=arbitrum&inputCurrency=0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8&outputCurrency=0xD74f5255D557944cf7Dd0E45FF521520002D5748",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 760,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23632200,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Trade $DPX on Sushiswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get $DPX, the limited supply governance token of DOPEX.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "It accrues fees and revenue from pools, vaults and wrappers.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You'll use this token in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 756,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x0C1Cf6883efA1B496B01f654E247B9b419873054"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23632200,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Add liquidity to ETH-DPX pool on Sushi",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Get the DPX-ETH(WETH) LP on Sushi Arbitrum to farm it on DOPEX Arbitrum in the next step.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.sushi.com/add/ETH/0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55?tokens=ETH&tokens=0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55&chainId=42161",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 757,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x0C1Cf6883efA1B496B01f654E247B9b419873054"
+                                        ],
+                                        "transferTo": "*",
+                                        "transferFrom": [
+                                            "userAddress"
+                                        ],
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23632200,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Farm your SushiSwap LP on DOPEX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your Sushiswap DPX-ETH LP Tokens to farm yields on DOPEX. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You can also use DPX, ETH and other tokens to deposit in ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Single Stake Option Vaults.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.dopex.io/ssov",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.dopex.io/farms",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

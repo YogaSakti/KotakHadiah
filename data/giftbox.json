@@ -174,5 +174,21 @@
         "post": true,
         "post_at": 1662575464,
         "post_id": 277
+    },
+    "Melos Studio": {
+        "name": "melos2",
+        "title": "Melos Studio",
+        "banner": "https://s.pvcliping.com/plaza/gbad_elos_studio_98_new.png",
+        "hot_num": 9123,
+        "start_time": 1662634800,
+        "end_time": 1662721200,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "3 Challenges",
+        "status": "Ongoing Event(s)",
+        "now": 1662691241,
+        "post": true,
+        "post_at": 1662691244,
+        "post_id": 281
     }
 }

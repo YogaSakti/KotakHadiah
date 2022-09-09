@@ -40770,5 +40770,159 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explore-pass-zapping-liquidity-on-zapper": {
+        "id": 718,
+        "title": "🆕 Explore Pass: Bridging with Bungee",
+        "taskType": "BOUNTY",
+        "namespace": "explore-pass-zapping-liquidity-on-zapper",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-09T01:40:33.882Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 400,
+        "rewardTokenId": null,
+        "numberOfWinners": 15,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "In this exclusive bounty, explore the wonder of bridging with Bungee between 2 of Ethereum's favorite layer 2's.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 11,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 762,
+                "bountyActionKey": "NFT_IN_WALLET",
+                "isFulfilled": false,
+                "data": {
+                    "type": "ERC1155",
+                    "address": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
+                    "chainId": 1,
+                    "tokenId": "102465789081338770793635259304768637541546693158679393239711604314346451107940",
+                    "displayName": "Layer3 Explore Pass",
+                    "openseaCollectionSlug": "explorepass"
+                },
+                "orderIndex": 0,
+                "title": "Hold a Layer3 Explore Pass",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "The Layer3 Explore Pass is an ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "experimental",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " membership NFT we're using to test ways of creating a better experience for our users. It grants you access to premium bounties & quests with boosted XP & token rewards.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/102465789081338770793635259304768637541546693158679393239711604314346451107940",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 761,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+                                        ],
+                                        "transferTo": "*",
+                                        "transferFrom": [
+                                            "userAddress"
+                                        ],
+                                        "thresholdAmount": "10"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 32868451,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc30141b657f4216252dc59af2e7cdb9d8792e1b0"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Bridge ≥ 10 USDC from Polygon to Optimism using Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use Bungee – a bridge aggregator, to bridge more than 10 USDC from Polygon to Optimism.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

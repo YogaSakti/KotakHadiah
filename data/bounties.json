@@ -40924,5 +40924,759 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "arbitrum-nitro-weekend-warrior": {
+        "id": 721,
+        "title": "Arbitrum Nitro: Weekend Warrior",
+        "taskType": "BOUNTY",
+        "namespace": "arbitrum-nitro-weekend-warrior",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-09T13:29:45.867Z",
+        "expirationDate": "2022-09-11T18:30:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 650,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "It's time to throttle your learnings of this week into an on-chain adventure with Arbitrum Nitro. Here's the curated experience tailored for you, a revision of your on-chain activity on Layer3 this week.",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 9,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 765,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 32888530,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc30141B657f4216252dc59Af2e7CdB9D8792e1B0"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": " Bridge ETH from Polygon to Arbitrum on Bungee",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Ready to go? Use Bungee to move ETH from any chain to Arbitrum.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Tip 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": If you face errors in finding routes, please increase the amount. Make sure you've selected ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'WETH' on Polygon",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " and ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "'ETH' on Arbitrum.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://www.bungee.exchange/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 766,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23771821,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23771821,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Make any trade on GMX Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade on GMX, a decentralized derivatives exchange on Arbitrum. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Read more here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://newsletter.banklesshq.com/p/perpetuals-arbitrum-gmx-defi-ethereum-layer2",
+                                                "class": "c-link",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note 💡",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ": Click on ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Swap ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "section and perform the trade. Do not click on Long or Short section to do the trade.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.gmx.io/#/trade",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 767,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x289ba1701C2F088cf0faf8B3705246331cB8A839"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23772484,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Trade into LPT on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade into LPT on Uniswap Arbitrum. ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "You’ll be using LPT for tomorrow’s Bounty.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?outputCurrency=0x58b6a8a3302369daec383334672404ee733ab239",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 768,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23773237,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xb94d1959084081c5a11c460012ab522f5a0fd756"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 3,
+                "title": "Stake JONES on JonesDAO",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Stake your JONES on JonesDAO under the ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Staking",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " section to earn yields on your capital. Read more about JonesDAO ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.jonesdao.io/jones-dao/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": ".",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You can get JONES ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x10393c20975cF177a3513071bC110f7962CD67da&chainId=1",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.jonesdao.io/staking",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 769,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x64343594Ab9b56e99087BfA6F2335Db24c2d1F17"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23773237,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 4,
+                "title": "Get VST on Balancer Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Explore Vesta Finance, a layer-2 first lending protocol on Arbitrum and get exposure to its native stable coin called VST.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "It's based on Liquity Protocol. Read more about it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.vestafinance.xyz/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://arbitrum.balancer.fi/#/",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 770,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x2AdAbD6E8Ce3e82f52d9998a7f64a90d294A92A4"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23773237,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 5,
+                "title": "Marinate your UMAMI on Umami Finance",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Deposit your ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "UMAMI",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " for",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " mUMAMI ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "and earn steady passive income in",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " WETH ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "from Umami's protocol revenue. If you don't have UMAMI, you can get it from ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.uniswap.org/#/swap?chain=polygon&inputCurrency=eth&outputCurrency=0x1622bF67e6e5747b81866fE0b85178a93C7F86e3",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Learn more about its product offerings ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here. ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.umami.finance/umami-finance/tokenomics",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Deposited UMAMI is locked until the end of each monthly Epoch.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://umami.finance/app/marinate",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 771,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0xD74f5255D557944cf7Dd0E45FF521520002D5748"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23774847,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 6,
+                "title": "Do a stablecoin swap from USDC to USDs on Uniswap Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Trade USDs from Uniswap earn yield natively. USDs is a product of Sperax Protocol. You can learn more about that ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.sperax.io/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "USDs is a ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "stablecoin",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://www.investopedia.com/terms/s/stablecoin.asp",
+                                                "class": "css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-eafdt9 r-1i6wzkk r-lrvibr",
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " which generates auto-yield natively.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap?chain=arbitrum&inputCurrency=0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8&outputCurrency=0xD74f5255D557944cf7Dd0E45FF521520002D5748",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

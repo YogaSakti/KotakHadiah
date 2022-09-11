@@ -190,5 +190,21 @@
         "post": true,
         "post_at": 1662691244,
         "post_id": 281
+    },
+    "MagicCraft": {
+        "name": "MagicCraft2",
+        "title": "MagicCraft",
+        "banner": "https://s.pvcliping.com/plaza/gbad_magic.png",
+        "hot_num": 871,
+        "start_time": 1662944400,
+        "end_time": 1663030800,
+        "award_type": "claim",
+        "type_param": "",
+        "challenge": "Coming Soon",
+        "status": "Coming Soon",
+        "now": 1662920994,
+        "post": true,
+        "post_at": 1662920997,
+        "post_id": 285
     }
 }

@@ -41678,5 +41678,293 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explorations-universe-of-interoperability": {
+        "id": 732,
+        "title": "Explorations: Universe of Interoperability ",
+        "taskType": "BOUNTY",
+        "namespace": "explorations-universe-of-interoperability",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-12T19:11:23.741Z",
+        "expirationDate": "2022-09-13T19:15:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Dive into the cross-chain universe, bridge your assets & learn about the communication between chains through tokens. ",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 191,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 779,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 33021754,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x2A5c2568b10A0E826BfA892Cf21BA7218310180b"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 43114,
+                            "timeConstraint": {
+                                "afterBlock": 19803920,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x2A5c2568b10A0E826BfA892Cf21BA7218310180b"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Bridge to Optimism from Polygon/Avalanche on Hyphen",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Bridge your ETH from Polygon/Avalanche to Optimism through the Hyphen Bridge. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Refresh the page if you're stuck on the approval transaction on the front-end.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://hyphen.biconomy.io/bridge",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 780,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 33022128,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xebaB24F13de55789eC1F3fFe99A285754e15F7b9"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Add USDT Liquidity on Hyphen Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Support the bridging infrastructure by adding liquidity into Hyphen Pools on Polygon.",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Discover more interesting stats of the Hyphen bridge ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://hyphen-stats.biconomy.io/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://hyphen.biconomy.io/pools/add-liquidity/137/USDT",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 781,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 33023096,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x781f4EfC37a08C0ea6631204E46B206330c8c161"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Stake your NFT Position",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your Hyphen liquidity position NFT to stake & farm yield on it. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Read more about Hyphen bridge ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.biconomy.io/products/hyphen-instant-cross-chain-transfers",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://hyphen.biconomy.io/farms/add-staking-position/137/USDT",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

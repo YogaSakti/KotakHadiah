@@ -42267,5 +42267,314 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explorations-merge-is-around": {
+        "id": 747,
+        "title": "Explorations: Merge is Around",
+        "taskType": "BOUNTY",
+        "namespace": "explorations-merge-is-around",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-14T19:50:48.275Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Let us start celebrating the merge and the wide impact it's going to have on the ecosystem. We're all bullish on ETH!",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "History happening in front of our eyes! Learn more about the Merge ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "here. ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://ethereum.org/en/upgrades/merge/",
+                                        "class": null,
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 494,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 798,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 1,
+                            "timeConstraint": {
+                                "afterBlock": 10000,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": "*"
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Ever did a transaction on Ethereum before the merge? ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Have you transacted on Ethereum before the merge? If not, there are a few countable hours left before Ethereum moves to a ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "Proof-of-Stake",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " Chain from PoW! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": null,
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 799,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 10,
+                            "timeConstraint": {
+                                "afterBlock": 23158762,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 10,
+                            "timeConstraint": {
+                                "afterBlock": 23158821,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 24648467,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23158835,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Swap to ETH on Uniswap Arbitrum/Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Let's celebrate the merge by trading into ETH on Arbitrum or Optimism before the merge happens! ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 800,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 33106951,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xE592427A0AEce92De3Edee1F18E0157C05861564"
+                            ]
+                        },
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 33106999,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Swap into WETH from any token on Uniswap Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Bullish on ETH? Great, let's show it by swapping some of our tokens into WETH! The utility of ETH(WETH) is endless and now with PoS, it's going to be energy efficient as well!",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.uniswap.org/#/swap",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

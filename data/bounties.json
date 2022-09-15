@@ -42906,5 +42906,194 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "the-merge-ethereum-is-now-pos": {
+        "id": 749,
+        "title": "The Merge: Ethereum is now PoS (III)! ",
+        "taskType": "BOUNTY",
+        "namespace": "the-merge-ethereum-is-now-pos",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-15T09:06:14.344Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 250,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Celebrate The Merge, NFT-style. Claim the Consensys Regensis ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "NFT!",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": {
+            "id": 2,
+            "slug": "explorer",
+            "name": "Explorer",
+            "description": "Complete the \"The Magic Starts Here\" Quest",
+            "category": "QUEST",
+            "color": "#2E265E",
+            "imageCid": "QmaCypFtiMLsk2ZRaxhFX6MkecMNPz1HrnrQ3Z21xCmmED"
+        },
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 852,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 804,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 1,
+                            "timeConstraint": {
+                                "afterBlock": 15537394,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xe42cad6fc883877a76a26a16ed92444ab177e306"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Claim your Regenesis Merge NFT! ",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Own a piece of history with Consensys. Claim the Regenesis NFT & celebrate the merge!",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Read more about the Regensis NFT & the idea behind it ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://merge.consensys-nft.com/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://merge.consensys-nft.com/claim",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 806,
+                "bountyActionKey": "TWEET_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "includeText": "RT @layer3xyz"
+                },
+                "orderIndex": 1,
+                "title": "Share it on Twitter",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "RT ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "this tweet",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://twitter.com/layer3xyz/status/1570352707684253699?s=20&t=h342JY5SHxbPNLuKgjLHQA",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " celebrating proof-of-stake and share with your friends 🐼",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://twitter.com/layer3xyz/status/1570352707684253699?s=20&t=h342JY5SHxbPNLuKgjLHQA",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

@@ -43095,5 +43095,103 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "the-doge-nft-mint-and-hold-the-doge-pixel": {
+        "id": 731,
+        "title": "The Doge NFT: Mint & Hold the DOGE Pixel",
+        "taskType": "QUEST",
+        "namespace": "the-doge-nft-mint-and-hold-the-doge-pixel",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-12T18:00:40.269Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": null,
+        "rewardTokenId": null,
+        "numberOfWinners": 1,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Be a part of the gateway to collective ownership of ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "The Doge ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://fractional.art/vaults/0xbaac2b4491727d78d2b78815144570b9f2fe8899",
+                                        "class": "chakra-link css-1bqe2n0",
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "text": "NFT. Mint your DOGE Pixels by locking 55,240 $DOG and holding for 5 days to earn 16969 $DOG.",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Holding the pixel gets you access to monthly drops, free merch, WL opportunities and a lot more! Read more about the perks ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "here.",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://pixels.ownthedoge.com/perks",
+                                        "class": null,
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "The Doge NFT",
+            "logoCid": "QmUgbeMf5G2Lauh6izpsJXei8VejgtV2vvgN3zafpRX2J4",
+            "__typename": "Dao",
+            "id": 14,
+            "namespace": "the-doge-nft",
+            "coverCid": null,
+            "ogImageCid": null
+        },
+        "BountySteps": [],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

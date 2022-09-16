@@ -43193,5 +43193,111 @@
         "BountySteps": [],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "explore-fujidao-borrowing-and-flashloans": {
+        "id": 717,
+        "title": "The Mountain Awaits 🗻",
+        "taskType": "QUEST",
+        "namespace": "explore-fujidao-borrowing-and-flashloans",
+        "isClosed": false,
+        "rewardType": "TOKEN",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-08T15:17:21.431Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": null,
+        "rewardTokenId": null,
+        "numberOfWinners": 1,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Start climbing with FujiDAO, a DeFi lending and borrowing aggregator across multiple chains. Fuji optimizes your borrowing rates by transferring your collateral and debt to the protocol with a better rate when rates fluctuate. Read more via their extensive documentation ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "here.",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "link",
+                                    "attrs": {
+                                        "href": "https://docs.fujidao.org/",
+                                        "class": null,
+                                        "target": "_blank"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "⚠️ Note: Do NOT attempt to do the second bounty before it unlocks! You will not be able to complete it ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "unless you close your flash loan after the start date! ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                },
+                                {
+                                    "type": "italic"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "⚠️",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 0,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "FujiDAO",
+            "logoCid": "QmWfnuMDUSQydpARTiSupN6zHvKsF2Rpp7BUwamTpViwa4",
+            "__typename": "Dao",
+            "id": 231,
+            "namespace": "fujidao",
+            "coverCid": "Qmc3C5FVGtipgH1RGu7FCqabCpMfs8JR9BynNgGT79rS2z",
+            "ogImageCid": "QmSv3AvR4wEJuvvnMPp5gBB5jrHUzrYxaB1nhAAh9ywAUX"
+        },
+        "BountySteps": [],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

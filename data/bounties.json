@@ -43633,5 +43633,253 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "cow-swap-on-ethereum-mev-protection": {
+        "id": 846,
+        "title": "Exploring Ethereum: CoW Swap",
+        "taskType": "BOUNTY",
+        "namespace": "cow-swap-on-ethereum-mev-protection",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-19T17:52:24.957Z",
+        "expirationDate": "2022-09-20T19:00:00.000Z",
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 350,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "Try some MEV-protected trades on CoW Protocol, a DEX aggregator on Ethereum 🐮 Gas is automatically included in platform fees!",
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph"
+                },
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "⚠️ ",
+                            "type": "text"
+                        },
+                        {
+                            "text": "Note: ",
+                            "type": "text",
+                            "marks": [
+                                {
+                                    "type": "bold"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Spend gas fees at your own risk. If gas is too high, please wait until they are lower to make the transaction. ⚠️",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 72,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 915,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 1,
+                            "timeConstraint": {
+                                "afterBlock": 15569115,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Wrap your ETH on CoW Swap (Mainnet)",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Start trading on CoW Swap by wrapping your ETH to WETH on Ethereum Mainnet. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "What is CoW Swap?",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        },
+                                        {
+                                            "type": "italic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": " ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "CoW Swap is a Meta DEX aggregator. It gives the users the best price across the aggregators or AMMs depending on which one is the most liquid venue for the trades within a batch. Read more ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.cow.fi/overview/introduction",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://cowswap.exchange/#/swap?chain=mainnet",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 917,
+                "bountyActionKey": "TOKENS_TRANSFERRED",
+                "isFulfilled": false,
+                "data": {
+                    "chainId": 1,
+                    "fromBlock": 15569354,
+                    "transferTo": [
+                        "0x9008d19f58aabd9ed0d60971565aa8510560ab41"
+                    ],
+                    "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "transferFrom": [
+                        "userAddress"
+                    ],
+                    "thresholdAmount": "0"
+                },
+                "orderIndex": 1,
+                "title": "Perform any trade on CoW Swap",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Use your WETH to trade into any token of your choice on CoW Swap. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "⚠️",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": " ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://emojipedia.org/warning/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Note: ",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "Spend gas fees at your own risk. If gas is too high, please wait until they are lower to make the transaction.",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://cowswap.exchange/#/swap?chain=mainnet",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }

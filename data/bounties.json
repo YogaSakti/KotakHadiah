@@ -43881,5 +43881,297 @@
         ],
         "ogImageCid": null,
         "__typename": "Task"
+    },
+    "lending-spree-on-aave": {
+        "id": 860,
+        "title": "Aave Frenzy: Lending Spree (Day 1)",
+        "taskType": "BOUNTY",
+        "namespace": "lending-spree-on-aave",
+        "isClosed": false,
+        "rewardType": "ONLY_XP",
+        "rewardAmount": null,
+        "rewardToken": null,
+        "rewardNft": null,
+        "createdAt": "2022-09-20T13:45:30.081Z",
+        "expirationDate": null,
+        "completedAt": null,
+        "archivedAt": null,
+        "xp": 300,
+        "rewardTokenId": null,
+        "numberOfWinners": null,
+        "missionDoc": {
+            "type": "doc",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": [
+                        {
+                            "text": "We've entered a bearish phase in the market, let's put our capital to good use before the 🐻s get to us. Lending on Aave is one of the safest ways to earn yield. Diversify. Distribute. Derisk. ✅",
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        "instructionsDoc": null,
+        "submissionType": "URL_SUBMISSION",
+        "GatingAchievement": null,
+        "totalSubmissionsCount": 0,
+        "totalBountyClaimersCount": 1,
+        "bountyClaimedByUser": false,
+        "userCanManage": false,
+        "Winners": null,
+        "UserSubmission": null,
+        "Category": null,
+        "Dao": {
+            "name": "Layer3",
+            "logoCid": "QmT4ktjNQmxqf9YUHa2EqTXTQhiJqzgfLp2AJtyejRjgrg",
+            "__typename": "Dao",
+            "id": 1,
+            "namespace": "layer3",
+            "coverCid": "QmSE6ruX1ak7hEDGHUNMeKjAj4iUHjDPYx65WoM2bKr6LN",
+            "ogImageCid": null
+        },
+        "BountySteps": [
+            {
+                "id": 930,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction"
+                                    }
+                                ]
+                            },
+                            "chainId": 137,
+                            "timeConstraint": {
+                                "afterBlock": 23996421,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 0,
+                "title": "Lend your WETH on Polygon",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Start the first task of this bounty by lending your WETH on Aave Polygon. You'll earn yield on your supplied assets for depositing into the Aave Pool. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Read more about the Aave Protocol & its core fundamentals ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://docs.aave.com/hub/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_polygon_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 931,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "transaction",
+                                        "methodId": "0x474cf53d",
+                                        "methodAbi": {
+                                            "name": "depositETH",
+                                            "type": "function",
+                                            "inputs": [
+                                                {
+                                                    "name": "",
+                                                    "type": "address",
+                                                    "internalType": "address"
+                                                },
+                                                {
+                                                    "name": "onBehalfOf",
+                                                    "type": "address",
+                                                    "internalType": "address"
+                                                },
+                                                {
+                                                    "name": "referralCode",
+                                                    "type": "uint16",
+                                                    "internalType": "uint16"
+                                                }
+                                            ],
+                                            "outputs": [],
+                                            "stateMutability": "payable"
+                                        }
+                                    }
+                                ]
+                            },
+                            "chainId": 10,
+                            "timeConstraint": {
+                                "afterBlock": 23996738,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x76D3030728e52DEB8848d5613aBaDE88441cbc59"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 1,
+                "title": "Lend your ETH on Optimism",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Lend your ETH to Aave v3 on the low-cost & fast Layer2 rollup Optimism. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supplying your assets on Aave v3 Optimism currently fetches you $OP Liquidity Mining rewards. ",
+                                    "type": "text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_optimism_v3",
+                "__typename": "BountyStep"
+            },
+            {
+                "id": 934,
+                "bountyActionKey": "ONCHAIN_ACTION_DONE",
+                "isFulfilled": false,
+                "data": {
+                    "operator": "or",
+                    "txFilters": [
+                        {
+                            "where": {
+                                "type": "group",
+                                "operator": "or",
+                                "conditions": [
+                                    {
+                                        "type": "tokenTransfer",
+                                        "token": [
+                                            "0x625E7708f30cA75bfd92586e17077590C60eb4cD"
+                                        ],
+                                        "transferTo": [
+                                            "userAddress"
+                                        ],
+                                        "transferFrom": "*",
+                                        "thresholdAmount": "0"
+                                    }
+                                ]
+                            },
+                            "chainId": 42161,
+                            "timeConstraint": {
+                                "afterBlock": 23997272,
+                                "beforeBlock": null
+                            },
+                            "contractAddress": [
+                                "0x794a61358D6845594F94dc1DB02A252b5b4814aD"
+                            ]
+                        }
+                    ]
+                },
+                "orderIndex": 2,
+                "title": "Lend your USDC on Arbitrum",
+                "description": {
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "Supercharge your stablecoin yields on Arbitrum Nitro by supplying USDC into Aave v3 pool. ",
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph"
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "text": "You can explore more Arbitrum Markets on Aave ",
+                                    "type": "text"
+                                },
+                                {
+                                    "text": "here.",
+                                    "type": "text",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://app.aave.com/markets/",
+                                                "class": null,
+                                                "target": "_blank"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "actionLink": "https://app.aave.com/?marketName=proto_arbitrum_v3",
+                "__typename": "BountyStep"
+            }
+        ],
+        "ogImageCid": null,
+        "__typename": "Task"
     }
 }
